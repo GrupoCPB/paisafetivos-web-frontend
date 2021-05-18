@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
-width:100vw;
-height:6.25rem;
+height:80px;
 
+max-width:71.25rem;
+margin:auto;
 
 
 display:flex;
@@ -17,20 +18,25 @@ a{
     color:#111
 }
 
-.logo{
-    padding-left:70px;
-}
+
 
 nav{
+    padding:0 150px;
     a{
-        padding:0 20px;
+        padding:0 10px;
+        &:hover{
+            opacity:75%;
+        }
     }
 }
 
 .social{
-    padding-right:70px;
     a{
-        padding:0 20px;
+        padding:0 10px;
+
+        &:hover{
+            opacity:75%;
+        }
     }
 }
 `;
