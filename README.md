@@ -2,7 +2,7 @@
   &#xa0;
 </div>
 
-<h1>Ong LGBT+ do Brasil | Grupo CPB</h1>
+<h1>Ong Pais Afetivos | Grupo CPB</h1>
 
 <p>
   
