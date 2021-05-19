@@ -1,8 +1,11 @@
+import React from 'react';
+import { Helmet } from "react-helmet";
 import { Container } from "./home.module";
 
 export function Home (){
     return(
         <Container>
+            <Helmet title="Pais Afetivos | Home" />
             <div className="section-donate">
                 <div className="about-left">
                     <h1>Conectando <br/>pessoas<br/> maravilhosas</h1>
