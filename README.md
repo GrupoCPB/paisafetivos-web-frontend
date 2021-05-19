@@ -7,17 +7,17 @@
 <p>
   
 
-  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/GrupoCPB/siteonglgbtmaisdobrasil?color=56BEB8">
+  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/GrupoCPB/FrontSiteONGPaisAfetivos?color=56BEB8">
 
-  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/GrupoCPB/siteonglgbtmaisdobrasil?color=56BEB8">
+  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/GrupoCPB/FrontSiteONGPaisAfetivos?color=56BEB8">
 
-  <img alt="Licença" src="https://img.shields.io/github/license/GrupoCPB/siteonglgbtmaisdobrasil?color=56BEB8">
+  <img alt="Licença" src="https://img.shields.io/github/license/GrupoCPB/FrontSiteONGPaisAfetivos?color=56BEB8">
 
-  <img alt="Github issues" src="https://img.shields.io/github/issues/GrupoCPB/siteonglgbtmaisdobrasil?color=56BEB8" />
+  <img alt="Github issues" src="https://img.shields.io/github/issues/GrupoCPB/FrontSiteONGPaisAfetivos?color=56BEB8" />
 
-  <img alt="Github forks" src="https://img.shields.io/github/forks/GrupoCPB/siteonglgbtmaisdobrasil?color=56BEB8" />
+  <img alt="Github forks" src="https://img.shields.io/github/forks/GrupoCPB/FrontSiteONGPaisAfetivos?color=56BEB8" />
 
-  <img alt="Github stars" src="https://img.shields.io/github/stars/GrupoCPB/siteonglgbtmaisdobrasil?color=56BEB8" />
+  <img alt="Github stars" src="https://img.shields.io/github/stars/GrupoCPB/FrontSiteONGPaisAfetivos?color=56BEB8" />
 
 ## :rocket: Technologies ##
 
@@ -25,6 +25,7 @@
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [React-Router-Dom](https://reactrouter.com)
 - [CSS3](https://www.w3schools.com/css/)
+- [Helmet](https://www.npmjs.com/package/react-helmet)
 
 ## :checkered_flag: Starting ##
 
@@ -50,11 +51,7 @@ $ yarn start / npm start
 src/
  |--- assets/       # Imagens
  |--- components/   # Componentes
- |--- configs/      # Variáveis de configurações
- |--- contexts/     # Contextos
  |--- pages/        # Páginas
- |--- services/     # Configuração de serviços utilizados
- |--- styles/       # Estilos globais
  |--- App.js        # Arquivo com configurações principais do App
  |--- index.js      # Ponto de entrada para execução do nosso App
  |--- Routes.js     # Arquivo contendo as principais rotas do App
@@ -80,3 +77,7 @@ $ yarn / npm create react-app  frontsiteongpaisafetivos
 --> A escolha do styled-components vem pela facilidade de customização de estilo através da criação de componentes estilizados utilizando javascript, é um recurso super interessante e poderoso, já que reduz o uso de classes e id's para determinação de estilos, problemas de acesso aos arquivos CSS e torna a legibilidade do código muito mais fácil de interpretar.
 --> Uma das vantagens da utilização do styled-components é que, assim como o sass, também permite o uso do encadeamento, ou seja, caso um elemento possua um outro elemento como filho, é possível realizar a estilização do mesmo dentro da estilização desse componente.
 --> Outra vantagem é a utilização da estilização limitada ao escopo em que o componente estilizado foi criado. Ele acaba gerando uma classe com uma chave única para que a estilização daquele componente não interfira no restante da aplicação.
+
+
+### Helmet
+--> React Helmet foi escolhido para facilitar a customização de titulos de páginas e possiveis alterações de meta tags.
