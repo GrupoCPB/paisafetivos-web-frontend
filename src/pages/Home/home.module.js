@@ -125,6 +125,8 @@ div{
     height:38.125rem;
     width:100%;
 
+    margin-top:-50px;
+
     display:flex;
     justify-content:center;
 
@@ -166,4 +168,6 @@ div{
         }        
     }
 }
+
+
 `;
