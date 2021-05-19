@@ -3,13 +3,18 @@ import { Helmet } from "react-helmet";
 
 import { Container } from "./home.module";
 import { Works } from "./works";
+import { Blog } from './blog';
 
 
 import flecha from '../../assets/flecha-direita.png';
+import flecha2 from '../../assets/flecha-branca-direita.png';
 import ajuda from '../../assets/ajuda-icon.png';
 import acolhimento from '../../assets/acolhimento-icon.png';
 import lar from '../../assets/lar-afetivo-icon.png';
 import acompanhamento from '../../assets/acompanhamento-icon.png';
+
+
+
 
 export function Home (){
     return(
@@ -90,6 +95,34 @@ export function Home (){
                     </div>
                 </div>
             </Works>
+            <Blog>
+                <h2>Acompanhe nosso blog</h2>
+                <div className="blog-notice-area">
+                    <div className="notice notice-photo-1">
+                        <div className="notice--info">
+                            Notícias da semana, notícias da semana 
+                        </div>
+                    </div>
+                    <div className="notice notice-photo-2">
+                        <div className="notice--info">
+                           Notícias da semana, notícias da semana  
+                        </div>
+                    </div>
+                    <div className="notice notice-photo-3">
+                        <div className="notice--info">
+                           Notícias da semana, notícias da semana  
+                        </div>
+                    </div>
+                    <div className="notice notice-photo-4">
+                        <div className="notice--info">
+                            Notícias da semana, notícias da semana 
+                        </div>
+                    </div>
+                </div>
+                <div className="blog">
+                    <a href="">Acesse o Blog <img src={flecha2} alt="icone de flecha" /> </a>
+                </div>
+            </Blog>
         </Container>
     );
 }
