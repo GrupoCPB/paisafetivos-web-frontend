@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import background from '../../assets/connectando-pessoas.png';
+import about from '../../assets/quem-somos.png';
 
 export const Container = styled.section`
 
@@ -18,10 +19,10 @@ background-color:#FF40A7;
 }
 
 div{
-    width:540px;
+    width:33.75rem;
 }
 
-.about-left{
+.donate-left{
     color:#f1f1f1;
     h1{
         font-weight:800;
@@ -30,7 +31,7 @@ div{
     p{
         margin-top:-16px;
         padding-bottom:1rem;
-        max-width:440px;
+        max-width:27.5rem;
     }
     a{
         font-size:20px;
@@ -47,13 +48,13 @@ div{
         }
     }
 }
-.about-right{
+.donate-right{
 
 }
 
 .background{
-    height:700px;
-    width:700px;
+    height:43.75rem;
+    width:43.75rem;
     background-image:url(${background});
     background-size:cover;
     background-position:right;
@@ -68,4 +69,53 @@ div{
 
 }
 
+.about{
+    height:38.125rem;
+    width:100%;
+
+    display:flex;
+    justify-content:center;
+    padding:80px 0;
+
+    .about-photo{
+        min-width:530px;
+        background-image:url(${about});
+        background-repeat:no-repeat;
+    }
+
+    .about-area{
+        padding:40px 0;
+        
+        display:inherit;
+        flex-direction:column;
+        align-items:center;
+        
+        h2{
+            font-size:40px;
+            font-weight:600;
+        }
+
+        .about-area-text{
+            padding-left:200px;
+            p{
+                max-width:400px;
+                padding-bottom:32px;
+            }
+
+            a{
+                text-decoration:none;
+                color:#2D9CDB;
+                font-weight:700;
+
+                &:hover{
+                    text-decoration:underline;                    
+                }
+                img{
+                    height:10px;
+                    margin-left:3px;
+                }
+            }
+        }        
+    }
+}
 `;
