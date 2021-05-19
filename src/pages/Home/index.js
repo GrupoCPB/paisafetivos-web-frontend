@@ -7,9 +7,9 @@ import { Works } from "./works";
 
 import flecha from '../../assets/flecha-direita.png';
 import ajuda from '../../assets/ajuda-icon.png';
-import acolhimento from '../../assets/ajuda-icon.png';
-import lar from '../../assets/ajuda-icon.png';
-import acompanhamento from '../../assets/ajuda-icon.png';
+import acolhimento from '../../assets/acolhimento-icon.png';
+import lar from '../../assets/lar-afetivo-icon.png';
+import acompanhamento from '../../assets/acompanhamento-icon.png';
 
 export function Home (){
     return(
