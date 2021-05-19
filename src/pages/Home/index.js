@@ -31,11 +31,27 @@ export function Home (){
                             A PaisAfetivos é uma organização sem fins lucrativos que atua por redes de contatos televirtuais em todo o Brasil. Viabilizamos apoiar e acolher pessoas que tenham seus direitos fundamentais violados por conta de preconceitos.                        
                         </p>
                         <div className="about-link">
-                            <a href="#">Saiba mais <img src={flecha}/></a>
+                            <a href="#">Saiba mais  <img src={flecha}/></a>
                         </div>
                     </div>
                 </div>                
             </main>
+            <section className="helping">                
+                <div className="helping-area">
+                    <h2>Preciso de Ajuda</h2>
+                    <div className="helping-area-text">
+                        <p>
+                            Se você está passando por algum tipo de violência, estamos aqui para te apoiar.  A PaisAfetivos compreende a emergência das questões violadoras de dignidade humana, principalmente da população LGBTQ+ e por isso  contamos com uma equipe multidisciplinar para atender você.                       
+                        </p>
+                        <div className="helping-link">
+                            <a href="#">Saiba mais  <img src={flecha}/></a>
+                        </div>
+                    </div>
+                </div>    
+                <div className="helping-photo">
+                    
+                </div>     
+            </section>
         </Container>
     );
 }
