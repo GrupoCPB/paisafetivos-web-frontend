@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import { Container } from "./home.module";
 import { Works } from "./works";
 import { Blog } from './blog';
+import { Brand } from './brand';
 
 
 import flecha from '../../assets/flecha-direita.png';
@@ -12,6 +13,17 @@ import ajuda from '../../assets/ajuda-icon.png';
 import acolhimento from '../../assets/acolhimento-icon.png';
 import lar from '../../assets/lar-afetivo-icon.png';
 import acompanhamento from '../../assets/acompanhamento-icon.png';
+
+
+
+import logocpb from '../../assets/logo-cpb.png';
+import logoLGBT from '../../assets/logoLGBT.png';
+import forum from '../../assets/forumempresas.png';
+import eternamente from '../../assets/eternamente.png';
+import advogados from '../../assets/advogados.png';
+import atados from '../../assets/atados.png';
+import probono from '../../assets/probono.png';
+
 
 
 
@@ -123,6 +135,15 @@ export function Home (){
                     <a href="">Acesse o Blog <img src={flecha2} alt="icone de flecha" /> </a>
                 </div>
             </Blog>
+            <Brand>
+                <img src={logocpb} alt=""/>
+                <img src={logoLGBT} alt=""/>
+                <img src={forum} alt=""/>
+                <img src={eternamente} alt=""/>
+                <img src={advogados} alt=""/>
+                <img src={atados} alt=""/>
+                <img src={probono} alt=""/>
+            </Brand>
         </Container>
     );
 }
