@@ -1,4 +1,4 @@
-import { Container } from "./header.module";
+import { Container } from "./header";
 
 import logo from '../../assets/logo-header.png';
 
