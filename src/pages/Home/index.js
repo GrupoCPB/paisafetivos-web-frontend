@@ -1,12 +1,17 @@
 import React from 'react';
 import { Helmet } from "react-helmet";
 
-import { Container } from "./home.module";
-import { Works } from "./works";
+
+//styled components
+import { Donate } from './donate';
+import { Works } from "./works"; 
 import { Blog } from './blog';
 import { Brand } from './brand';
+import { Helping } from './helping';
+import { About } from './about';
 
 
+//imagens
 import flecha from '../../assets/flecha-direita.png';
 import flecha2 from '../../assets/flecha-branca-direita.png';
 import ajuda from '../../assets/ajuda-icon.png';
@@ -26,13 +31,11 @@ import probono from '../../assets/probono.png';
 
 
 
-
-
 export function Home (){
     return(
-        <Container>
+        <div>
             <Helmet title="Pais Afetivos | Home" />
-            <div className="section-donate">
+            <Donate>
                 <div className="donate-left">
                     <h1>Conectando <br/>pessoas<br/> maravilhosas</h1>
                     <p>Atuamos desde 2009 acolhendo pessoas LGBTQ+ que são vítimas de violência. Nos ajude a transformar a vida dessas pessoas.</p>
@@ -41,8 +44,8 @@ export function Home (){
                 <div className="donate-right">
                     <div className="background"></div>
                 </div>
-            </div>
-            <main className="about">
+            </Donate>
+            <About>
                 <div className="about-photo">
                     
                 </div>
@@ -57,8 +60,8 @@ export function Home (){
                         </div>
                     </div>
                 </div>                
-            </main>
-            <section className="helping">                
+            </About>
+            <Helping>                
                 <div className="helping-area">
                     <h2>Preciso de Ajuda</h2>
                     <div className="helping-area-text">
@@ -73,8 +76,8 @@ export function Home (){
                 <div className="helping-photo">
                     
                 </div>                   
-            </section>
-            <Works className="works">
+            </Helping>
+            <Works>
                 <h2>Como Funciona</h2>
                 <div className="works-cards">
                     <div className="works-card">
@@ -144,6 +147,6 @@ export function Home (){
                 <img src={atados} alt=""/>
                 <img src={probono} alt=""/>
             </Brand>
-        </Container>
+        </div>
     );
 }
