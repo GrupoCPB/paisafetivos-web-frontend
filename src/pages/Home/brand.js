@@ -15,5 +15,12 @@ export const Brand = styled.section`
     img{
         max-height:3.125rem;
     }
-  
+
+@media (min-width:320px){
+    height:auto;
+    flex-wrap:wrap;
+    img{
+        padding:1rem;
+    }
+}
 `

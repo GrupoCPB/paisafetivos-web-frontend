@@ -3,6 +3,7 @@
 
 *{
     font-family: 'Manrope',sans-serif;
+    overflow-x: hidden;
 }
 body{
     background-color: #FBFBFB;

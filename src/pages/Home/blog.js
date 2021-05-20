@@ -103,4 +103,74 @@ export const Blog = styled.section`
             }
         }
     }
+
+    
+@media (max-width:1024px){
+    height:auto;
+    h2{
+        font-size:45px;
+    }
+
+    .blog-notice-area{
+        flex-wrap:wrap;
+
+        
+        .notice{
+            margin-bottom:1rem;
+        }        
+        .notice--info{
+            opacity:1;
+            height:5.25rem;              
+        }
+    }
+
+    .blog{
+        width:100%;
+
+        margin-top:0;
+        padding:1rem;
+    }
+
+}
+
+@media (max-width:320px){   
+
+    h2{
+        font-size:30px;        
+    }
+
+    .blog-notice-area{
+        .notice{
+            width:300px;
+        }
+        .notice--info{
+            opacity:1;
+        }
+       
+
+    .blog{
+        padding:0;
+        margin-top:0rem;
+
+        display:flex;
+        justify-content:flex-end;
+        align-items:flex-end;
+
+        a{
+            padding-right:0px;
+            color:#f1f1f1;
+            text-decoration:none;
+
+            &:hover{
+                text-decoration:underline;
+            }
+
+            img{
+                margin-left:0rem;
+                margin-right:0rem;
+                transform:translatey(0rem);
+            }
+        }
+    }
+}
 `

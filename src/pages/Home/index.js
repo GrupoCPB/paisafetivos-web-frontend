@@ -1,15 +1,13 @@
 import React from 'react';
 import { Helmet } from "react-helmet";
 
-
 //styled components
 import { Donate } from './donate';
+import { About } from './about';
+import { Helping } from './helping';
 import { Works } from "./works"; 
 import { Blog } from './blog';
 import { Brand } from './brand';
-import { Helping } from './helping';
-import { About } from './about';
-
 
 //imagens
 import flecha from '../../assets/flecha-direita.png';
@@ -19,8 +17,6 @@ import acolhimento from '../../assets/acolhimento-icon.png';
 import lar from '../../assets/lar-afetivo-icon.png';
 import acompanhamento from '../../assets/acompanhamento-icon.png';
 
-
-
 import logocpb from '../../assets/logo-cpb.png';
 import logoLGBT from '../../assets/logoLGBT.png';
 import forum from '../../assets/forumempresas.png';
@@ -28,12 +24,13 @@ import eternamente from '../../assets/eternamente.png';
 import advogados from '../../assets/advogados.png';
 import atados from '../../assets/atados.png';
 import probono from '../../assets/probono.png';
+import { Container } from './reset';
 
 
 
 export function Home (){
     return(
-        <div>
+        <Container>
             <Helmet title="Pais Afetivos | Home" />
             <Donate>
                 <div className="donate-left">
@@ -147,6 +144,6 @@ export function Home (){
                 <img src={atados} alt=""/>
                 <img src={probono} alt=""/>
             </Brand>
-        </div>
+        </Container>
     );
 }
