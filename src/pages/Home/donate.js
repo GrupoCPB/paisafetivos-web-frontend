@@ -27,14 +27,14 @@ div{
         font-size:4.5rem;
     }
     p{
-        margin-top:-16px;
+        margin-top:-1rem;
         padding-bottom:1rem;
         max-width:27.5rem;
     }
     a{
-        font-size:20px;
-        padding:19px 59px;
-        border-radius:10px;
+        font-size:1.25rem;
+        padding:1.1875rem 3.6875rem;
+        border-radius:0.625rem;
 
         text-decoration:none;
         color:#f1f1f1;
@@ -63,7 +63,7 @@ div{
 
     
     
-    transform: translate(+30px,-40px);
+    transform: translate(+1.875rem,-2.5rem);
 
 }
 `;

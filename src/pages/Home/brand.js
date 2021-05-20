@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 
 export const Brand = styled.section`
-    height:170px;
+    height:10.625rem;
     width:100%;
     
     display:flex;
@@ -13,7 +13,7 @@ export const Brand = styled.section`
 
 
     img{
-        max-height:50px;
+        max-height:3.125rem;
     }
   
 `

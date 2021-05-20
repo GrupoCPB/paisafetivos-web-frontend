@@ -11,28 +11,28 @@ export const About = styled.main`
     padding:80px 0;
 
     .about-photo{
-        min-width:530px;
+        min-width:33.125rem;
         background-image:url(${about});
         background-repeat:no-repeat;
     }
 
     .about-area{
-        padding:40px 0;
+        padding:2.5rem 0;
         
         display:inherit;
         flex-direction:column;
         align-items:center;
         
         h2{
-            font-size:40px;
+            font-size:2.5rem;
             font-weight:600;
         }
 
         .about-area-text{
-            padding-left:200px;
+            padding-left:12.5rem;
             p{
-                max-width:400px;
-                padding-bottom:32px;
+                max-width:25rem;
+                padding-bottom:2rem;
             }
 
             a{
@@ -44,8 +44,8 @@ export const About = styled.main`
                     text-decoration:underline;                    
                 }
                 img{
-                    height:10px;
-                    margin-left:3px;
+                    height:0.625rem;
+                    margin-left:0.1875rem;
                 }
             }
         }        
