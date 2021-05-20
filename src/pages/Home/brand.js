@@ -11,7 +11,9 @@ export const Brand = styled.section`
     justify-content:space-evenly;
     align-items:center;
 
+    margin:1rem 0;
 
+    background-color:#f7f6f5;
     img{
         max-height:3.125rem;
     }

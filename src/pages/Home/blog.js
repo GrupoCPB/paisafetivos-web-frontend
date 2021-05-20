@@ -6,7 +6,7 @@ import noticia3 from '../../assets/noticia-3.png';
 import noticia4 from '../../assets/noticia-4.png';
 
 export const Blog = styled.section`
-    height:30rem;
+    height:33rem;
 
     color:#f1f1f1;
     background-color:#FF40A7;
