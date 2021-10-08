@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import background from '../../assets/connectando-pessoas.png';
+import background from '../assets/connectando-pessoas.png';
 
 export const Donate = styled.section`
     height:41.25rem;
