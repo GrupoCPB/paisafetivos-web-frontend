@@ -1,91 +1,43 @@
-import styled from 'styled-components';
+import { Container } from "../../style/header";
 
-export const Container = styled.header`
-height:5rem;
+import logo from '../../assets/logo-header.png';
 
-max-width:71.25rem;
-margin:auto;
+import whatsapp from '../../assets/whatsapp-icon.png';
+import facebook from '../../assets/facebook-icon.png';
+import telegram from '../../assets/telegram-icon.png';
+import instagram from '../../assets/instagram-icon.png';
+import twitter from '../../assets/twitter-icon.png';
 
+export function Header(){
+  return(
+    <Container>
+      <div className="logo">
+        <img src={logo} alt="logo ong pais afetivos" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Sobre nós</a>
+            <ul>
+              <li><a href="#">Como Funciona</a></li>
+              <li><a href="#">Preciso de Ajuda</a></li>
+              <li><a href="#">Nossa Equipe</a></li>
+              <li><a href="#">Trânsparencia</a></li>
 
-display:flex;
-justify-content:center;
-justify-content: space-evenly;
-align-items:center;
-color:#111;
-
-a{
-    text-decoration:none;
-    color:#111
+            </ul>
+          </li>
+            <li><a href="#">Como ajudar</a></li>
+            <li><a href="#">Parceiros</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+      <div className="social">
+        <a href="#"><img src={whatsapp} alt="logo com direcionamento para o whatsapp"/></a>
+        <a href="#"><img src={facebook} alt="logo com direcionamento para o facebook"/></a>
+        <a href="#"><img src={telegram} alt="logo com direcionamento para o telegram"/></a>
+        <a href="#"><img src={instagram} alt="logo com direcionamento para o instagram"/></a>
+        <a href="#"><img src={twitter} alt="logo com direcionamento para o twitter"/></a>
+      </div>
+    </Container>
+  );
 }
-
-
-
-nav{
-    padding:0 150px;
-    a{
-        padding:0 10px;
-        &:hover{
-            opacity:75%;
-        }
-    }
-}
-
-.social{
-    a{
-        padding:0 10px;
-
-        &:hover{
-            opacity:75%;
-        }
-    }
-}
-
-
-@media (max-width:1025px){
-    height:15rem;
-    max-width:800px;
-    flex-direction:column;
-    
-}
-
-@media (max-width:320px){
-    height:15rem;
-    max-width:71.25rem;
-    margin:auto;
-
-
-display:flex;
-justify-content:center;
-justify-content: space-evenly;
-align-items:center;
-color:#111;
-
-a{
-    text-decoration:none;
-    color:#111
-}
-
-
-
-nav{
-    padding:0 150px;
-    a{
-        padding:0 10px;
-        &:hover{
-            opacity:75%;
-        }
-    }
-}
-
-.social{
-    a{
-        padding:0 10px;
-
-        &:hover{
-            opacity:75%;
-        }
-    }
-}
-
-}
-`;
