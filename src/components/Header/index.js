@@ -17,7 +17,7 @@ export function Header(){
          <nav className="nav">
              <a href="#">Sobre nós</a>
              <a href="#">Como ajudar</a>
-             <a href="#">Parceiros</a>
+             <a href="/parceiros">Parceiros</a>
              <a href="#">Blog</a>
              <a href="#">Contato</a>
          </nav>
