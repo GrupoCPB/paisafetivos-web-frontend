@@ -33,14 +33,16 @@ export function Home (){
         <Container>
             <Helmet title="Pais Afetivos | Home" />
             <Donate>
+              <section>
                 <div className="donate-left">
                     <h1>Conectando <br/>pessoas<br/> maravilhosas</h1>
                     <p>Atuamos desde 2009 acolhendo pessoas LGBTQ+ que são vítimas de violência. Nos ajude a transformar a vida dessas pessoas.</p>
-                    <a href="#">Faça sua doação</a>
+                    <a href="/">Faça sua doação</a>
                 </div>
                 <div className="donate-right">
                     <div className="background"></div>
                 </div>
+              </section>
             </Donate>
             <About>
                 <div className="about-photo">
@@ -53,7 +55,7 @@ export function Home (){
                             A PaisAfetivos é uma organização sem fins lucrativos que atua por redes de contatos televirtuais em todo o Brasil. Viabilizamos apoiar e acolher pessoas que tenham seus direitos fundamentais violados por conta de preconceitos.                        
                         </p>
                         <div className="about-link">
-                            <a href="#">Saiba mais  <img src={flecha}/></a>
+                            <a href="/">Saiba mais  <img src={flecha}/></a>
                         </div>
                     </div>
                 </div>                
