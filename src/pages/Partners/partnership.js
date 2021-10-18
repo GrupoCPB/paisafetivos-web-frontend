@@ -8,21 +8,23 @@ export const Partnership = styled.section`
   background-repeat: no-repeat;
   background-position: right;
   background-size: 720px 541px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   .partnership-area {
-
-    .partnership-area-title {
-        margin-left: 71px;
-      h1 {
+    &-title {
+      margin-left: 71px;
+      h2 {
         color: #ff40a7;
         font-size: 47px;
         font-weight: 600;
       }
     }
 
-    .partnership-area-text {
-        margin-left: 71px;
-        margin-right: 845px;
+    &-text {
+      margin-left: 71px;
+      margin-right: 845px;
       p {
         color: #5d5d66;
         font-weight: 400;
@@ -30,9 +32,9 @@ export const Partnership = styled.section`
       }
     }
 
-    .partnership-area-link {
-        margin-bottom: 30px;
-        margin-left: 71px;
+    &-link {
+      margin-bottom: 30px;
+      margin-left: 71px;
       a {
         color: #2d9cdb;
         font-weight: 700;

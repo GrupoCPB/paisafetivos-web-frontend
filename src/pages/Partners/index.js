@@ -3,10 +3,19 @@ import { Helmet } from "react-helmet";
 
 //Styled Components
 import { Partnership } from "./partnership";
+import { ActualPartners } from "./actual";
 import { Container } from "./reset";
+import { Donate } from "./donate";
 
 //Images
-import flecha from '../../assets/flecha-direita.png';
+import flecha from "../../assets/flecha-direita.png";
+import logoCPB from "../../assets/cpb-logo.png";
+import logoLGBT from "../../assets/lgbt-logo.png";
+import forumempresas from "../../assets/forum-logo.png";
+import advogados from "../../assets/kla-logo.png";
+import probono from "../../assets/probono-logo.png";
+import atados from "../../assets/atados-logo.png";
+import eternamente from "../../assets/eternamente-logo.png";
 
 export function Partners() {
   return (
@@ -15,7 +24,7 @@ export function Partners() {
       <Partnership>
         <div className="partnership-area">
           <div className="partnership-area-title">
-            <h1>Parceiros</h1>
+            <h2>Parceiros</h2>
           </div>
           <div className="partnership-area-text">
             <p>
@@ -24,7 +33,8 @@ export function Partners() {
               que ajudam nossos parceiros corporativos a alcançar seus
               objetivos, ao mesmo tempo que contribuem para nossa missão de
               acabar com a violência contra pessoas LGBTQ+.
-              <br /><br />
+              <br />
+              <br />
               Nossas parcerias são personalizadas para se alinhar com as
               prioridades de nossos parceiros corporativos e podem incluir tudo,
               desde doações a campanhas de marketing de causa conjunta,
@@ -33,10 +43,45 @@ export function Partners() {
             </p>
           </div>
           <div className="partnership-area-link">
-            <a>Quero ser parceiro <img src={flecha}/></a>
+            <a>
+              Quero ser parceiro <img src={flecha} />
+            </a>
           </div>
         </div>
       </Partnership>
+      <ActualPartners>
+        <div className="partners-area">
+          <div className="partners-area-title">
+            <h2>Nossos Parceiros</h2>
+          </div>
+          <div className="partners-area-text">
+            <p>
+              Somos muito gratos aos nossos incríveis parceiros corporativos,
+              que nos apoiam em nossos programas e nos capacitam a servir a
+              população LGBTQ+ que precisam e merecem nosso apoio.
+            </p>
+          </div>
+          <div className="partners-area-images">
+            <img src={logoCPB}/>
+            <img src={logoLGBT}/>
+            <img src={forumempresas}/>
+            <img src={advogados}/>
+            <img src={probono}/>
+            <img src={atados}/>
+            <img src={eternamente}/>
+          </div>
+        </div>
+      </ActualPartners>
+      <Donate>
+        <div className="donate-area">
+          <div className="donate-area-text">
+            <h4>Nos ajude a transformar a vida dessas pessoas!</h4>
+          </div>
+          <div className="donate-area-button">
+            <button>Faça sua doação</button>
+          </div>
+        </div>
+      </Donate>
     </Container>
   );
 }
