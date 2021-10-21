@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 import { Partnership } from "./partnership";
 import { ActualPartners } from "./actual";
 import { Container } from "./reset";
-import { Donate } from "./donate";
+import { Donate } from "../../components/Donate/donate";
 
 //Images
 import flecha from "../../assets/flecha-direita.png";
@@ -72,16 +72,7 @@ export function Partners() {
           </div>
         </div>
       </ActualPartners>
-      <Donate>
-        <div className="donate-area">
-          <div className="donate-area-text">
-            <h4>Nos ajude a transformar a vida dessas pessoas!</h4>
-          </div>
-          <div className="donate-area-button">
-            <button>Faça sua doação</button>
-          </div>
-        </div>
-      </Donate>
+      
     </Container>
   );
 }

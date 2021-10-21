@@ -6,6 +6,7 @@ export const ActualPartners = styled.section`
   .partners-area {
     &-title {
       h2 {
+        margin-bottom: 10px;
         color: #262626;
         font-size: 47px;
         font-weight: 600;
@@ -23,7 +24,7 @@ export const ActualPartners = styled.section`
     &-images {
         img {
             height: 80px;
-            margin-right: 82px;
+            margin-right: 54px;
             margin-top: 41px;
             margin-bottom: 41px;
         }

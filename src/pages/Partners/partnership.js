@@ -19,6 +19,7 @@ export const Partnership = styled.section`
         color: #ff40a7;
         font-size: 47px;
         font-weight: 600;
+        margin-bottom: 4px;
       }
     }
 
@@ -33,7 +34,7 @@ export const Partnership = styled.section`
     }
 
     &-link {
-      margin-bottom: 30px;
+      margin-bottom: 68px;
       margin-left: 71px;
       a {
         color: #2d9cdb;
