@@ -32,9 +32,9 @@ export const Container = styled.section`
       padding-right: 70px;
     }
 
-    transition:all ease 0.2s;
-        &:hover{
-            filter:brightness(120%);
-        }
+    transition: all ease 0.2s;
+    &:hover {
+      filter: brightness(120%);
+    }
   }
 `;
