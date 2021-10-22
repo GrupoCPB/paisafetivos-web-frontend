@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-import noticia1 from '../../assets/noticia-1.png';
-import noticia2 from '../../assets/noticia-2.png';
-import noticia3 from '../../assets/noticia-3.png';
-import noticia4 from '../../assets/noticia-4.png';
+import noticia1 from '../assets/noticia-1.png';
+import noticia2 from '../assets/noticia-2.png';
+import noticia3 from '../assets/noticia-3.png';
+import noticia4 from '../assets/noticia-4.png';
 
 export const Blog = styled.section`
     height:33rem;

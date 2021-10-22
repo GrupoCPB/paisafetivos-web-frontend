@@ -4,7 +4,7 @@ import { Home } from "./pages/Home";
 import { Partners } from "./pages/Partners";
 import { Donate } from "./components/Donate";
 
-export default () =>{
+const routers =  () =>{
     return(
         <Switch>
             <Route exact path="/">
@@ -17,3 +17,5 @@ export default () =>{
         </Switch>
     );
 }
+
+export default routers
