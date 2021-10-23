@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import medias from "../../style/medias/mediaQueries";
+import medias from "./medias/mediaQueries";
 
-import background from "../../assets/partners-image.jpeg";
+import background from "../assets/partners-image.jpeg";
 
 export const Partnership = styled.section`
   background-color: #ebebeb;

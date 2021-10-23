@@ -2,20 +2,19 @@ import React from "react";
 import { Helmet } from "react-helmet";
 
 //Styled Components
-import { Partnership } from "./partnership";
-import { ActualPartners } from "./actual";
-import { Container } from "./reset";
-import { Donate } from "../../components/Donate/donate";
+import { Partnership } from "../style/partnership";
+import { ActualPartners } from "../style/actual";
+import { Container } from "../style/reset";
 
 //Images
-import flecha from "../../assets/flecha-direita.png";
-import logoCPB from "../../assets/cpb-logo.png";
-import logoLGBT from "../../assets/lgbt-logo.png";
-import forumempresas from "../../assets/forum-logo.png";
-import advogados from "../../assets/kla-logo.png";
-import probono from "../../assets/probono-logo.png";
-import atados from "../../assets/atados-logo.png";
-import eternamente from "../../assets/eternamente-logo.png";
+import flecha from "../assets/flecha-direita.png";
+import logoCPB from "../assets/cpb-logo.png";
+import logoLGBT from "../assets/lgbt-logo.png";
+import forumempresas from "../assets/forum-logo.png";
+import advogados from "../assets/kla-logo.png";
+import probono from "../assets/probono-logo.png";
+import atados from "../assets/atados-logo.png";
+import eternamente from "../assets/eternamente-logo.png";
 
 export function Partners() {
   return (
@@ -62,17 +61,16 @@ export function Partners() {
             </p>
           </div>
           <div className="partners-area-images">
-            <img src={logoCPB}/>
-            <img src={logoLGBT}/>
-            <img src={forumempresas}/>
-            <img src={advogados}/>
-            <img src={probono}/>
-            <img src={atados}/>
-            <img src={eternamente}/>
+            <img src={logoCPB} />
+            <img src={logoLGBT} />
+            <img src={forumempresas} />
+            <img src={advogados} />
+            <img src={probono} />
+            <img src={atados} />
+            <img src={eternamente} />
           </div>
         </div>
       </ActualPartners>
-      
     </Container>
   );
 }

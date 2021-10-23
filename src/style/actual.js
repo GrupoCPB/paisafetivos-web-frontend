@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import medias from "../../style/medias/mediaQueries";
+import medias from "./medias/mediaQueries";
 
 export const ActualPartners = styled.section`
   margin: 68px 113px;
@@ -59,6 +59,7 @@ export const ActualPartners = styled.section`
   }
 
   @media only screen and (${medias.mobile}) {
+    margin: 68px 50px;
     .partners-area {
       &-images {
         display: flex;
