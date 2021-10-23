@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 
 //Styled Components
 import { Partnership } from "../style/partnership";
-import { ActualPartners } from "../style/actual";
+import { ActualPartners } from "../style/actualPartners";
 import { Container } from "../style/reset";
 
 //Images

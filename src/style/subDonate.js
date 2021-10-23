@@ -1,18 +1,19 @@
 import styled from "styled-components";
 import medias from "./medias/mediaQueries";
+import colors from './colors/styleColors';
 
 export const Container = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #38acff;
+  background: ${colors.background_container_blue};
 
   h4 {
     margin-left: 160px;
     font-weight: bold;
     font-size: 40px;
     line-height: 54px;
-    color: #ffffff;
+    color: ${colors.font_h4};
   }
 
   button {
@@ -20,7 +21,7 @@ export const Container = styled.section`
     padding-left: 75px;
     padding-right: 75px;
     border: none;
-    background: #ff40a7;
+    background: ${colors.background_button};
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     cursor: pointer;
@@ -28,7 +29,7 @@ export const Container = styled.section`
     p {
       font-size: 20px;
       font-weight: bold;
-      color: #ffffff;
+      color: ${colors.font_text_white};
       white-space: nowrap;
       padding-right: 70px;
     }

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import medias from "./medias/mediaQueries";
+import colors from './colors/styleColors';
 
 export const ActualPartners = styled.section`
   margin: 68px 113px;
@@ -8,7 +9,7 @@ export const ActualPartners = styled.section`
     &-title {
       h2 {
         margin-bottom: 10px;
-        color: #262626;
+        color: ${colors.font_h2};
         font-size: 47px;
         font-weight: 600;
       }

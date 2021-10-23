@@ -2,9 +2,10 @@ import styled from "styled-components";
 import medias from "./medias/mediaQueries";
 
 import background from "../assets/partners-image.jpeg";
+import colors from "./colors/styleColors";
 
 export const Partnership = styled.section`
-  background-color: #ebebeb;
+  background-color: ${colors.background_container_gray};
   background-image: url(${background});
   background-repeat: no-repeat;
   background-position: right;
@@ -17,7 +18,7 @@ export const Partnership = styled.section`
     &-title {
       margin-left: 71px;
       h2 {
-        color: #ff40a7;
+        color: ${colors.font_h2_pink};
         font-size: 47px;
         font-weight: 600;
         margin-bottom: 4px;
@@ -28,7 +29,7 @@ export const Partnership = styled.section`
       margin-left: 71px;
       margin-right: 845px;
       p {
-        color: #5d5d66;
+        color: ${colors.font_text_light};
         font-weight: 400;
         font-size: 16px;
       }
@@ -38,10 +39,13 @@ export const Partnership = styled.section`
       margin-bottom: 68px;
       margin-left: 71px;
       a {
-        color: #2d9cdb;
+        color: ${colors.font_link};
         font-weight: 700;
         font-size: 20px;
         cursor: pointer;
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
   }
