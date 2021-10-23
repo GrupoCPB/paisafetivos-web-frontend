@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import medias from '../../style/medias/mediaQueries';
+import medias from "../../style/medias/mediaQueries";
 
 import background from "../../assets/partners-image.jpeg";
 
@@ -53,11 +53,10 @@ export const Partnership = styled.section`
   @media only screen and (${medias.laptop_small}) {
     background-position: bottom;
     .partnership-area {
-  
       &-text {
         margin-right: 71px;
       }
-  
+
       &-link {
         margin-bottom: 600px;
       }
@@ -67,11 +66,10 @@ export const Partnership = styled.section`
   @media only screen and (${medias.tablet}) {
     background-position: bottom;
     .partnership-area {
-  
       &-text {
         margin-right: 71px;
       }
-  
+
       &-link {
         margin-bottom: 600px;
       }
@@ -81,11 +79,10 @@ export const Partnership = styled.section`
   @media only screen and (${medias.tablet_small}) {
     background-position: bottom;
     .partnership-area {
-  
       &-text {
         margin-right: 71px;
       }
-  
+
       &-link {
         margin-bottom: 600px;
       }
@@ -95,11 +92,10 @@ export const Partnership = styled.section`
   @media only screen and (${medias.mobile}) {
     background-position: bottom;
     .partnership-area {
-  
       &-text {
         margin-right: 71px;
       }
-  
+
       &-link {
         margin-bottom: 600px;
       }
@@ -110,16 +106,15 @@ export const Partnership = styled.section`
     background-size: 445px 266px;
     background-position: bottom;
     .partnership-area {
-
       &-title {
         margin-left: 50px;
       }
-  
+
       &-text {
         margin-right: 50px;
         margin-left: 50px;
       }
-  
+
       &-link {
         margin-bottom: 300px;
         margin-left: 50px;

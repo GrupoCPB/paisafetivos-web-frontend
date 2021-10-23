@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import medias from '../../style/medias/mediaQueries';
+import medias from "../../style/medias/mediaQueries";
 
 export const Container = styled.section`
   display: flex;
@@ -48,12 +48,12 @@ export const Container = styled.section`
   }
 
   @media only screen and (${medias.laptop_small}) {
-    flex-direction:column;
+    flex-direction: column;
 
     button {
       margin: auto;
       margin-bottom: 53.2px;
-  
+
       p {
         padding-right: 0px;
       }
@@ -61,7 +61,7 @@ export const Container = styled.section`
   }
 
   @media only screen and (${medias.tablet}) {
-    flex-direction:column;
+    flex-direction: column;
 
     h4 {
       margin-left: 30px;
@@ -70,7 +70,7 @@ export const Container = styled.section`
     button {
       margin: auto;
       margin-bottom: 53.2px;
-  
+
       p {
         padding-right: 0px;
       }
@@ -78,7 +78,7 @@ export const Container = styled.section`
   }
 
   @media only screen and (${medias.tablet_small}) {
-    flex-direction:column;
+    flex-direction: column;
 
     h4 {
       margin-left: 50px;
@@ -87,7 +87,7 @@ export const Container = styled.section`
     button {
       margin: auto;
       margin-bottom: 53.2px;
-  
+
       p {
         padding-right: 0px;
       }
@@ -95,7 +95,7 @@ export const Container = styled.section`
   }
 
   @media only screen and (${medias.mobile}) {
-    flex-direction:column;
+    flex-direction: column;
 
     h4 {
       margin-left: 60px;
@@ -104,7 +104,7 @@ export const Container = styled.section`
     button {
       margin: auto;
       margin-bottom: 53.2px;
-  
+
       p {
         padding-right: 0px;
       }
@@ -112,7 +112,7 @@ export const Container = styled.section`
   }
 
   @media only screen and (${medias.mobile_small}) {
-    flex-direction:column;
+    flex-direction: column;
 
     h4 {
       margin-left: 25px;
@@ -121,11 +121,10 @@ export const Container = styled.section`
     button {
       margin: auto;
       margin-bottom: 53.2px;
-  
+
       p {
         padding-right: 0px;
       }
     }
   }
-  
 `;

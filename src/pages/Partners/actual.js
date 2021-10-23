@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import medias from '../../style/medias/mediaQueries';
+import medias from "../../style/medias/mediaQueries";
 
 export const ActualPartners = styled.section`
   margin: 68px 113px;
@@ -23,69 +23,69 @@ export const ActualPartners = styled.section`
     }
 
     &-images {
-        img {
-            height: 80px;
-            margin-right: 54px;
-            margin-top: 41px;
-            margin-bottom: 41px;
-        }
+      img {
+        height: 80px;
+        margin-right: 54px;
+        margin-top: 41px;
+        margin-bottom: 41px;
+      }
     }
   }
 
   @media only screen and (${medias.tablet}) {
-    .partners-area { 
+    .partners-area {
       &-images {
         img {
-            height: 60px;
-            margin-right: 34px;
+          height: 60px;
+          margin-right: 34px;
         }
-    }
+      }
     }
   }
 
   @media only screen and (${medias.tablet_small}) {
-    .partners-area { 
+    .partners-area {
       &-images {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         img {
-            height: 60px;
-            margin-right: 2px;
+          height: 60px;
+          margin-right: 2px;
         }
-    }
+      }
     }
   }
 
   @media only screen and (${medias.mobile}) {
-    .partners-area { 
+    .partners-area {
       &-images {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         img {
-            height: 60px;
-            margin-right: 2px;
+          height: 60px;
+          margin-right: 2px;
         }
-    }
+      }
     }
   }
 
   @media only screen and (${medias.mobile_small}) {
     margin: 68px 50px;
-    .partners-area { 
+    .partners-area {
       &-images {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         img {
-            height: 60px;
-            margin-right: 2px;
+          height: 60px;
+          margin-right: 2px;
         }
-    }
+      }
     }
   }
 `;
