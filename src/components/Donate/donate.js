@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import medias from '../../style/medias/mediaQueries';
 
 export const Container = styled.section`
   display: flex;
@@ -37,4 +38,94 @@ export const Container = styled.section`
       filter: brightness(120%);
     }
   }
+
+  @media only screen and (${medias.desktop}) {
+    button {
+      p {
+        padding-right: 0px;
+      }
+    }
+  }
+
+  @media only screen and (${medias.laptop_small}) {
+    flex-direction:column;
+
+    button {
+      margin: auto;
+      margin-bottom: 53.2px;
+  
+      p {
+        padding-right: 0px;
+      }
+    }
+  }
+
+  @media only screen and (${medias.tablet}) {
+    flex-direction:column;
+
+    h4 {
+      margin-left: 30px;
+    }
+
+    button {
+      margin: auto;
+      margin-bottom: 53.2px;
+  
+      p {
+        padding-right: 0px;
+      }
+    }
+  }
+
+  @media only screen and (${medias.tablet_small}) {
+    flex-direction:column;
+
+    h4 {
+      margin-left: 50px;
+    }
+
+    button {
+      margin: auto;
+      margin-bottom: 53.2px;
+  
+      p {
+        padding-right: 0px;
+      }
+    }
+  }
+
+  @media only screen and (${medias.mobile}) {
+    flex-direction:column;
+
+    h4 {
+      margin-left: 60px;
+    }
+
+    button {
+      margin: auto;
+      margin-bottom: 53.2px;
+  
+      p {
+        padding-right: 0px;
+      }
+    }
+  }
+
+  @media only screen and (${medias.mobile_small}) {
+    flex-direction:column;
+
+    h4 {
+      margin-left: 25px;
+    }
+
+    button {
+      margin: auto;
+      margin-bottom: 53.2px;
+  
+      p {
+        padding-right: 0px;
+      }
+    }
+  }
+  
 `;

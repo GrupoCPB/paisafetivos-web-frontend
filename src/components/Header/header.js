@@ -33,7 +33,7 @@ export function Header(){
               </ul>
             </li>
             <li><a href="/">Como ajudar</a></li>
-            <li><a href="/">Parceiros</a></li>
+            <li><a href="/parceiros">Parceiros</a></li>
             <li><a href="/">Blog</a></li>
             <li><a href="/">Contato</a></li>
           </ul>
