@@ -109,7 +109,7 @@ export function Home (){
                     </div>
                 </div>
             </Works>
-            <Blog id="transparencia">
+            <Blog>
                 <h2>Acompanhe nosso blog</h2>
                 <div className="blog-notice-area">
                     <div className="notice notice-photo-1">
