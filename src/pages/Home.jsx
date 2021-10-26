@@ -44,7 +44,7 @@ export function Home (){
                 </div>
               </section>
             </Donate>
-            <About>
+            <About id="#quem-somos">
                 <div className="about-photo">
                     
                 </div>
@@ -60,7 +60,7 @@ export function Home (){
                     </div>
                 </div>                
             </About>
-            <Helping>                
+            <Helping id="preciso-ajuda">                
                 <div className="helping-area">
                     <h2>Preciso de Ajuda</h2>
                     <div className="helping-area-text">
@@ -76,7 +76,7 @@ export function Home (){
                     
                 </div>                   
             </Helping>
-            <Works>
+            <Works id="como-funciona">
                 <h2>Como Funciona</h2>
                 <div className="works-cards">
                     <div className="works-card">
@@ -109,7 +109,7 @@ export function Home (){
                     </div>
                 </div>
             </Works>
-            <Blog>
+            <Blog id="transparencia">
                 <h2>Acompanhe nosso blog</h2>
                 <div className="blog-notice-area">
                     <div className="notice notice-photo-1">

@@ -26,10 +26,10 @@ export function Header(){
                 <img src={arrow} alt="seta menu drop-down"/>
                 </a>
               <ul>
-                <li><a href="/">Como Funciona</a></li>
-                <li><a href="/">Preciso de Ajuda</a></li>
-                <li><a href="/">Nossa Equipe</a></li>
-                <li><a href="/">Trânsparencia</a></li>
+                <li><a href="#como-funciona">Como Funciona</a></li>
+                <li><a href="#preciso-ajuda">Preciso de Ajuda</a></li>
+                <li><a href="#quem-somos">Nossa Equipe</a></li>
+                <li><a href="#transparencia">Trânsparencia</a></li>
               </ul>
             </li>
             <li><a href="/">Como ajudar</a></li>
