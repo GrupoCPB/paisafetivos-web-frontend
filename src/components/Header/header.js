@@ -29,7 +29,7 @@ export function Header(){
                 <li><a href="#como-funciona">Como Funciona</a></li>
                 <li><a href="#preciso-ajuda">Preciso de Ajuda</a></li>
                 <li><a href="#quem-somos">Nossa Equipe</a></li>
-                <li><a href="#transparencia">Trânsparencia</a></li>
+                <li><a href="/">Trânsparencia</a></li>
               </ul>
             </li>
             <li><a href="/">Como ajudar</a></li>
