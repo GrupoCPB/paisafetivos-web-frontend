@@ -1,199 +1,60 @@
-import styled from 'styled-components';
+import { Container } from "../../style/footer";
 
-export const Container = styled.footer`
-    height:300px;
+import logo from '../../assets/logo-footer.png';
 
-    display:flex;
+import whatsapp from '../../assets/whatsapp-branco-icon.png';
+import facebook from '../../assets/facebook-branco-icon.png';
+import telegram from '../../assets/telegram-branco-icon.png';
+import instagram from '../../assets/instagram-branco-icon.png';
+import twitter from '../../assets/twitter-branco-icon.png';
 
-    padding:50px 150px;
+import email from '../../assets/email-branco-icon.png';
 
-    color:#f4f4f4;
-    background-color:#0B0D17;
-    
-    .info-left{
-        max-width:320px;
 
-        img{
-            padding-bottom:14px;
-        }
-        p{
-            font-size:14px;
-        }
-        nav{
-            margin-top:32px;
-
-            transform: translatex(-18px);
-
-            a{
-                padding:0 18px;
-                
-                &:hover{
-                        opacity:70%;
-                    }
-            }
-        }
-    }
-
-    .info-right{
-        width:100%;
-
-        display:flex;
-        justify-content:space-evenly;
-        padding-left:100px;
-
-        .info-right-pages{
-            h6{
-                font-weight:400;
-                font-size:20px;
-                padding:bottom:24px;
-            }
-
-            nav{
-                display:flex;
-                flex-direction:column;
-
-                a{
-                    padding-bottom:12px;
-                    text-decoration:none;
-
-                    color:#f1f1f1;
-
-                    &:hover{
-                        opacity:70%;
-                        text-decoration:underline;
-                    }
-                }
-            }
-        }
-
-        .info-right-helping{
-            h6{
-                font-weight:400;
-                font-size:20px;
-                padding:bottom:24px;
-            }
-
-            nav{
-                display:flex;
-                flex-direction:column;
-
-                a{
-                    padding-bottom:12px;
-                    text-decoration:none;
-
-                    color:#f1f1f1;
-
-                    &:hover{
-                        opacity:70%;
-                        text-decoration:underline;
-                    }
-                }
-            }
-        }
-
-        .info-right-contact{
-            h6{
-                font-weight:400;
-                font-size:20px;
-            }
-
-            nav{
-                display:flex;
-                flex-direction:column;
-
-                a{
-                    padding-bottom:12px;
-                    text-decoration:none;
-
-                    color:#f1f1f1;
-
-                    img{
-                        padding-right:10px;
-                        opacity:100%;
-                    }
-
-                    &:hover{
-                        opacity:70%;
-                        text-decoration:underline;
-                        
-                    }
-                    
-                }
-            }
-        }
-    }
-
-@media (max-width:1024px){
-    height:auto;
-
-    flex-wrap:wrap;
-    justify-content:center;
-
-    padding:50px 50px;
-    .info-left{
-        
-    text-align:center;
+export function Footer(){
+    return(
+        <Container>
+            <div className="info-left">
+                <img src={logo} alt="logo Pais Afetivos"/>
+                <p>
+                    Organização sem fins lucrativos que atua por redes de contatos televirtuais em todo o Brasil, apoiando e acolhendo vítimas de violência.
+                </p>
+                <nav>
+                    <a href="#"><img src={whatsapp}  alt="imagem logo whatsapp" /></a>
+                    <a href="#"><img src={facebook}  alt="imagem logo facebook"/></a>
+                    <a href="#"><img src={telegram}  alt="imagem logo telegram"/></a>
+                    <a href="#"><img src={instagram} alt="imagem logo instagram" /></a>
+                    <a href="#"><img src={twitter}  alt="imagem logo twitter"/></a>
+                </nav>
+            </div>
+            <div className="info-right">
+                <div className="info-right-pages" >
+                    <h6>Pais Afetivos</h6>
+                    <nav>
+                        <a href="" >Sobre nós</a>
+                        <a href="" >Blog</a>
+                        <a href="" >Equipe</a>
+                        <a href="" >Preciso de Ajuda</a>
+                    </nav>
+                </div>
+                <div class="info-right-helping">
+                    <h6>Como Ajudar</h6>
+                    <nav>
+                        <a href="" >Acolhedor Solidário</a>
+                        <a href="" >Voluntário</a>
+                        <a href="" >Doações</a>
+                        <a href="" >Aniversário Solidário</a>
+                        <a href="" >Parcerias</a>
+                    </nav>
+                </div>
+                <div class="info-right-contact">
+                    <h6>Contato</h6>
+                    <nav>
+                        <a href="" > <img src={email} alt="" />contato@paisafetivos.org</a>
+                        <a href="" > <img src={whatsapp} alt="" />(11) 4559-9550</a>
+                    </nav>
+                </div>
+            </div>
+        </Container>
+    );
 }
-
-@media (max-width:768px){
-
-
-    padding:50px 0px;
-    
-    .info-left{
-        max-width:320px;
-    }
-
-    .info-right{
-        padding-left:0px;
-    }
-}
-
-@media (max-width:425px){
-
-    padding:40px 10px;
-    
-    .info-left{
-        img{
-            padding-bottom:0px;
-        }
-        p{
-            font-size:14px;
-        }
-        nav{
-            margin-top:32px;
-            transform: translatex(0px);
-
-            a{
-                padding:0 16px;
-            }
-        }
-    }
-
-    .info-right{
-
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-        padding-left:0px;
-
-        .info-right-pages{
-            h6{
-                margin-bottom:12px;
-            }
-
-        }
-
-        .info-right-helping{
-            h6{
-                margin-bottom:12px;
-            }
-        }
-
-        .info-right-contact{
-            h6{
-                margin-bottom:12px;
-            }
-    }
-}
-`;

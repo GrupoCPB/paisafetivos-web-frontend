@@ -2,29 +2,29 @@ import React from 'react';
 import { Helmet } from "react-helmet";
 
 //styled components
-import { Donate } from './donate';
-import { About } from './about';
-import { Helping } from './helping';
-import { Works } from "./works"; 
-import { Blog } from './blog';
-import { Brand } from './brand';
+import { Donate } from '../style/donate';
+import { About } from '../style/about';
+import { Helping } from '../style/helping';
+import { Works } from "../style/works"; 
+import { Blog } from '../style/blog';
+import { Brand } from '../style/brand';
 
 //imagens
-import flecha from '../../assets/flecha-direita.png';
-import flecha2 from '../../assets/flecha-branca-direita.png';
-import ajuda from '../../assets/ajuda-icon.png';
-import acolhimento from '../../assets/acolhimento-icon.png';
-import lar from '../../assets/lar-afetivo-icon.png';
-import acompanhamento from '../../assets/acompanhamento-icon.png';
+import flecha from '../assets/flecha-direita.png';
+import flecha2 from '../assets/flecha-branca-direita.png';
+import ajuda from '../assets/ajuda-icon.png';
+import acolhimento from '../assets/acolhimento-icon.png';
+import lar from '../assets/lar-afetivo-icon.png';
+import acompanhamento from '../assets/acompanhamento-icon.png';
 
-import logocpb from '../../assets/logo-cpb.png';
-import logoLGBT from '../../assets/logoLGBT.png';
-import forum from '../../assets/forumempresas.png';
-import eternamente from '../../assets/eternamente.png';
-import advogados from '../../assets/advogados.png';
-import atados from '../../assets/atados.png';
-import probono from '../../assets/probono.png';
-import { Container } from './reset';
+import logocpb from '../assets/logo-cpb.png';
+import logoLGBT from '../assets/logoLGBT.png';
+import forum from '../assets/forumempresas.png';
+import eternamente from '../assets/eternamente.png';
+import advogados from '../assets/advogados.png';
+import atados from '../assets/atados.png';
+import probono from '../assets/probono.png';
+import { Container } from '../style/reset';
 
 
 
@@ -33,14 +33,16 @@ export function Home (){
         <Container>
             <Helmet title="Pais Afetivos | Home" />
             <Donate>
+              <section>
                 <div className="donate-left">
                     <h1>Conectando <br/>pessoas<br/> maravilhosas</h1>
                     <p>Atuamos desde 2009 acolhendo pessoas LGBTQ+ que são vítimas de violência. Nos ajude a transformar a vida dessas pessoas.</p>
-                    <a href="#">Faça sua doação</a>
+                    <a href="/">Faça sua doação</a>
                 </div>
                 <div className="donate-right">
                     <div className="background"></div>
                 </div>
+              </section>
             </Donate>
             <About>
                 <div className="about-photo">
@@ -53,7 +55,7 @@ export function Home (){
                             A PaisAfetivos é uma organização sem fins lucrativos que atua por redes de contatos televirtuais em todo o Brasil. Viabilizamos apoiar e acolher pessoas que tenham seus direitos fundamentais violados por conta de preconceitos.                        
                         </p>
                         <div className="about-link">
-                            <a href="#">Saiba mais  <img src={flecha}/></a>
+                            <a href="/">Saiba mais  <img src={flecha}/></a>
                         </div>
                     </div>
                 </div>                

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import helping from '../../assets/ajuda.png';
+import helping from '../assets/ajuda.png';
 
 export const Helping = styled.section`
 

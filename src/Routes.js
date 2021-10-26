@@ -2,7 +2,7 @@ import { Route, Switch } from "react-router";
 
 import { Home } from "./pages/Home";
 
-export default () =>{
+const routers =  () =>{
     return(
         <Switch>
             <Route exact path="/">
@@ -11,3 +11,5 @@ export default () =>{
         </Switch>
     );
 }
+
+export default routers

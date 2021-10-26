@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import about from '../../assets/quem-somos.png';
+import about from '../assets/quem-somos.png';
 
 export const About = styled.main`
     height:38.125rem;
