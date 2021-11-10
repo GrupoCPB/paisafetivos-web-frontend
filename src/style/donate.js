@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-
-import background from '../assets/connectando-pessoas.png';
+import styled from "styled-components";
+import medias from "./medias/mediaQueries";
+import background from "../assets/connectando-pessoas.png";
 
 export const Donate = styled.section`
     height:41.25rem;
@@ -19,16 +19,25 @@ export const Donate = styled.section`
   padding: 10;
 }
 
+section {
+    margin-bottom: 106px;
+}
+
 div{
     width:33.75rem;
 }
 
+.mobile-background {
+    width: 100%;
+}
+
 .donate-left{
     width:50%;
+    margin-left: 72px;
     display:inherit;
     flex-direction:column;
     justify-content:center;
-    align-items:center;
+    align-items:flex-start;
     color:#f1f1f1;
     overflow:hidden;
 
@@ -59,19 +68,20 @@ div{
     }
 }
 .donate-right{
-    width:50%;
+    width:70%;
+    margin-left: 3rem;
 }
 
 .background{
-    height:43.75rem;
-    width:43.75rem;
+    height: 43.75rem;
+    width: 43.75rem;
     background-image:url(${background});
-    background-size:cover;
-    background-position:right;
-    border-top-right-radius:none;
-    border-top-left-radius:50%;
-    border-bottom-right-radius:50%;
-    border-bottom-left-radius:50%;
+    background-size: contain;
+    background-position: center bottom;
+    border-top-right-radius: none;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
 
     
     
@@ -79,6 +89,88 @@ div{
 
 }
 
+@media only screen and (${medias.desktop}) {
+    .donate-right{
+        margin-left: 23rem;
+    }
+}
+
+@media only screen and (${medias.laptop}) {
+    .donate-right{
+        margin-left: 3rem;
+    }
+}
+
+@media only screen and (${medias.laptop_small}) {
+    .donate-right{
+        width: 40%
+    }
+}
+
+@media only screen and (${medias.tablet}) {
+    background-image: url(${background});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 64, 167,0.5);
+    background-blend-mode: lighten;
+
+    .donate-right{
+        display: none;
+    }
+
+    section {
+        width: 100%;
+        margin: 0;
+        
+    }
+
+    .donate-left{
+        width:100%;
+        margin: 44px 50px 110px;
+        align-items:center;
+    
+        h1 {
+            text-align:center;
+            
+        }
+    
+        p{
+            display: none;
+        }
+
+        a{
+            font-weight: bold;
+            font-size: 18px;
+        }
+    
+        }
+    }
+}
+
+@media only screen and (${medias.mobile}) {
+    .donate-left{
+    
+        h1 {
+            font-size: 50px;
+            
+        }
+}
+
+@media only screen and (${medias.mobile_small}) {
+    .donate-left{
+        margin: 0 50px 0;
+    
+        h1 {
+            font-size: 33px;
+            
+        }
+        a{
+            padding: 7px 20px;
+            font-size: 16px;
+            width: 60%;
+        }
+    }
+}
 
 @media (max-width:768px){
     height:500px;
