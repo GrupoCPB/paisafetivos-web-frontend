@@ -1,6 +1,6 @@
 import { Route, Switch } from "react-router";
 
-import { Home } from "./pages/Home";
+import { Home } from "./pages/Home.js";
 import { Partners } from "./pages/Partners.js";
 import { Donate } from "./components/Donate/donate.js";
 

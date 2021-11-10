@@ -19,16 +19,21 @@ export const Donate = styled.section`
   padding: 10;
 }
 
+section {
+    margin-bottom: 106px;
+}
+
 div{
     width:33.75rem;
 }
 
 .donate-left{
     width:50%;
+    margin-left: 72px;
     display:inherit;
     flex-direction:column;
     justify-content:center;
-    align-items:center;
+    align-items:flex-start;
     color:#f1f1f1;
     overflow:hidden;
 
@@ -59,19 +64,20 @@ div{
     }
 }
 .donate-right{
-    width:50%;
+    width:70%;
+    margin-left: 3rem;
 }
 
 .background{
-    height:43.75rem;
-    width:43.75rem;
+    height: 43.75rem;
+    width: 43.75rem;
     background-image:url(${background});
-    background-size:cover;
-    background-position:right;
-    border-top-right-radius:none;
-    border-top-left-radius:50%;
-    border-bottom-right-radius:50%;
-    border-bottom-left-radius:50%;
+    background-size: contain;
+    background-position: center bottom;
+    border-top-right-radius: none;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
 
     
     
