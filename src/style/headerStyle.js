@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import medias from "./medias/mediaQueries";
 import colors from './colors/styleColors';
 
 export const Container = styled.header`
@@ -20,6 +21,30 @@ letter-spacing: 1.5px;
       background-color: ${colors.background_header_hover}; 
     }
   }
+}
+
+@media only screen and (${medias.desktop}) {
+  
+}
+
+@media only screen and (${medias.laptop}) {
+ 
+}
+
+@media only screen and (${medias.laptop_small}) {
+  
+}
+
+@media only screen and (${medias.tablet}) {
+ 
+}
+
+@media only screen and (${medias.mobile}) {
+  
+}
+
+@media only screen and (${medias.mobile_small}) {
+  
 }
 
 

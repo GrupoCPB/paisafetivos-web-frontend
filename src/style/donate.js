@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-
-import background from '../assets/connectando-pessoas.png';
+import styled from "styled-components";
+import medias from "./medias/mediaQueries";
+import background from "../assets/connectando-pessoas.png";
 
 export const Donate = styled.section`
     height:41.25rem;
@@ -25,6 +25,10 @@ section {
 
 div{
     width:33.75rem;
+}
+
+.mobile-background {
+    width: 100%;
 }
 
 .donate-left{
@@ -85,6 +89,88 @@ div{
 
 }
 
+@media only screen and (${medias.desktop}) {
+    .donate-right{
+        margin-left: 23rem;
+    }
+}
+
+@media only screen and (${medias.laptop}) {
+    .donate-right{
+        margin-left: 3rem;
+    }
+}
+
+@media only screen and (${medias.laptop_small}) {
+    .donate-right{
+        width: 40%
+    }
+}
+
+@media only screen and (${medias.tablet}) {
+    background-image: url(${background});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 64, 167,0.5);
+    background-blend-mode: lighten;
+
+    .donate-right{
+        display: none;
+    }
+
+    section {
+        width: 100%;
+        margin: 0;
+        
+    }
+
+    .donate-left{
+        width:100%;
+        margin: 44px 50px 110px;
+        align-items:center;
+    
+        h1 {
+            text-align:center;
+            
+        }
+    
+        p{
+            display: none;
+        }
+
+        a{
+            font-weight: bold;
+            font-size: 18px;
+        }
+    
+        }
+    }
+}
+
+@media only screen and (${medias.mobile}) {
+    .donate-left{
+    
+        h1 {
+            font-size: 50px;
+            
+        }
+}
+
+@media only screen and (${medias.mobile_small}) {
+    .donate-left{
+        margin: 0 50px 0;
+    
+        h1 {
+            font-size: 33px;
+            
+        }
+        a{
+            padding: 7px 20px;
+            font-size: 16px;
+            width: 60%;
+        }
+    }
+}
 
 @media (max-width:768px){
     height:500px;
