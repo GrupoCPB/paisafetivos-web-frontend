@@ -30,7 +30,7 @@ export function Header() {
                   <a href="#como-funciona">Como Funciona</a>
                 </li>
                 <li>
-                  <a href="#preciso-ajuda">Preciso de Ajuda</a>
+                  <a href="/preciso-de-ajuda">Preciso de Ajuda</a>
                 </li>
                 <li>
                   <a href="#quem-somos">Nossa Equipe</a>

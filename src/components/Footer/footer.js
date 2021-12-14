@@ -61,7 +61,7 @@ export function Footer() {
             <a href="">Sobre nós</a>
             <a href="">Blog</a>
             <a href="">Equipe</a>
-            <a href="">Preciso de Ajuda</a>
+            <a href="/preciso-de-ajuda">Preciso de Ajuda</a>
           </nav>
         </div>
         <div class="info-right-helping">
