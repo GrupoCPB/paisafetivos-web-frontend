@@ -64,7 +64,7 @@ export function Home() {
             </p>
             <div className="about-link">
               <a href="/">
-                Saiba mais <img src={flecha} />
+                Saiba mais <img src={flecha} alt="incone de flecha"/>
               </a>
             </div>
           </div>
@@ -152,7 +152,7 @@ export function Home() {
           </div>
         </div>
         <div className="blog">
-          <a href="">
+          <a href="/">
             Acesse o Blog <img src={flecha2} alt="icone de flecha" />{" "}
           </a>
         </div>

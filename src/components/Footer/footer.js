@@ -58,20 +58,20 @@ export function Footer() {
         <div className="info-right-pages">
           <h6>Pais Afetivos</h6>
           <nav>
-            <a href="">Sobre nós</a>
-            <a href="">Blog</a>
-            <a href="">Equipe</a>
+            <a href="/">Sobre nós</a>
+            <a href="/">Blog</a>
+            <a href="/">Equipe</a>
             <a href="/preciso-de-ajuda">Preciso de Ajuda</a>
           </nav>
         </div>
         <div class="info-right-helping">
           <h6>Como Ajudar</h6>
           <nav>
-            <a href="">Acolhedor Solidário</a>
-            <a href="">Voluntário</a>
-            <a href="">Doações</a>
-            <a href="">Aniversário Solidário</a>
-            <a href="">Parcerias</a>
+            <a href="/">Acolhedor Solidário</a>
+            <a href="/">Voluntário</a>
+            <a href="/">Doações</a>
+            <a href="/">Aniversário Solidário</a>
+            <a href="/">Parcerias</a>
           </nav>
         </div>
         <div class="info-right-contact">
