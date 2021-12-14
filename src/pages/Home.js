@@ -82,8 +82,8 @@ export function Home() {
               multidisciplinar para atender você.
             </p>
             <div className="helping-link">
-              <a href="#">
-                Saiba mais <img src={flecha} />
+              <a href="http://wa.me/551145599550">
+                Saiba mais <img src={flecha} alt="imagem de flecha"/>
               </a>
             </div>
           </div>
