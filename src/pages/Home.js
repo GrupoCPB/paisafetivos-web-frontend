@@ -51,7 +51,7 @@ export function Home() {
           </section>
         </div>
       </Donate>
-      <About id="#quem-somos">
+      <About id="quem-somos">
         <div className="about-photo"></div>
         <div className="about-area">
           <h2>Quem somos</h2>
@@ -63,7 +63,7 @@ export function Home() {
               violados por conta de preconceitos.
             </p>
             <div className="about-link">
-              <a href="/">
+              <a href="/sobre-nós">
                 Saiba mais <img src={flecha} alt="incone de flecha"/>
               </a>
             </div>
