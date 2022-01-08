@@ -5,7 +5,7 @@ import { Container } from "../style/reset";
 
 //Images
 
-export function NeedHelp() {
+export default function NeedHelp() {
   return (
     <Container>
       <h1>Need Help Page</h1>

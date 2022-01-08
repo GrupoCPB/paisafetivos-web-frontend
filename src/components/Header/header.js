@@ -21,7 +21,7 @@ export function Header() {
         <DropDown>
           <ul>
             <li>
-              <a href="/">
+              <a href="/sobre">
                 Sobre nós
                 <img src={arrow} alt="seta menu drop-down" />
               </a>
@@ -30,7 +30,7 @@ export function Header() {
                   <a href="#como-funciona">Como Funciona</a>
                 </li>
                 <li>
-                  <a href="/preciso-de-ajuda">Preciso de Ajuda</a>
+                  <a href="/ajuda">Preciso de Ajuda</a>
                 </li>
                 <li>
                   <a href="#quem-somos">Nossa Equipe</a>
