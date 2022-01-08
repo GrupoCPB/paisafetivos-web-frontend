@@ -1,16 +1,16 @@
 import React from "react";
+import { Donate } from "../components/Donate/donate";
 
 //Styled Components
 import { Container } from "../style/reset";
-import { Donate } from "../components/Donate/donate.js"
 
 //Images
 
-export default function NeedHelp() {
+export default function HowHelp() {
   return (
     <>
       <Container>
-        <h1>Page Need Help under construction...</h1>
+        <h1>How Help page under construction...</h1>
       </Container>
       <Donate />
     </>
