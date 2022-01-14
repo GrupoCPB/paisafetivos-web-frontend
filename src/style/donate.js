@@ -6,7 +6,7 @@ export const Donate = styled.section`
     height:41.25rem;
     width:100%;
     overflow:hidden;
-
+    
     padding: 0;
     display:flex;
     justify-content:center;
@@ -15,8 +15,8 @@ export const Donate = styled.section`
     
     background-color:#FF40A7;
     section {
-  display: flex;
-  padding: 10;
+        display: flex;
+        padding: 10;
 }
 
 section {

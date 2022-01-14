@@ -17,11 +17,12 @@ import acolhimento from "../assets/acolhimento-icon.png";
 import lar from "../assets/lar-afetivo-icon.png";
 import acompanhamento from "../assets/acompanhamento-icon.png";
 
+import globalorg from '../assets/globalorg-logo.png'
 import logocpb from "../assets/logo-cpb.png";
 import logoLGBT from "../assets/logoLGBT.png";
+import logopaisamigos from '../assets/Logo.PaisAmigos.png'
 import forum from "../assets/forumempresas.png";
 import eternamente from "../assets/eternamente.png";
-import advogados from "../assets/advogados.png";
 import atados from "../assets/atados.png";
 import probono from "../assets/probono.png";
 import { Container } from "../style/reset";
@@ -35,15 +36,15 @@ export function Home() {
           <section>
             <div className="donate-left">
               <h1>
-                Conectando <br />
+                Conectando<br />
                 pessoas
-                <br /> maravilhosas
+                <br />maravilhosas
               </h1>
               <p>
-                Atuamos desde 2009 acolhendo pessoas LGBTQ+ que são vítimas de
+                Atuamos desde 2009 acolhendo principalmente pessoas LGBTQIAPD+ que são vítimas de
                 violência. Nos ajude a transformar a vida dessas pessoas.
               </p>
-              <a href="/">Faça sua doação</a>
+              <a href="https://doe.polen.com.br/ongpaisafetivos">Faça sua doação</a>
             </div>
             <div className="donate-right">
               <div className="background"></div>
@@ -64,7 +65,7 @@ export function Home() {
             </p>
             <div className="about-link">
               <a href="/sobre-nós">
-                Saiba mais <img src={flecha} alt="incone de flecha"/>
+                Saiba mais <img src={flecha} alt="icone de flecha"/>
               </a>
             </div>
           </div>
@@ -158,11 +159,12 @@ export function Home() {
         </div>
       </Blog>
       <Brand>
+        <img src={globalorg} alt="" />
         <img src={logocpb} alt="" />
         <img src={logoLGBT} alt="" />
+        <img src={logopaisamigos} alt="" />
         <img src={forum} alt="" />
         <img src={eternamente} alt="" />
-        <img src={advogados} alt="" />
         <img src={atados} alt="" />
         <img src={probono} alt="" />
       </Brand>

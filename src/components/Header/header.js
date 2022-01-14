@@ -26,16 +26,24 @@ export function Header() {
                 <img src={arrow} alt="seta menu drop-down" />
               </a>
               <ul>
-                <li><a href="#como-funciona">Como Funciona</a></li>
-                <li><a href="/preciso-ajudar">Preciso de Ajuda</a></li>
-                <li><a href="/equipe">Nossa Equipe</a></li>
-                <li><a href="/transparencia">Trânsparencia</a></li>
+                <li>
+                  <a href="#como-funciona">Como Funciona</a>
+                </li>
+                <li>
+                  <a href="/preciso-de-ajuda">Preciso de Ajuda</a>
+                </li>
+                <li>
+                  <a href="#quem-somos">Nossa Equipe</a>
+                </li>
+                {/* <li >
+                  <a href="/">Transpârencia</a>
+                </li> */}
               </ul>
             </li>
             <li><a href="/como-ajudar">Como ajudar</a></li>
             <li><a href="/parceiros">Parceiros</a></li>
-            <li><a href="/">Blog</a></li>
-            <li><a href="/contato">Contato</a></li>
+            {/* <li><a href="/">Blog</a></li> */}
+            <li><a href="/">Contato</a></li>
           </ul>
         </DropDown>
       </nav>
@@ -51,7 +59,7 @@ export function Header() {
           <img src={facebook} alt="logo com direcionamento para o facebook" />
         </a>
         <a
-          href="https://t.me/ongpaisafetivosdobrasil"
+          href="https://t.me/AtendimentoGrupoCPB"
           target="_blank"
           rel="noreferrer"
         >
