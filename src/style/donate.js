@@ -43,7 +43,7 @@ div{
 
     h1{
         font-weight:800;
-        font-size:4.5rem;
+        font-size:4.0rem;
     }
 
     p{
@@ -126,7 +126,7 @@ div{
 
     .donate-left{
         width:100%;
-        margin: 44px 50px 110px;
+        margin: 44px 16px 110px;
         align-items:center;
     
         h1 {
