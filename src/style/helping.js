@@ -1,13 +1,13 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-import helping from '../assets/ajuda.png';
+import helping from "../assets/ajuda.png";
 
 export const Helping = styled.section`
 
 height:38.125rem;
 width:100%;
 
-margin-top:-50px;
+margin-top:50px;
 
 display:flex;
 justify-content:center;
@@ -87,7 +87,7 @@ justify-content:space-evenly;
 height:38.125rem;
 width:100%;
 
-margin-top:-50px;
+margin-top:50px;
 
 display:flex;
 justify-content:center;
@@ -139,4 +139,4 @@ justify-content:center;
         }
     }
 }
-`
+`;

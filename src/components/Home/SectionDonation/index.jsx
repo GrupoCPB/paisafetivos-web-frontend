@@ -1,7 +1,5 @@
 import React from "react";
 import { Donate } from "../../../style/donate";
-import Box from "@mui/material/Box";
-import { Button } from "@mui/material";
 import { ButtonDonation } from "./styled";
 
 function SectionDonation() {

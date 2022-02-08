@@ -7,15 +7,18 @@ import About from "./About";
 import SectionNeedHelp from "../components/Home/SectionNeedHelp";
 import SctionParners from "../components/Home/SectionPartners";
 import { Container } from "../style/reset";
+import SectionAbout from "../components/Home/SectionAbout";
+import SectionBlog from "../components/Home/SectionBlogs";
 
 export function Home() {
   return (
     <Container>
       <Helmet title="Pais Afetivos | Home" />
       <SectionDonation />
-      <About />
+      <SectionAbout />
       <SectionNeedHelp />
       <SectionWorks></SectionWorks>
+      <SectionBlog />
       <SctionParners />
     </Container>
   );
