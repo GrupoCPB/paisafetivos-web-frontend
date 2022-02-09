@@ -45,7 +45,7 @@ export function Header() {
             <li><a href="/parceiros">Parceiros</a></li>
 
             {/* <li><a href="/">Blog</a></li>
-            posteriormente será contruino um blog, por isso não escluir esse trecho de código*/}
+            posteriormente será contruido um blog, por isso não escluir esse trecho de código*/}
 
             <li><a href="/contato">Contato</a></li>
           </ul>
