@@ -48,9 +48,6 @@ export function Header() {
         </DropDown>
       </nav>
       <div className="social">
-        <a href="http://wa.me/551145599550" target="_blank" rel="noreferrer">
-          <img src={whatsapp} alt="logo com direcionamento para o whatsapp" />
-        </a>
         <a
           href="https://www.facebook.com/paisafetivosdobrasil"
           target="_blank"

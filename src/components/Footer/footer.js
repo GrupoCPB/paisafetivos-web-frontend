@@ -21,9 +21,6 @@ export function Footer() {
           violência.
         </p>
         <nav>
-          <a href="http://wa.me/551145599550" target="_blank" rel="noreferrer">
-            <img src={whatsapp} alt="imagem logo whatsapp" />
-          </a>
           <a
             href="https://www.facebook.com/paisafetivosdobrasil"
             target="_blank"
