@@ -104,7 +104,7 @@ ul {
     position: relative;
     &:hover{
       ul {
-        height: 152px;
+        height: 115px;
         position: fixed;
         visibility: visible;
       }
