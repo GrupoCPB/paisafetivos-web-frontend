@@ -32,7 +32,7 @@ export function Footer() {
             <img src={facebook} alt="imagem logo facebook" />
           </a>
           <a
-            href="https://t.me/ongpaisafetivosdobrasil"
+            href="https://t.me/AtendimentoGrupoCPB"
             target="_blank"
             rel="noreferrer"
           >
