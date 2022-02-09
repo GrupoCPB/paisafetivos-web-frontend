@@ -2,7 +2,6 @@ import { Container } from "../../style/footer";
 
 import logo from "../../assets/logo-footer.png";
 
-import whatsapp from "../../assets/whatsapp-branco-icon.png";
 import facebook from "../../assets/facebook-branco-icon.png";
 import telegram from "../../assets/telegram-branco-icon.png";
 import instagram from "../../assets/instagram-branco-icon.png";

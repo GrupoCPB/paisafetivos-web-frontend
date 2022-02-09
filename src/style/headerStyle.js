@@ -13,6 +13,22 @@ align-items:center;
 color:${colors.font_header};
 letter-spacing: 1.5px;
 
+.logo {
+  display: flex;
+  img {
+    margin: auto;
+    width: 70px;
+    height: 70px;
+  }
+
+  p {
+    font-size: 15pt;
+    font-weight: bolder;
+    margin: auto 5px;
+    color: ${ colors.text_logo_header };
+  }
+}
+
 .social{
   a{
     padding:0 10px;

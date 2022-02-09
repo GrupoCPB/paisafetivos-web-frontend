@@ -2,11 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.footer`
     height:300px;
-
     display:flex;
-
     padding:50px 150px;
-
     color:#f4f4f4;
     background-color:#0B0D17;
     
@@ -21,7 +18,6 @@ export const Container = styled.footer`
         }
         nav{
             margin-top:32px;
-
             transform: translatex(-18px);
 
             a{
@@ -45,7 +41,7 @@ export const Container = styled.footer`
             h6{
                 font-weight:400;
                 font-size:20px;
-                padding:bottom:24px;
+                padding-bottom: 24px;
             }
 
             nav{
@@ -55,7 +51,6 @@ export const Container = styled.footer`
                 a{
                     padding-bottom:12px;
                     text-decoration:none;
-
                     color:#f1f1f1;
 
                     &:hover{
@@ -70,7 +65,7 @@ export const Container = styled.footer`
             h6{
                 font-weight:400;
                 font-size:20px;
-                padding:bottom:24px;
+                padding-bottom: 24px;
             }
 
             nav{
@@ -80,7 +75,6 @@ export const Container = styled.footer`
                 a{
                     padding-bottom:12px;
                     text-decoration:none;
-
                     color:#f1f1f1;
 
                     &:hover{
@@ -125,32 +119,28 @@ export const Container = styled.footer`
 
 @media (max-width:1024px){
     height:auto;
-
     flex-wrap:wrap;
     justify-content:center;
-
     padding:50px 50px;
+
     .info-left{
-        
     text-align:center;
+  }
 }
 
 @media (max-width:768px){
-
-
     padding:50px 0px;
     
     .info-left{
-        max-width:320px;
+      max-width:320px;
     }
 
     .info-right{
-        padding-left:0px;
+      padding-left:0px;
     }
 }
 
 @media (max-width:425px){
-
     padding:40px 10px;
     
     .info-left{
@@ -171,7 +161,6 @@ export const Container = styled.footer`
     }
 
     .info-right{
-
         display:flex;
         flex-direction:column;
         align-items:center;
@@ -181,7 +170,6 @@ export const Container = styled.footer`
             h6{
                 margin-bottom:12px;
             }
-
         }
 
         .info-right-helping{
@@ -194,6 +182,6 @@ export const Container = styled.footer`
             h6{
                 margin-bottom:12px;
             }
+        }
     }
-}
-`;
+}`;
