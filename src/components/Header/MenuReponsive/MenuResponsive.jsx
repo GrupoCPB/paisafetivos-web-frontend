@@ -9,6 +9,7 @@ import {
   ListItemText,
   ListItemButton,
   Collapse,
+  Box,
 } from "@mui/material";
 
 import ExpandLess from "@mui/icons-material/ExpandLess";
@@ -29,17 +30,17 @@ export function MenuResponsive({ opens }) {
   };
 
   const pages = [
-    { titulo: "Como ajudar", rounting: "/" },
-    { titulo: "Parceiros", rounting: "/parceiros" },
-    { titulo: "Blog", rounting: "/" },
-    { titulo: "Contato", rounting: "/" },
+    { id: 1, title: "Como ajudar", rounting: "/" },
+    { id: 2, title: "Parceiros", rounting: "/parceiros" },
+    { id: 3, title: "Blog", rounting: "/" },
+    { id: 4, title: "Contato", rounting: "/" },
   ];
 
   const settings = [
-    { titulo: "Como funciona", rounting: "/sobre-nós" },
-    { titulo: "Parceiros", rounting: "/parceiros" },
-    { titulo: "Blog", rounting: "/" },
-    { titulo: "Contato", rounting: "/" },
+    { id: 1, title: "Como funciona", rounting: "/sobre-nós" },
+    { id: 2, title: "Parceiros", rounting: "/parceiros" },
+    { id: 3, title: "Blog", rounting: "/" },
+    { id: 4, title: "Contato", rounting: "/" },
   ];
 
   const drawerWidth = 240;
@@ -115,7 +116,7 @@ export function MenuResponsive({ opens }) {
           </ListItemButton>
           <Collapse in={sobreMobile} timeout="auto" unmountOnExit>
             {settings.map((setting) => (
-              <List component="div" disablePadding>
+              <List component="div" disablePadding key={setting.id}>
                 <Link
                   href={setting.rounting}
                   style={{
@@ -124,15 +125,15 @@ export function MenuResponsive({ opens }) {
                   }}
                 >
                   <ListItemButton sx={{ pl: 4 }}>
-                    <ListItemText primary={setting.titulo} />
+                    <ListItemText primary={setting.title} />
                   </ListItemButton>
                 </Link>
               </List>
             ))}
           </Collapse>
           <Divider />
-          {pages.map((text, index) => (
-            <>
+          {pages.map((text) => (
+            <Box key={text.id}>
               <Link
                 href={text.rounting}
                 style={{
@@ -140,12 +141,12 @@ export function MenuResponsive({ opens }) {
                   color: "black",
                 }}
               >
-                <ListItem button key={text.titulo}>
-                  <ListItemText primary={text.titulo} />
+                <ListItem button key={text.title}>
+                  <ListItemText primary={text.title} />
                 </ListItem>
               </Link>
               <Divider />
-            </>
+            </Box>
           ))}
         </List>
       </Drawer>

@@ -22,17 +22,17 @@ import MenuResponsive from "./MenuReponsive/MenuResponsive";
 import MenuSocialMedia from "./MenuSocialMedia/SocialMedia";
 
 const pages = [
-  { title: "Como ajudar", rounting: "/" },
-  { title: "Parceiros", rounting: "/parceiros" },
-  { title: "Blog", rounting: "/" },
-  { title: "Contato", rounting: "/" },
+  { id: 1, title: "Como ajudar", rounting: "/" },
+  { id: 2, title: "Parceiros", rounting: "/parceiros" },
+  { id: 3, title: "Blog", rounting: "/" },
+  { id: 4, title: "Contato", rounting: "/" },
 ];
 
 const menuAbout = [
-  { title: "Como funciona", rounting: "/sobre-nós" },
-  { title: "Parceiros", rounting: "/parceiros" },
-  { title: "Blog", rounting: "/" },
-  { title: "Contato", rounting: "/" },
+  { id: 2, title: "Como funciona", rounting: "/sobre-nós" },
+  { id: 3, title: "Parceiros", rounting: "/parceiros" },
+  { id: 4, title: "Blog", rounting: "/" },
+  { id: 5, title: "Contato", rounting: "/" },
 ];
 
 export function Header() {
@@ -123,7 +123,7 @@ export function Header() {
                 }}
               >
                 {pages.map((page) => (
-                  <MenuItem key={page} onClick={handleCloseNavMenu}>
+                  <MenuItem key={page.id} onClick={handleCloseNavMenu}>
                     <Typography textAlign="right">{page.title}</Typography>
                   </MenuItem>
                 ))}
@@ -163,11 +163,11 @@ export function Header() {
                   "aria-labelledby": "basic-button",
                 }}
               >
-                {menuAbout.map((setting) => (
-                  <LinkRounting href={setting.rounting}>
-                    <MenuItemAbout key={setting} onClick={handleClose}>
+                {menuAbout.map((menu) => (
+                  <LinkRounting href={menu.rounting} key={menu.title}>
+                    <MenuItemAbout onClick={handleClose}>
                       <Typography textAlign="center" style={{ color: "black" }}>
-                        {setting.title}
+                        {menu.title}
                       </Typography>
                     </MenuItemAbout>
                   </LinkRounting>
@@ -176,7 +176,7 @@ export function Header() {
 
               {pages.map((page) => (
                 <Button
-                  key={page}
+                  key={page.id}
                   href={page.rounting}
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: "black", display: "block", fontSize: 20 }}
