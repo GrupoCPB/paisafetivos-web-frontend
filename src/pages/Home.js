@@ -12,14 +12,16 @@ import SectionBlog from "../components/Home/SectionBlogs";
 
 export function Home() {
   return (
-    <Container>
-      <Helmet title="Pais Afetivos | Home" />
-      <SectionDonation />
-      <SectionAbout />
-      <SectionNeedHelp />
-      <SectionWorks></SectionWorks>
-      <SectionBlog />
-      <SctionParners />
-    </Container>
+    <>
+      <Container>
+        <Helmet title="Pais Afetivos | Home" />
+        <SectionDonation />
+        <SectionAbout />
+        <SectionNeedHelp />
+        <SectionWorks></SectionWorks>
+        <SectionBlog />
+        <SctionParners />
+      </Container>
+    </>
   );
 }
