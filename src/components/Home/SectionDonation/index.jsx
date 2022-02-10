@@ -31,6 +31,7 @@ function SectionDonation() {
 
                 <ButtonDonation
                   variant="contained"
+                  color="secondary"
                   sx={{ display: { xs: "block", md: "none" } }}
                 >
                   Doação
