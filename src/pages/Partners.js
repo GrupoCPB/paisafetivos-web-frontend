@@ -11,7 +11,7 @@ import flecha from "../assets/flecha-direita.png";
 import logoCPB from "../assets/cpb-logo.png";
 import logoLGBT from "../assets/lgbt-logo.png";
 import forumempresas from "../assets/forum-logo.png";
-import advogados from "../assets/kla-logo.png";
+// import advogados from "../assets/kla-logo.png";
 import probono from "../assets/probono-logo.png";
 import atados from "../assets/atados-logo.png";
 import eternamente from "../assets/eternamente-logo.png";
@@ -44,8 +44,8 @@ export function Partners() {
               </p>
             </div>
             <div className="partnership-area-link">
-              <a>
-                Quero ser parceiro <img src={flecha} />
+              <a href="!#">
+                Quero ser parceiro <img src={flecha} alt="" />
               </a>
             </div>
           </div>
@@ -63,13 +63,13 @@ export function Partners() {
               </p>
             </div>
             <div className="partners-area-images">
-              <img src={logoCPB} />
-              <img src={logoLGBT} />
-              <img src={forumempresas} />
-              <img src={advogados} />
-              <img src={probono} />
-              <img src={atados} />
-              <img src={eternamente} />
+              <img src={logoCPB} alt="Logo da ONG CPB" />
+              <img src={logoLGBT} alt="Logo LGBT" />
+              <img src={forumempresas} alt="" />
+              {/* <img src={advogados} alt="" /> */}
+              <img src={probono} alt="" />
+              <img src={atados} alt="" />
+              <img src={eternamente} alt="" />
             </div>
           </div>
         </ActualPartners>
