@@ -2,7 +2,6 @@ import { Container } from "../../style/footer";
 
 import logo from "../../assets/logo-footer.png";
 
-import whatsapp from "../../assets/whatsapp-branco-icon.png";
 import facebook from "../../assets/facebook-branco-icon.png";
 import telegram from "../../assets/telegram-branco-icon.png";
 import instagram from "../../assets/instagram-branco-icon.png";
@@ -21,9 +20,6 @@ export function Footer() {
           violência.
         </p>
         <nav>
-          <a href="http://wa.me/551145599550" target="_blank" rel="noreferrer">
-            <img src={whatsapp} alt="imagem logo whatsapp" />
-          </a>
           <a
             href="https://www.facebook.com/paisafetivosdobrasil"
             target="_blank"
@@ -78,18 +74,8 @@ export function Footer() {
           <h6>Contato</h6>
           <nav>
             <a href="mailto:contato@paisafetivos.org">
-              {" "}
               <img src={email} alt="" />
               contato@paisafetivos.org
-            </a>
-            <a
-              href="http://wa.me/551145599550"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {" "}
-              <img src={whatsapp} alt="" />
-              (11) 4559-9550
             </a>
           </nav>
         </div>

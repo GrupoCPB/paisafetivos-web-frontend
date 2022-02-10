@@ -1,8 +1,7 @@
 import { Container, DropDown } from "../../style/headerStyle";
 
-import logo from "../../assets/logo-header.png";
+import logo from "../../assets/logo-pais-afetivos.png";
 
-import whatsapp from "../../assets/whatsapp-icon.png";
 import facebook from "../../assets/facebook-icon.png";
 import telegram from "../../assets/telegram-icon.png";
 import instagram from "../../assets/instagram-icon.png";
@@ -16,6 +15,7 @@ export function Header() {
         <a href="/">
           <img src={logo} alt="logo ong pais afetivos" />
         </a>
+        <p>PaisAfetivos</p>
       </div>
       <nav>
         <DropDown>
@@ -33,24 +33,25 @@ export function Header() {
                   <a href="/preciso-de-ajuda">Preciso de Ajuda</a>
                 </li>
                 <li>
-                  <a href="#quem-somos">Nossa Equipe</a>
+                  <a href="/equipe">Nossa Equipe</a>
                 </li>
-                {/* <li >
-                  <a href="/">Transpârencia</a>
-                </li> */}
+
+                {/* <li><a href="/">Transpârencia</a></li>
+                Posteriormente será construido um portal de trasparência, por isso não excluir esse trecho de código*/}
+
               </ul>
             </li>
             <li><a href="/como-ajudar">Como ajudar</a></li>
             <li><a href="/parceiros">Parceiros</a></li>
-            {/* <li><a href="/">Blog</a></li> */}
-            <li><a href="/">Contato</a></li>
+
+            {/* <li><a href="/">Blog</a></li>
+            posteriormente será contruido um blog, por isso não excluir esse trecho de código*/}
+
+            <li><a href="/contato">Contato</a></li>
           </ul>
         </DropDown>
       </nav>
       <div className="social">
-        <a href="http://wa.me/551145599550" target="_blank" rel="noreferrer">
-          <img src={whatsapp} alt="logo com direcionamento para o whatsapp" />
-        </a>
         <a
           href="https://www.facebook.com/paisafetivosdobrasil"
           target="_blank"
