@@ -14,12 +14,12 @@ export const Donate = styled.section`
     
     background-color:#FF40A7;
     section {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 section {
