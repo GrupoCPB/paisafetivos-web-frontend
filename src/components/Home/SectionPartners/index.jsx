@@ -9,7 +9,7 @@ import advogados from "../../../assets/advogados.png";
 import atados from "../../../assets/atados.png";
 import probono from "../../../assets/probono.png";
 
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react/swiper-react.js";
 
 import SwiperCore, { Autoplay } from "swiper";
 

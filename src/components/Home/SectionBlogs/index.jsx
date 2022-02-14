@@ -9,7 +9,7 @@ import noticia4 from "../../../assets/noticia-4.png";
 
 // Import Swiper React components
 
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react/swiper-react.js";
 
 import { CardContentBlog, ResponsiveContainer } from "./styles";
 import { Box } from "@mui/system";
