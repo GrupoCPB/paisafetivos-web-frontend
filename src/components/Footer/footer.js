@@ -82,15 +82,6 @@ export function Footer() {
               <img src={email} alt="" />
               contato@paisafetivos.org
             </a>
-            <a
-              href="http://wa.me/551145599550"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {" "}
-              <img src={whatsapp} alt="" />
-              (11) 4559-9550
-            </a>
           </nav>
         </div>
       </div>

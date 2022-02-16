@@ -39,6 +39,7 @@ export function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
+  const [opens, setOpen] = React.useState(false);
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
@@ -47,11 +48,11 @@ export function Header() {
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
+
   const handleClose = () => {
     setAnchorEl(null);
   };
 
-  const [opens, setOpen] = React.useState(false);
 
   const handleDrawerOpen = () => {
     setOpen(!opens);

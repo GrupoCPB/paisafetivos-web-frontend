@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 
 import SectionWorks from "../components/Home/SectionWorks";
 import SectionDonation from "../components/Home/SectionDonation";
-import About from "./About";
+// import About from "./About";
 import SectionNeedHelp from "../components/Home/SectionNeedHelp";
 import SctionParners from "../components/Home/SectionPartners";
 import { Container } from "../style/reset";
@@ -18,7 +18,7 @@ export function Home() {
         <SectionDonation />
         <SectionAbout />
         <SectionNeedHelp />
-        <SectionWorks></SectionWorks>
+        <SectionWorks />
         <SectionBlog />
         <SctionParners />
       </Container>
