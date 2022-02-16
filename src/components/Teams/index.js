@@ -1,6 +1,7 @@
 import executive from '../../assets/Alessandra-Keiko-Aoki-Diretora-Executiva.png'
 import coordinator from '../../assets/Mariana.png'
 import director from '../../assets/raphael.png'
+import group from '../../assets/equipe.png'
 
 
 export const OurTeam = () => {
@@ -8,7 +9,6 @@ export const OurTeam = () => {
     <>
       <div>
         <h2>Nossa Equipe</h2>
-        <br />
         <p>
           Essas são as pessoas responsáveis pela nossa ONG. Além delas, 
           contamos com diversos voluntários nas nossas equipes multidisciplinares, 
@@ -16,37 +16,64 @@ export const OurTeam = () => {
           <br />
           Se você gostaria de fazer parte de nossa equipe, entre em contato conosco.
         </p>
+        <img src={group} alt='imagem de uma equipe'/>
       </div>
       <div>
         <div>
           <h4>Administrativo</h4>
           <img src={director} alt='foto de Raphael América' />
-          <div>
             <p>
               <strong>Raphael América</strong>
               Função: Diretor Geral
               Contrato: Voluntário
               Instagram: @oamericaraphael
             </p>
-          </div>
+
           <img src={executive} alt='foto de Alessandra Keiko' />
-          <div>
             <p>
               <strong>Alessandra Keiko</strong>
               Função: Diretora Executiva
               Contrato: Voluntária
               Instagram: @alessandrakeikoaoki
             </p>
-          </div>
+
           <img src={coordinator} alt='foto de Mariana Gidra'/>
-          <div>
             <p>
               <strong>Mariana Gidra</strong>
               Função: Coord. Multidisciplinar
               Contrato: Voluntária
               Instagram: @marianagidra
             </p>
-          </div>
+        </div>
+        <div>
+          <h4>Financeiro</h4>
+          <img src='' alt='' />
+              <p>
+              <strong>Fábio Soares</strong>
+                Função: Diretor Financeiro
+                Contrato: Voluntário
+                Instagram: @fabio.soares2005
+              </p>
+        </div>
+        <div>
+          <h4>Recursos Humanos</h4>
+          <img src='' alt='' />
+            <p>
+              <strong>Mariana Gidra</strong>
+              Função: Coord. de RH
+              Contrato: Voluntária
+              Instagram: @marianagidra
+            </p>
+        </div>
+        <div>
+          <h4>Marketing</h4>
+          <img src='' alt='' />
+          <p>
+            <strong>Julia Leonello</strong>
+            Função: Coord. Social Media
+            Contrato: Voluntária
+            Instagram: @juleonello
+          </p>
         </div>
       </div>
     </>
