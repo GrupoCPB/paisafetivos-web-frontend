@@ -2,11 +2,12 @@ import executive from '../../assets/Alessandra-Keiko-Aoki-Diretora-Executiva.png
 import coordinator from '../../assets/Mariana.png'
 import director from '../../assets/raphael.png'
 import group from '../../assets/equipe.png'
+import { OurTeamStyled } from '../style/team'
 
 
 export const OurTeam = () => {
   return(
-    <>
+    <OurTeamStyled>
       <div>
         <h2>Nossa Equipe</h2>
         <p>
@@ -76,6 +77,6 @@ export const OurTeam = () => {
           </p>
         </div>
       </div>
-    </>
+    </OurTeamStyled>
   )
 }
