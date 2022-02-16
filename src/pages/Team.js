@@ -4,6 +4,7 @@ import { Donate } from "../components/Donate/donate";
 
 //Styled Components
 import { Container } from "../style/reset";
+import { OurTeam } from '../components/Teams'
 
 //Images
 
@@ -12,7 +13,7 @@ export default function Team() {
     <>
       <Container>
         <Helmet title="Pais Afetivos | Nossa Equipe" />
-        <h1>Team Page under construction...</h1>
+        <OurTeam />
       </Container>
       <Donate />
     </>
