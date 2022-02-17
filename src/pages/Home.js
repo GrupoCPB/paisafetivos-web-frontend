@@ -18,7 +18,7 @@ import lar from "../assets/lar-afetivo-icon.png";
 import acompanhamento from "../assets/acompanhamento-icon.png";
 
 import globalorg from '../assets/globalorg-logo.png'
-import logocpb from "../assets/logo-cpb.png";
+import logocpb from "../assets/cpb-logo-nova.png";
 import logoLGBT from "../assets/logoLGBT.png";
 import logopaisamigos from '../assets/Logo.PaisAmigos.png'
 import forum from "../assets/forumempresas.png";

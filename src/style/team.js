@@ -4,10 +4,12 @@ export const OurTeamStyled = styled.div`
   width: 100%;
   background-color: #F4F4F4;
   display: flex;
+  justify-content: space-between;
+  gap: 50px;
   
 
   & div{
-    margin: 15px 15px;
+    padding: 15px 0;
   }
  
   & h2 {
