@@ -13,7 +13,7 @@ export function Footer() {
   return (
     <Container>
       <div className="info-left">
-        <img src={logo} alt="logo Pais Afetivos" />
+        <img className='info-left-img' src={logo} alt="logo Pais Afetivos" />
         <p>
           Organização sem fins lucrativos que atua por redes de contatos
           televirtuais em todo o Brasil, apoiando e acolhendo vítimas de
