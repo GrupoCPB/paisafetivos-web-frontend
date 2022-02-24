@@ -19,7 +19,7 @@ export const Works = styled.section`
             justify-content:center;
             width:100%;
     
-            justify-contetent:center;
+            justify-content:center;
     
             .works-card{
                 width:18.75rem;

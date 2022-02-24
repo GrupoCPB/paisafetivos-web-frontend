@@ -3,7 +3,7 @@ import coordinator from '../../assets/Mariana.png'
 import director from '../../assets/raphael.png'
 import group from '../../assets/equipe.png'
 import { OurTeamStyled } from '../../style/team'
-import { Stack } from '@mui/material'
+import { Stack, Avatar } from '@mui/material'
 
 
 export const OurTeam = () => {
@@ -24,35 +24,56 @@ export const OurTeam = () => {
         <img src={group} alt='imagem de uma equipe'/>
         </Stack>
       <div>
-        <div>
           <h4>Administrativo</h4>
-          <img src={director} alt='foto de Raphael América' />
-            <p>
-              <strong>Raphael América</strong>
-              Função: Diretor Geral
-              Contrato: Voluntário
-              Instagram: @oamericaraphael
-            </p>
+        <Stack direction='row'>
+          <Stack>
+            <Avatar 
+              src={director} 
+              alt='foto de Raphael América' 
+              sx={{ width: 150, height: 150 }}
+              variant='rounded'  
+            />
+            <Stack>
+                <span><strong>Raphael América</strong></span>
+                <span>Função: Diretor Geral</span>
+                <span>Contrato: Voluntário</span>
+                <span>Instagram: @oamericaraphael</span>
+            </Stack>
+          </Stack>
 
-          <img src={executive} alt='foto de Alessandra Keiko' />
-            <p>
-              <strong>Alessandra Keiko</strong>
-              Função: Diretora Executiva
-              Contrato: Voluntária
-              Instagram: @alessandrakeikoaoki
-            </p>
-
-          <img src={coordinator} alt='foto de Mariana Gidra'/>
-            <p>
-              <strong>Mariana Gidra</strong>
-              Função: Coord. Multidisciplinar
-              Contrato: Voluntária
-              Instagram: @marianagidra
-            </p>
-        </div>
+          <Stack>
+            <Avatar 
+              src={executive} 
+              alt='foto de Alessandra Keiko' 
+              sx={{ width: 150, height: 150 }}
+              variant='rounded'  
+            />
+              <p>
+                <strong>Alessandra Keiko</strong>
+                Função: Diretora Executiva
+                Contrato: Voluntária
+                Instagram: @alessandrakeikoaoki
+              </p>
+          </Stack>
+          
+          <Stack>
+            <Avatar 
+              src={coordinator} 
+              alt='foto de Mariana Gidra'
+              sx={{ width: 150, height: 150 }}
+              variant='rounded'  
+            />
+              <p>
+                <strong>Mariana Gidra</strong>
+                Função: Coord. Multidisciplinar
+                Contrato: Voluntária
+                Instagram: @marianagidra
+              </p>
+          </Stack>  
+        </Stack>
         <div>
           <h4>Financeiro</h4>
-          <img src='' alt='' />
+          <Avatar>FS</Avatar>
               <p>
               <strong>Fábio Soares</strong>
                 Função: Diretor Financeiro
