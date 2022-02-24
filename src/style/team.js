@@ -3,11 +3,7 @@ import styled from 'styled-components'
 export const OurTeamStyled = styled.div`
   width: 100%;
   background-color: #F4F4F4;
-  display: flex;
-  justify-content: space-between;
-  gap: 50px;
-  
-
+ 
   & div{
     padding: 15px 0;
   }
@@ -23,8 +19,4 @@ export const OurTeamStyled = styled.div`
     font-size: 16px;
   }
 
-  & img {
-    width: 720px;
-    height: 400px;
-  }
 `
