@@ -1,9 +1,9 @@
 import { Container } from "@mui/material";
 import React from "react";
-import { Donate } from "../../../style/donate";
+import { Donate } from "style/donate";
 import { ButtonDonation } from "./styled";
 
-function SectionDonation() {
+export function SectionDonation() {
   return (
     <div style={{ backgroundColor: "#ff40a7" }}>
       <Container sx={{ padding: { xs: "0", md: "block" } }}>
@@ -47,5 +47,3 @@ function SectionDonation() {
     </div>
   );
 }
-
-export default SectionDonation;

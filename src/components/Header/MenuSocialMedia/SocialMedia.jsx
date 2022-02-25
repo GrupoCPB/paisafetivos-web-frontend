@@ -1,13 +1,13 @@
-import { Box, Button } from "@mui/material";
 import React from "react";
+import { Box, Button } from "@mui/material";
 
-import Whatsapp from "../../../assets/whatsapp-icon.png";
-import Facebook from "../../../assets/facebook-icon.png";
-import Telegram from "../../../assets/telegram-icon.png";
-import Instagram from "../../../assets/instagram-icon.png";
-import Twitter from "../../../assets/twitter-icon.png";
+import Whatsapp from "assets/whatsapp-icon.png";
+import Facebook from "assets/facebook-icon.png";
+import Telegram from "assets/telegram-icon.png";
+import Instagram from "assets/instagram-icon.png";
+import Twitter from "assets/twitter-icon.png";
 
-function MenuSocialMedia() {
+export function MenuSocialMedia() {
   const redesSociais = [
     {
       id: 1,
@@ -67,5 +67,3 @@ function MenuSocialMedia() {
     </Box>
   );
 }
-
-export default MenuSocialMedia;

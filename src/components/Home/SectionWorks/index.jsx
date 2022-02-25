@@ -1,12 +1,12 @@
 import React from "react";
-import { Works } from "../../../style/works";
+import { Works } from "style/works";
 
-import ajuda from "../../../assets/ajuda-icon.png";
-import acolhimento from "../../../assets/acolhimento-icon.png";
-import lar from "../../../assets/lar-afetivo-icon.png";
-import acompanhamento from "../../../assets/acompanhamento-icon.png";
+import ajuda from "assets/ajuda-icon.png";
+import acolhimento from "assets/acolhimento-icon.png";
+import lar from "assets/lar-afetivo-icon.png";
+import acompanhamento from "assets/acompanhamento-icon.png";
 
-function SectionWorks() {
+export function SectionWorks() {
   return (
     <>
       <Works id="como-funciona">
@@ -49,5 +49,3 @@ function SectionWorks() {
     </>
   );
 }
-
-export default SectionWorks;

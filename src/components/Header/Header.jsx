@@ -1,45 +1,35 @@
-import React from "react";
-
-import {
-  Box,
-  Toolbar,
-  IconButton,
-  Typography,
-  Menu,
-  Container,
-  Button,
-  MenuItem,
-} from "@mui/material";
-
+import React, { useState } from "react";
+import { Box, Toolbar, IconButton, Typography } from "@mui/material";
+import { Menu, Container, Button, MenuItem } from "@mui/material";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import MenuIcon from "@mui/icons-material/Menu";
-
 import { HeaderMenu, LinkRounting, MenuItemAbout } from "./styled";
+import logo from "assets/logo-header.png";
+import { MenuResponsive } from "./MenuReponsive";
+import { MenuSocialMedia } from "./MenuSocialMedia";
 
-import logo from "../../assets/logo-header.png";
-
-import MenuResponsive from "./MenuReponsive/MenuResponsive";
-import MenuSocialMedia from "./MenuSocialMedia/SocialMedia";
 
 const pages = [
   { id: 1, title: "Como ajudar", rounting: "/" },
   { id: 2, title: "Parceiros", rounting: "/parceiros" },
-  { id: 3, title: "Blog", rounting: "/" },
+    // O blog será constrído em um momento posterior
+    // { id: 3, title: "Blog", rounting: "/" }
   { id: 4, title: "Contato", rounting: "/" },
 ];
 
 const menuAbout = [
   { id: 2, title: "Como funciona", rounting: "/sobre-nós" },
   { id: 3, title: "Parceiros", rounting: "/parceiros" },
-  { id: 4, title: "Blog", rounting: "/" },
+    // O blog será constrído em um momento posterior
+    // { id: 3, title: "Blog", rounting: "/" }
   { id: 5, title: "Contato", rounting: "/" },
 ];
 
 export function Header() {
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorEl, setAnchorEl] = React.useState(null);
+  const [anchorElNav, setAnchorElNav] = useState(null);
+  const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
-  const [opens, setOpen] = React.useState(false);
+  const [opens, setOpen] = useState(false);
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);

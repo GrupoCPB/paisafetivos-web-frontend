@@ -1,19 +1,16 @@
 import React from "react";
-import { Brand } from "../../../style/brand";
-
-import logocpb from "../../../assets/logo-cpb.png";
-import logoLGBT from "../../../assets/logoLGBT.png";
-import forum from "../../../assets/forumempresas.png";
-import eternamente from "../../../assets/eternamente.png";
-import advogados from "../../../assets/advogados.png";
-import atados from "../../../assets/atados.png";
-import probono from "../../../assets/probono.png";
-
+import logocpb from "assets/logo-cpb.png";
+import logoLGBT from "assets/logoLGBT.png";
+import forum from "assets/forumempresas.png";
+import eternamente from "assets/eternamente.png";
+import advogados from "assets/advogados.png";
+import atados from "assets/atados.png";
+import probono from "assets/probono.png";
 import { Swiper, SwiperSlide } from "swiper/react/swiper-react.js";
-
 import SwiperCore, { Autoplay } from "swiper";
+// import { Brand } from "../../../style/brand";
 
-function SctionParners() {
+export function SctionParners() {
   const slidesPartnes = [
     { id: 1, image: logocpb },
     { id: 2, image: logoLGBT },
@@ -47,5 +44,3 @@ function SctionParners() {
     </>
   );
 }
-
-export default SctionParners;

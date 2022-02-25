@@ -1,7 +1,8 @@
-import { StyledWhoWeAre } from '../../style/whoweare';
-import bandeira from '../../assets/bandeira.png';
+import { StyledWhoWeAre } from 'style/whoweare';
+import bandeira from 'assets/bandeira.png';
 
-export default function WhoWeAre() {
+
+export function WhoWeAre() {
   return (
     <StyledWhoWeAre>
       <img src={bandeira} alt="Bandeira lgbt" />

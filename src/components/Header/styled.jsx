@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 import { AppBar, Link, MenuItem } from "@mui/material";
 
 export const HeaderMenu = styled(AppBar)`
@@ -9,7 +8,6 @@ export const HeaderMenu = styled(AppBar)`
 
   @media(min-width: 900px) {
     height: 100px;;
-  }
   }
 `;
 

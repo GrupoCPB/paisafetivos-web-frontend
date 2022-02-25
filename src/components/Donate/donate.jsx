@@ -1,4 +1,4 @@
-import { Container } from "../../style/subDonate";
+import { Container } from "style/subDonate";
 
 export function Donate() {
   return (

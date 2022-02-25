@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import medias from "../../../style/medias/mediaQueries";
+import medias from "style/medias/mediaQueries";
 
-import { Swiper, SwiperSlide } from "swiper/react";
+import { SwiperSlide } from "swiper/react";
 
 export const SliderPartners = styled(SwiperSlide)`
   padding: 0;

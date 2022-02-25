@@ -1,10 +1,7 @@
 import { Route, Switch } from 'react-router';
 
-import { Home } from './pages/Home.js';
-import { Partners } from './pages/Partners.js';
-import { Donate } from './components/Donate/donate.js';
-import { NeedHelp } from './pages/NeedHelp.js';
-import About from './pages/About.js';
+import { About, Home, Partners, NeedHelp } from './pages';
+import { Donate } from './components';
 
 const routers = () => {
   return (

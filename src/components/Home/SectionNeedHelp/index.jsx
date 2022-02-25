@@ -1,8 +1,8 @@
 import React from "react";
-import { Helping } from "../../../style/helping";
-import flecha from "../../../assets/flecha-direita.png";
+import { Helping } from "style/helping";
+import flecha from "assets/flecha-direita.png";
 
-function SectionNeedHelp() {
+export function SectionNeedHelp() {
   return (
     <Helping id="preciso-ajuda">
       <div className="helping-area">
@@ -25,5 +25,3 @@ function SectionNeedHelp() {
     </Helping>
   );
 }
-
-export default SectionNeedHelp;

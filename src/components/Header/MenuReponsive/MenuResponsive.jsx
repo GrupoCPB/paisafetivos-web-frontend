@@ -1,27 +1,14 @@
 import React from "react";
-
-import {
-  Link,
-  Drawer,
-  Divider,
-  List,
-  ListItem,
-  ListItemText,
-  ListItemButton,
-  Collapse,
-  Box,
-} from "@mui/material";
-
+import { Link, Drawer, Divider, List, ListItem } from "@mui/material";
+import { ListItemText, ListItemButton, Collapse, Box } from "@mui/material";
 import ExpandLess from "@mui/icons-material/ExpandLess";
-
 import ExpandMore from "@mui/icons-material/ExpandMore";
+import { styled, /* useTheme */ } from "@mui/material/styles";
+// import MuiAppBar from "@mui/material/AppBar";
 
-import MuiAppBar from "@mui/material/AppBar";
-
-import { styled, useTheme } from "@mui/material/styles";
 
 export function MenuResponsive({ opens }) {
-  const theme = useTheme();
+  // const theme = useTheme();
 
   const [sobreMobile, setSobreMobile] = React.useState(false);
 
@@ -32,14 +19,16 @@ export function MenuResponsive({ opens }) {
   const pages = [
     { id: 1, title: "Como ajudar", rounting: "/" },
     { id: 2, title: "Parceiros", rounting: "/parceiros" },
-    { id: 3, title: "Blog", rounting: "/" },
+    // O blog será constrído em um momento posterior
+    // { id: 3, title: "Blog", rounting: "/" }
     { id: 4, title: "Contato", rounting: "/" },
   ];
 
   const settings = [
     { id: 1, title: "Como funciona", rounting: "/sobre-nós" },
     { id: 2, title: "Parceiros", rounting: "/parceiros" },
-    { id: 3, title: "Blog", rounting: "/" },
+    // O blog será constrído em um momento posterior
+    // { id: 3, title: "Blog", rounting: "/" }
     { id: 4, title: "Contato", rounting: "/" },
   ];
 
@@ -63,7 +52,7 @@ export function MenuResponsive({ opens }) {
     })
   );
 
-  const AppBar = styled(MuiAppBar, {
+/*   const AppBar = styled(MuiAppBar, {
     shouldForwardProp: (prop) => prop !== "open",
   })(({ theme, open }) => ({
     transition: theme.transitions.create(["margin", "width"], {
@@ -78,7 +67,7 @@ export function MenuResponsive({ opens }) {
       }),
       marginRight: drawerWidth,
     }),
-  }));
+  })); */
 
   const DrawerHeader = styled("div")(({ theme }) => ({
     display: "flex",
@@ -153,5 +142,3 @@ export function MenuResponsive({ opens }) {
     </>
   );
 }
-
-export default MenuResponsive;

@@ -42,8 +42,8 @@ export function Partners() {
             </p>
           </div>
           <div className="partnership-area-link">
-            <a>
-              Quero ser parceiro <img src={flecha} />
+            <a href="/">
+              Quero ser parceiro <img src={flecha} alt="flecha" />
             </a>
           </div>
         </div>
@@ -61,13 +61,13 @@ export function Partners() {
             </p>
           </div>
           <div className="partners-area-images">
-            <img src={logoCPB} />
-            <img src={logoLGBT} />
-            <img src={forumempresas} />
-            <img src={advogados} />
-            <img src={probono} />
-            <img src={atados} />
-            <img src={eternamente} />
+            <img src={logoCPB} alt="logo-CPB" />
+            <img src={logoLGBT} alt="logo-LGBT"/>
+            <img src={forumempresas} alt="logo-forum-empresas"/>
+            <img src={advogados} alt="logo-advogados" />
+            <img src={probono} alt="logo-probono" />
+            <img src={atados} alt="logo-atados"/>
+            <img src={eternamente} alt="logo-eternamente"/>
           </div>
         </div>
       </ActualPartners>

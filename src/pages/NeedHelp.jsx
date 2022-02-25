@@ -1,9 +1,6 @@
 import React from "react";
-
-//Styled Components
 import { Container } from "../style/reset";
 
-//Images
 
 export function NeedHelp() {
   return (

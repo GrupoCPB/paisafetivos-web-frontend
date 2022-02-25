@@ -1,9 +1,9 @@
 import React from "react";
-import { About } from "../../../style/about";
+import { About } from "style/about";
 
-import flecha from "../../../assets/flecha-direita.png";
+import flecha from "assets/flecha-direita.png";
 
-function SectionAbout() {
+export function SectionAbout() {
   return (
     <About id="quem-somos">
       <div className="about-photo"></div>
@@ -26,5 +26,3 @@ function SectionAbout() {
     </About>
   );
 }
-
-export default SectionAbout;

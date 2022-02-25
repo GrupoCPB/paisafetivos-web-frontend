@@ -1,20 +1,15 @@
 import React from "react";
-import { Blog } from "../../../style/blog";
-import flecha2 from "../../../assets/flecha-branca-direita.png";
-
-import noticia1 from "../../../assets/noticia-1.png";
-import noticia2 from "../../../assets/noticia-2.png";
-import noticia3 from "../../../assets/noticia-3.png";
-import noticia4 from "../../../assets/noticia-4.png";
-
-// Import Swiper React components
-
-import { Swiper, SwiperSlide } from "swiper/react/swiper-react.js";
-
+import { Blog } from "style/blog";
+import flecha2 from "assets/flecha-branca-direita.png";
+import noticia1 from "assets/noticia-1.png";
+import noticia2 from "assets/noticia-2.png";
+import noticia3 from "assets/noticia-3.png";
+import noticia4 from "assets/noticia-4.png";
+import { Swiper, SwiperSlide } from "swiper/react/swiper-react.js"; // Import Swiper React components
 import { CardContentBlog, ResponsiveContainer } from "./styles";
 import { Box } from "@mui/system";
 
-function SectionBlog() {
+export function SectionBlog() {
   const slides = [
     {
       id: 1,
@@ -94,5 +89,3 @@ function SectionBlog() {
     </>
   );
 }
-
-export default SectionBlog;
