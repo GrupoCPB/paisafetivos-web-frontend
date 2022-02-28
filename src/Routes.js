@@ -1,6 +1,6 @@
 import { Route, Switch } from 'react-router';
 
-import { About, Home, Partners, NeedHelp } from './pages';
+import { About, Home, Partners, NeedHelp } from 'pages';
 import { Donate } from './components';
 
 const routers = () => {

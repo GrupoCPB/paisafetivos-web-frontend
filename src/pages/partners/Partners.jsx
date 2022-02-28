@@ -2,19 +2,19 @@ import React from "react";
 import { Helmet } from "react-helmet";
 
 //Styled Components
-import { Partnership } from "../style/partnership";
-import { ActualPartners } from "../style/actualPartners";
-import { Container } from "../style/reset";
+import { Partnership } from "../../style/partnership";
+import { ActualPartners } from "../../style/actualPartners";
+import { Container } from "../../style/reset";
 
 //Images
-import flecha from "../assets/flecha-direita.png";
-import logoCPB from "../assets/cpb-logo.png";
-import logoLGBT from "../assets/lgbt-logo.png";
-import forumempresas from "../assets/forum-logo.png";
-import advogados from "../assets/kla-logo.png";
-import probono from "../assets/probono-logo.png";
-import atados from "../assets/atados-logo.png";
-import eternamente from "../assets/eternamente-logo.png";
+import flecha from "assets/flecha-direita.png";
+import logoCPB from "assets/cpb-logo.png";
+import logoLGBT from "assets/lgbt-logo.png";
+import forumempresas from "assets/forum-logo.png";
+import advogados from "assets/kla-logo.png";
+import probono from "assets/probono-logo.png";
+import atados from "assets/atados-logo.png";
+import eternamente from "assets/eternamente-logo.png";
 
 export function Partners() {
   return (
