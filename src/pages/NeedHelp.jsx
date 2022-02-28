@@ -1,10 +1,7 @@
 import React from "react";
-
-//Styled Components
 import { Container } from "../style/reset";
 import { Donate } from "../components/Donate/donate.js"
 
-//Images
 
 export default function NeedHelp() {
   return (

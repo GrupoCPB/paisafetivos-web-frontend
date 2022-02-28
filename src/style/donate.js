@@ -9,14 +9,17 @@ export const Donate = styled.section`
     
     padding: 0;
     display:flex;
-    justify-content:center;
-    align-items:center;
+    
 
     
     background-color:#FF40A7;
     section {
-        display: flex;
-        padding: 10;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 section {
@@ -32,8 +35,6 @@ div{
 }
 
 .donate-left{
-    width:50%;
-    margin-left: 72px;
     display:inherit;
     flex-direction:column;
     justify-content:center;
@@ -43,7 +44,7 @@ div{
 
     h1{
         font-weight:800;
-        font-size:4.5rem;
+        font-size:4.0rem;
     }
 
     p{
@@ -68,7 +69,6 @@ div{
     }
 }
 .donate-right{
-    width:70%;
     margin-left: 3rem;
 }
 
@@ -82,6 +82,9 @@ div{
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
+    position: absolute;
+    right: 30px;
+    top: 0;
 
     
     
@@ -126,7 +129,7 @@ div{
 
     .donate-left{
         width:100%;
-        margin: 44px 50px 110px;
+        margin: 44px 16px 110px;
         align-items:center;
     
         h1 {
