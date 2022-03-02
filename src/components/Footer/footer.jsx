@@ -7,8 +7,8 @@ import telegram from "assets/telegram-branco-icon.png";
 import instagram from "assets/instagram-branco-icon.png";
 import twitter from "assets/twitter-branco-icon.png";
 
-// import email from "assets/email-branco-icon.png";
-import MailOutlinedIcon from '@mui/icons-material/MailOutlined';
+import email from "assets/email-branco-icon.png";
+// import MailOutlinedIcon from '@mui/icons-material/MailOutlined';
 
 export function Footer() {
   return (
@@ -73,7 +73,7 @@ export function Footer() {
           <h6>Contato</h6>
           <nav>
             <a href="mailto:contato@paisafetivos.org">
-              <img src={MailOutlinedIcon} alt="" />
+              <img src={email} alt="" />
               contato@paisafetivos.org
             </a>
           </nav>
