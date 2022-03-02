@@ -7,7 +7,8 @@ import telegram from "assets/telegram-branco-icon.png";
 import instagram from "assets/instagram-branco-icon.png";
 import twitter from "assets/twitter-branco-icon.png";
 
-import email from "assets/email-branco-icon.png";
+// import email from "assets/email-branco-icon.png";
+import MailOutlinedIcon from '@mui/icons-material/MailOutlined';
 
 export function Footer() {
   return (
@@ -55,7 +56,6 @@ export function Footer() {
           <h6>Pais Afetivos</h6>
           <nav>
             <a href="/">Sobre nós</a>
-            <a href="/">Blog</a>
             <a href="/">Equipe</a>
             <a href="/preciso-de-ajuda">Preciso de Ajuda</a>
           </nav>
@@ -63,7 +63,6 @@ export function Footer() {
         <div class="info-right-helping">
           <h6>Como Ajudar</h6>
           <nav>
-            <a href="/">Acolhedor Solidário</a>
             <a href="/">Voluntário</a>
             <a href="/">Doações</a>
             <a href="/">Aniversário Solidário</a>
@@ -74,7 +73,7 @@ export function Footer() {
           <h6>Contato</h6>
           <nav>
             <a href="mailto:contato@paisafetivos.org">
-              <img src={email} alt="" />
+              <img src={MailOutlinedIcon} alt="" />
               contato@paisafetivos.org
             </a>
           </nav>

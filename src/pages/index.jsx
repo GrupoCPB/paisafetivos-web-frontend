@@ -1,4 +1,5 @@
 export * from './About';
 export * from './Home';
-export * from './NeedHelp';
+// export * from './NeedHelp';
 export * from './Partners';
+export * from './Team';

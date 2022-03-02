@@ -13,9 +13,9 @@ const routers = () => {
         <Partners />
         <Donate />
       </Route>
-      <Route exact path="/preciso-de-ajuda">
+      {/* <Route exact path="/preciso-de-ajuda">
         <NeedHelp />
-      </Route>
+      </Route> */}
       <Route path="/sobre-nós" component={About} />
     </Switch>
   );
