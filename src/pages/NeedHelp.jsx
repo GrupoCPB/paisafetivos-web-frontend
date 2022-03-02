@@ -1,15 +1,10 @@
-import React from "react";
-import { Container } from "../style/reset";
-// import { Donate } from "../components/Donate/donate.js"
+import React from 'react';
+import { Container } from '../style/reset';
 
-
-export default function NeedHelp() {
+export function NeedHelp() {
   return (
-    <>
-      <Container>
-        <h1>Page Need Help under construction...</h1>
-      </Container>
-      {/* <Donate /> */}
-    </>
+    <Container>
+      <h1>Need Help Page</h1>
+    </Container>
   );
 }
