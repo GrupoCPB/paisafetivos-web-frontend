@@ -1,26 +1,32 @@
 import { Container } from "style/footer";
 
 import logo from "assets/logo-footer.png";
-// import whatsapp from "assets/whatsapp-branco-icon.png";
+import whatsapp from "assets/whatsapp-branco-icon.png";
 import facebook from "assets/facebook-branco-icon.png";
 import telegram from "assets/telegram-branco-icon.png";
 import instagram from "assets/instagram-branco-icon.png";
 import twitter from "assets/twitter-branco-icon.png";
 
 import email from "assets/email-branco-icon.png";
-// import MailOutlinedIcon from '@mui/icons-material/MailOutlined';
+
 
 export function Footer() {
   return (
     <Container>
       <div className="info-left">
-        <img className='info-left-img' src={logo} alt="logo Pais Afetivos" />
+        <img src={logo} alt="logo Pais Afetivos" />
         <p>
           Organização sem fins lucrativos que atua por redes de contatos
           televirtuais em todo o Brasil, apoiando e acolhendo vítimas de
           violência.
         </p>
         <nav>
+          <a 
+            href='http://wa.me/551145599550' 
+            target='_blank'
+            rel='noreferrer'>
+              <img src={whatsapp} alt="imagem logo whatsapp" />
+          </a>
           <a
             href="https://www.facebook.com/paisafetivosdobrasil"
             target="_blank"
@@ -60,7 +66,7 @@ export function Footer() {
             <a href="/preciso-de-ajuda">Preciso de Ajuda</a>
           </nav>
         </div>
-        <div class="info-right-helping">
+        <div className="info-right-helping">
           <h6>Como Ajudar</h6>
           <nav>
             <a href="/">Voluntário</a>

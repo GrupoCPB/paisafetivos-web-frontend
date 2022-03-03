@@ -12,8 +12,7 @@ const colors = {
   background_header_hover: "#F4F4F4",
   background_container_gray: "#EBEBEB",
   background_container_blue: "#38acff",
-  background_button: "#ff40a7",
-  text_logo_header: "#4F4F4F",
+  background_button: "#ff40a7"
 };
 
 export default colors;

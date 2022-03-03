@@ -110,7 +110,7 @@ export function Header() {
                 open={Boolean(anchorElNav)}
                 onClose={handleCloseNavMenu}
                 sx={{
-                  display: { xs: "block", md: "none", color: "balck" },
+                  display: { xs: "block", md: "none", color: "black" },
                 }}
               >
                 {pages.map((page) => (

@@ -1,12 +1,13 @@
-import executive from '../../assets/Alessandra-Keiko-Aoki-Diretora-Executiva.png'
-import coordinator from '../../assets/Mariana.png'
-import director from '../../assets/raphael.png'
-import group from '../../assets/equipe.png'
-import { OurTeamStyled } from '../../style/team'
 import { Stack, Avatar } from '@mui/material'
+import { OurTeamStyled } from 'style/team'
+
+import executive from 'assets/Alessandra-Keiko-Aoki-Diretora-Executiva.png'
+import coordinator from 'assets/Mariana.png'
+import director from 'assets/raphael.png'
+import group from 'assets/equipe.png'
 
 
-export const OurTeam = () => {
+export function OurTeam (){
   return(
     <OurTeamStyled>
         <Stack direction='row' spacing={7}>
@@ -15,11 +16,8 @@ export const OurTeam = () => {
             <p>
               Essas são as pessoas responsáveis pela nossa ONG. Além delas, <br />
               contamos com diversos voluntários nas nossas equipes <br /> multidisciplinares, 
-              como psicólogos, assistentes sociais, advogados, <br /> agentes de atendimento, entre outros.
-              <br />
-              <br />
-              Se você gostaria de fazer parte de nossa equipe, entre em contato conosco.
-            </p>
+              como psicólogos, assistentes sociais, advogados, <br /> agentes de atendimento, entre outros. </p>
+            <p>Se você gostaria de fazer parte de nossa equipe, entre em contato conosco.</p>
         </Stack>
         <img src={group} alt='imagem de uma equipe'/>
         </Stack>
