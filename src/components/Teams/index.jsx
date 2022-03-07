@@ -1,10 +1,11 @@
-import { Stack, Avatar } from '@mui/material'
+import { Stack, Card, CardContent, CardMedia, Typography } from '@mui/material'
 import { OurTeamStyled } from 'style/team'
 
 import executive from 'assets/Alessandra-Keiko-Aoki-Diretora-Executiva.png'
 import coordinator from 'assets/Mariana.png'
 import director from 'assets/raphael.png'
 import group from 'assets/equipe.png'
+
 
 
 export function OurTeam (){
@@ -24,28 +25,30 @@ export function OurTeam (){
       <div>
           <h4>Administrativo</h4>
         <Stack direction='row'>
-          <Stack>
-            <Avatar 
-              src={director} 
-              alt='foto de Raphael América' 
-              sx={{ width: 150, height: 150 }}
-              variant='rounded'  
+          <Card>
+            <CardMedia
+              component='img'
+              image={director}
+              alt='imagem de Raphael America'
             />
-            <Stack>
-                <span><strong>Raphael América</strong></span>
-                <span>Função: Diretor Geral</span>
-                <span>Contrato: Voluntário</span>
-                <span>Instagram: @oamericaraphael</span>
-            </Stack>
-          </Stack>
+            <CardContent>
+              <Typography
+                variant='subtitle'
+                component='div'>
+                  Raphael América
+              </Typography>
+              <Typography variant='body2'>
+                  Função: Diretor Geral
+                  Contrato: Voluntário
+                  Instagram: @oamericaraphael
+              </Typography>
+            </CardContent>
+          </Card>
+          
+           
 
           <Stack>
-            <Avatar 
-              src={executive} 
-              alt='foto de Alessandra Keiko' 
-              sx={{ width: 150, height: 150 }}
-              variant='rounded'  
-            />
+            
               <p>
                 <strong>Alessandra Keiko</strong>
                 Função: Diretora Executiva
@@ -55,12 +58,7 @@ export function OurTeam (){
           </Stack>
           
           <Stack>
-            <Avatar 
-              src={coordinator} 
-              alt='foto de Mariana Gidra'
-              sx={{ width: 150, height: 150 }}
-              variant='rounded'  
-            />
+            
               <p>
                 <strong>Mariana Gidra</strong>
                 Função: Coord. Multidisciplinar
@@ -71,7 +69,7 @@ export function OurTeam (){
         </Stack>
         <div>
           <h4>Financeiro</h4>
-          <Avatar>FS</Avatar>
+          
               <p>
               <strong>Fábio Soares</strong>
                 Função: Diretor Financeiro

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const OurTeamStyled = styled.div`
   width: 100%;
-  background-color: #F4F4F4;
+  /* background-color: #F4F4F4; */
  
   & div{
     padding: 15px 0;
