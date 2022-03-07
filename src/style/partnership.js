@@ -42,6 +42,7 @@ export const Partnership = styled.section`
         color: ${colors.font_link};
         font-weight: 700;
         font-size: 20px;
+        text-decoration: none;
         cursor: pointer;
         &:hover {
           text-decoration: underline;

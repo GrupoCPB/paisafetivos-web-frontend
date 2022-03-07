@@ -1,6 +1,8 @@
 import React from "react";
 import { Helping } from "style/helping";
-import flecha from "assets/flecha-direita.png";
+import { ArrowSignal } from '../SectionAbout/styles'
+
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 export function SectionNeedHelp() {
   return (
@@ -14,11 +16,12 @@ export function SectionNeedHelp() {
             violadoras de dignidade humana, principalmente da população LGBTQ+ e
             por isso contamos com uma equipe multidisciplinar para atender você.
           </p>
-          <div className="helping-link">
+          <ArrowSignal>
             <a href="/preciso-de-ajuda">
-              Saiba mais <img src={flecha} alt="imagem de flecha" />
+              Saiba mais 
             </a>
-          </div>
+            <ArrowRightAltIcon />
+          </ArrowSignal>
         </div>
       </div>
       <div className="helping-photo"></div>

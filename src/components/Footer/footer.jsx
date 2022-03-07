@@ -1,13 +1,12 @@
 import { Container } from "style/footer";
 
 import logo from "assets/logo-footer.png";
-import whatsapp from "assets/whatsapp-branco-icon.png";
 import facebook from "assets/facebook-branco-icon.png";
 import telegram from "assets/telegram-branco-icon.png";
 import instagram from "assets/instagram-branco-icon.png";
 import twitter from "assets/twitter-branco-icon.png";
 
-import email from "assets/email-branco-icon.png";
+import MailIcon from '@mui/icons-material/Mail';
 
 
 export function Footer() {
@@ -21,12 +20,6 @@ export function Footer() {
           violência.
         </p>
         <nav>
-          <a 
-            href='http://wa.me/551145599550' 
-            target='_blank'
-            rel='noreferrer'>
-              <img src={whatsapp} alt="imagem logo whatsapp" />
-          </a>
           <a
             href="https://www.facebook.com/paisafetivosdobrasil"
             target="_blank"
@@ -61,8 +54,8 @@ export function Footer() {
         <div className="info-right-pages">
           <h6>Pais Afetivos</h6>
           <nav>
-            <a href="/">Sobre nós</a>
-            <a href="/">Equipe</a>
+            <a href="/sobre-nós">Sobre nós</a>
+            <a href="/equipe">Equipe</a>
             <a href="/preciso-de-ajuda">Preciso de Ajuda</a>
           </nav>
         </div>
@@ -79,8 +72,7 @@ export function Footer() {
           <h6>Contato</h6>
           <nav>
             <a href="mailto:contato@paisafetivos.org">
-              <img src={email} alt="" />
-              contato@paisafetivos.org
+              <MailIcon /> contato@paisafetivos.org  
             </a>
           </nav>
         </div>

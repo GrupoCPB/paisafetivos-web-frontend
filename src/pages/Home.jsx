@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 
 import { SectionWorks, SectionDonation, SectionNeedHelp } from "components";
-import { SectionParners, SectionAbout, SectionBlog } from "components";
+import { SectionParners, SectionAbout } from "components";
 import { Container } from "style/reset";
 
 export function Home() {
@@ -14,7 +14,6 @@ export function Home() {
         <SectionAbout />
         <SectionNeedHelp />
         <SectionWorks />
-        <SectionBlog />
         <SectionParners />
       </Container>
     </>

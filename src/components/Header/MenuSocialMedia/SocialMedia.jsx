@@ -1,7 +1,6 @@
 import React from "react";
 import { Box, Button } from "@mui/material";
 
-import Whatsapp from "assets/whatsapp-icon.png";
 import Facebook from "assets/facebook-icon.png";
 import Telegram from "assets/telegram-icon.png";
 import Instagram from "assets/instagram-icon.png";
@@ -9,12 +8,6 @@ import Twitter from "assets/twitter-icon.png";
 
 export function MenuSocialMedia() {
   const redesSociais = [
-    {
-      id: 1,
-      name: "Whatsapp",
-      img: Whatsapp,
-      url: "http://wa.me/551145599550",
-    },
     {
       id: 2,
       name: "Facebook",

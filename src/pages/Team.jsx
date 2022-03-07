@@ -7,7 +7,7 @@ import { OurTeam } from 'components/Teams'
 import { Container } from "style/reset";
 
 
-export default function Team() {
+export function Team() {
   return (
     <>
       <Container>
