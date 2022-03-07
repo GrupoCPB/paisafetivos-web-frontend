@@ -10,7 +10,7 @@ import { Swiper, SwiperSlide } from "swiper/react/swiper-react.js";
 import SwiperCore, { Autoplay } from "swiper";
 // import { Brand } from "../../../style/brand";
 
-export function SctionParners() {
+export function SectionParners() {
   const slidesPartnes = [
     { id: 1, image: logocpb },
     { id: 2, image: logoLGBT },
