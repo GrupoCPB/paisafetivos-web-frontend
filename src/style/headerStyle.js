@@ -13,7 +13,7 @@ align-items:center;
 color:${colors.font_header};
 letter-spacing: 1.5px;
 
-.logo {
+/* .logo {
   display: flex;
   img {
     margin: auto;
@@ -27,7 +27,7 @@ letter-spacing: 1.5px;
     margin: auto 5px;
     color: ${ colors.text_logo_header };
   }
-}
+} */
 
 .social{
   a{
@@ -120,7 +120,7 @@ ul {
     position: relative;
     &:hover{
       ul {
-        height: 115px;
+        height: 152px;
         position: fixed;
         visibility: visible;
       }

@@ -49,7 +49,7 @@ export const Works = styled.section`
 }
 
 
-@media (max-width:1024px){
+@media only screen and (max-width:1024px){
     margin-top:-6.375rem;
     padding-bottom:3.625rem;
     
@@ -70,10 +70,11 @@ export const Works = styled.section`
             }
         }
     
+    
 }
 
 
-@media (max-width:425px){
+@media only screen and (max-width:425px){
     margin-top:-13.375rem;
     
        h2{

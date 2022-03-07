@@ -10,10 +10,8 @@ export const Container = styled.footer`
     .info-left{
         max-width:320px;
 
-        .info-left-img{
+        img{
             padding-top: 50px;
-            width: 70px;
-            height: 70px;
         }
         p{
             font-size:14px;
