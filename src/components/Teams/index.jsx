@@ -9,10 +9,12 @@ import group from 'assets/equipe.png'
 function PeopleInfo(props) {
   return (
     <Container>
-      <Avatar 
-        src={props.image}
-        sx={{ width: 150, height: 150 }}
-      />
+      {
+        props.image ? 
+          <Avatar src={props.image}sx={{ width: 150, height: 150 }}/> 
+          : 
+          <Avatar sx={{ width: 100, height: 100 }}>{props.initials}</Avatar>
+      }
       <Typography
         variant='h6'>{props.name}</Typography>
       <Typography>Função: {props.occupation}</Typography>
@@ -63,13 +65,11 @@ export function OurTeam (){
 
         <article className="finance-people">
           <h4>Financeiro</h4>
-            <Avatar
-              sx={{ width: 100, height: 100}}
-            >FS</Avatar>
-            <Typography variant='h6'>Fábio Soares</Typography>
-            <Typography>Função: Diretor Financeiro</Typography>
-            <Typography>Contrato: Voluntário</Typography>
-            <Typography>Instagram: @fabio.soares2005</Typography>
+            <PeopleInfo
+              initials='FS'
+              name='Fábio Soares'
+              occupation='Diretor Financeiro'
+              insta='@fabio.soares2005'/>
         </article>
         <article className="hr-people">
           <h4>Recursos Humanos</h4>
@@ -82,15 +82,12 @@ export function OurTeam (){
         </article>
         <article className='marketing-people'>
           <h4>Marketing</h4>
-          <Container>
-            <Avatar
-              sx={{ width: 100, height: 100}}
-            >JL</Avatar>
-            <Typography variant='h6'>Julia Leonello</Typography>
-            <Typography>Função: Coord. Social Media</Typography>
-            <Typography>Contrato: Voluntária</Typography>
-            <Typography>Instagram: @juleonello</Typography>
-          </Container>
+          <PeopleInfo
+            initials='JL'
+            name='Julia Leonello'
+            occupation= 'Coord. Social Media'
+            insta='@juleonello'
+          />
         </article>
       </section>
     </OurTeamStyled>
