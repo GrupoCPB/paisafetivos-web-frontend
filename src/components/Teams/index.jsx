@@ -16,7 +16,7 @@ function PeopleInfo(props) {
           <Avatar sx={{ width: 100, height: 100 }}>{props.initials}</Avatar>
       }
       <Typography
-        variant='h6'>{props.name}</Typography>
+        variant='h5'>{props.name}</Typography>
       <Typography>Função: {props.occupation}</Typography>
       <Typography>Contrato: Voluntário</Typography>
       <Typography>Instagram: {props.insta}</Typography>
@@ -31,9 +31,9 @@ export function OurTeam (){
           <div>
             <h2>Nossa Equipe</h2>
             <p>
-              Essas são as pessoas responsáveis pela nossa ONG. <br />Além delas, 
-              contamos com diversos voluntários nas nossas equipes multidisciplinares, 
-              como psicólogos, assistentes sociais, advogados, <br />agentes de atendimento, entre outros. </p>
+              Essas são as pessoas responsáveis pela nossa ONG. Além delas, <br />
+              contamos com diversos voluntários nas nossas equipes <br />multidisciplinares, 
+              como psicólogos, assistentes sociais, advogados,<br /> agentes de atendimento, entre outros. </p>
             <p>Se você gostaria de fazer parte de nossa equipe, entre em contato conosco.</p>
           </div>
           <img src={group} alt='imagem de uma equipe'/>
@@ -71,7 +71,7 @@ export function OurTeam (){
               occupation='Diretor Financeiro'
               insta='@fabio.soares2005'/>
         </article>
-        <article className="hr-people">
+        <section className="hr-people">
           <h4>Recursos Humanos</h4>
           <PeopleInfo
               image={coordinator}
@@ -79,8 +79,8 @@ export function OurTeam (){
               occupation='Coord. de RH'
               insta='@marianagidra'
             />
-        </article>
-        <article className='marketing-people'>
+        </section>
+        <section className='marketing-people'>
           <h4>Marketing</h4>
           <PeopleInfo
             initials='JL'
@@ -88,7 +88,7 @@ export function OurTeam (){
             occupation= 'Coord. Social Media'
             insta='@juleonello'
           />
-        </article>
+        </section>
       </section>
     </OurTeamStyled>
   )
