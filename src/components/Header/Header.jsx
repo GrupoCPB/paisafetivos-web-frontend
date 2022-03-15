@@ -4,7 +4,7 @@ import { Menu, Container, Button, MenuItem } from "@mui/material";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import MenuIcon from "@mui/icons-material/Menu";
 import { HeaderMenu, LinkRounting, MenuItemAbout } from "./styled";
-import logo from "assets/logo-header.png";
+import logo from 'assets/logo-header.png'
 import { MenuResponsive } from "./MenuReponsive";
 import { MenuSocialMedia } from "./MenuSocialMedia";
 
@@ -110,7 +110,7 @@ export function Header() {
                 open={Boolean(anchorElNav)}
                 onClose={handleCloseNavMenu}
                 sx={{
-                  display: { xs: "block", md: "none", color: "balck" },
+                  display: { xs: "block", md: "none", color: "black" },
                 }}
               >
                 {pages.map((page) => (
