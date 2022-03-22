@@ -4,26 +4,36 @@ import colors from './colors/styleColors';
 
 export const ActualPartners = styled.section`
   margin: 68px 113px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
   .partners-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     &-title {
       h2 {
         margin-bottom: 10px;
         color: ${colors.font_h2};
-        font-size: 47px;
-        font-weight: 600;
+        font-size: 35px;
+        font-weight: 700;
       }
     }
 
     &-text {
       p {
         color: #262626;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 400;
+        text-align: center;
+        line-height: 32px;
       }
     }
 
-    &-images {
+    &-images {  
       img {
         height: 80px;
         margin-right: 54px;

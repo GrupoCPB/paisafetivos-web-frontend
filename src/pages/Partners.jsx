@@ -6,12 +6,12 @@ import { Partnership } from "../style/partnership";
 import { ActualPartners } from "../style/actualPartners";
 import { Container } from "../style/reset";
 
+
 //Images
 import flecha from "../assets/flecha-direita.png";
 import logoCPB from "../assets/cpb-logo.png";
 import logoLGBT from "../assets/lgbt-logo.png";
 import forumempresas from "../assets/forum-logo.png";
-import advogados from "../assets/kla-logo.png";
 import probono from "../assets/probono-logo.png";
 import atados from "../assets/atados-logo.png";
 import eternamente from "../assets/eternamente-logo.png";
@@ -56,18 +56,21 @@ export function Partners() {
           <div className="partners-area-text">
             <p>
               Somos muito gratos aos nossos incríveis parceiros corporativos,
-              que nos apoiam em nossos programas e nos capacitam a servir a
+              que nos apoiam em nossos<br/> programas e nos capacitam a servir a
               população LGBTQ+ que precisam e merecem nosso apoio.
             </p>
           </div>
           <div className="partners-area-images">
-            <img src={logoCPB} alt="logo-CPB" />
-            <img src={logoLGBT} alt="logo-LGBT"/>
-            <img src={forumempresas} alt="logo-forum-empresas"/>
-            <img src={advogados} alt="logo-advogados" />
-            <img src={probono} alt="logo-probono" />
-            <img src={atados} alt="logo-atados"/>
-            <img src={eternamente} alt="logo-eternamente"/>
+            <div>
+              <img src={logoCPB} alt="logo-CPB" />
+              <img src={logoLGBT} alt="logo-LGBT"/>
+              <img src={forumempresas} alt="logo-forum-empresas"/>
+            </div>
+            <div>
+              <img src={probono} alt="logo-probono" />
+              <img src={atados} alt="logo-atados"/>
+              <img src={eternamente} alt="logo-eternamente"/>
+            </div>
           </div>
         </div>
       </ActualPartners>

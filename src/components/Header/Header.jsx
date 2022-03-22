@@ -6,7 +6,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { HeaderMenu, LinkRounting, MenuItemAbout } from "./styled";
 import logo from 'assets/logo-header.png'
 import { MenuResponsive } from "./MenuReponsive";
-import { MenuSocialMedia } from "./MenuSocialMedia";
+// import { MenuSocialMedia } from "./MenuSocialMedia";
 
 
 const pages = [
@@ -177,7 +177,7 @@ export function Header() {
               ))}
             </Box>
 
-            <MenuSocialMedia />
+            {/* <MenuSocialMedia /> */}
           </Toolbar>
         </Container>
       </HeaderMenu>

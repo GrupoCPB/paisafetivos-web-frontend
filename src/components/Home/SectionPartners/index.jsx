@@ -3,7 +3,7 @@ import logocpb from "assets/logo-cpb.png";
 import logoLGBT from "assets/logoLGBT.png";
 import forum from "assets/forumempresas.png";
 import eternamente from "assets/eternamente.png";
-import advogados from "assets/advogados.png";
+// import advogados from "assets/advogados.png";
 import atados from "assets/atados.png";
 import probono from "assets/probono.png";
 import { Swiper, SwiperSlide } from "swiper/react/swiper-react.js";
@@ -16,7 +16,7 @@ export function SectionParners() {
     { id: 2, image: logoLGBT },
     { id: 3, image: forum },
     { id: 4, image: eternamente },
-    { id: 5, image: advogados },
+    // { id: 5, image: advogados },
     { id: 6, image: atados },
     { id: 7, image: probono },
   ];
