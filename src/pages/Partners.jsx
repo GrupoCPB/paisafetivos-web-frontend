@@ -48,6 +48,19 @@ export function Partners() {
           </div>
         </div>
       </Partnership>
+      {/* <form target="_blank" action="https://formsubmit.co/cristoshiwassaki@gmail.com" method="POST">
+        <div>
+          <div>
+            <div>
+              <input type="text" name="name" placeholder="Full Name" required />
+            </div>
+          </div>
+        </div>
+        <div>
+          <textarea placeholder="Your Message" name="message" rows="10" required></textarea>
+        </div>
+        <button type="submit">Submit Form</button>
+      </form> */}
       <ActualPartners>
         <div className="partners-area">
           <div className="partners-area-title">
