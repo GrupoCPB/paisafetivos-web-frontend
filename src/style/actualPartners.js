@@ -2,11 +2,21 @@ import styled from "styled-components";
 import medias from "./medias/mediaQueries";
 import colors from './colors/styleColors';
 
+import fundo from 'assets/rectangle.png';
+
 export const ActualPartners = styled.section`
-  margin: 68px 113px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 51px;
+  
+
+  .header-partners{
+    background-image: url(${fundo});
+    margin-top:-7px;
+    padding: 10px 0;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 37px;
+  }   
   
   .partners-area {
     display: flex;
