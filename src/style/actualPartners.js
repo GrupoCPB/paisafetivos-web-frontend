@@ -6,6 +6,15 @@ import fundo from 'assets/rectangle.png';
 
 export const ActualPartners = styled.section`
   margin-top: 51px;
+  h2{
+    font-weight: 600;
+    font-size: 47px;
+  }
+  span{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+  }
   
 
   .header-partners{
@@ -14,8 +23,6 @@ export const ActualPartners = styled.section`
     padding: 10px 0;
     text-align: center;
     color: #ffffff;
-    font-weight: 600;
-    font-size: 37px;
   }   
   
   .partners-area {
@@ -24,14 +31,14 @@ export const ActualPartners = styled.section`
     justify-content: center;
     align-items: center;
 
-    &-title {
+    /* &-title {
       h2 {
         margin-bottom: 10px;
         color: ${colors.font_h2};
         font-size: 35px;
         font-weight: 700;
       }
-    }
+    } */
 
     &-text {
       p {
