@@ -1,7 +1,6 @@
 import React from "react";
 import { Container } from "../../style/reset";
 
-
 export function NeedHelp() {
   return (
     <Container>

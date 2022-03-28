@@ -102,8 +102,8 @@ justify-content:center;
             align-items:center;
            
             .helping-link{
-                display:inheirt;
-                aling-items:flex-start;
+                display:inherit;
+                align-items:flex-start;
                 justify-content:flex-start;
                 width:85%;
             }

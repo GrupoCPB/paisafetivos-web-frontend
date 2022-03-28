@@ -6,7 +6,7 @@ export const Donate = styled.section`
     height:41.25rem;
     width:100%;
     overflow:hidden;
-
+    
     padding: 0;
     display:flex;
     
@@ -231,4 +231,5 @@ div{
         padding:10px 19px;
     }
 } */
+}
 `;

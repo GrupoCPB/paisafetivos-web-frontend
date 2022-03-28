@@ -1,7 +1,8 @@
 import React from "react";
 import { About } from "style/about";
+import { ArrowSignal } from './styles'
 
-import flecha from "assets/flecha-direita.png";
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 export function SectionAbout() {
   return (
@@ -16,11 +17,12 @@ export function SectionAbout() {
             e acolher pessoas que tenham seus direitos fundamentais violados por
             conta de preconceitos.
           </p>
-          <div className="about-link">
+          <ArrowSignal>
             <a href="/sobre-nós">
-              Saiba mais <img src={flecha} alt="incone de flecha" />
+              Saiba mais 
             </a>
-          </div>
+            <ArrowRightAltIcon />
+          </ArrowSignal>
         </div>
       </div>
     </About>
