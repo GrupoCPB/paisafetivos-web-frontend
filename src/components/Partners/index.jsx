@@ -1,4 +1,4 @@
-import logoGlobal from 'assets/globalorg-logo.png';
+import logoGlobal from 'assets/global_logo.png';
 import paisamigoslogo from 'assets/paisamigos_logo1.png'
 import logoCPB from "assets/cpb-logo.png";
 import logoLGBT from "assets/lgbt-logo.png";
@@ -8,7 +8,7 @@ import atados from "assets/atados-logo.png";
 import eternamente from "assets/eternamente-logo.png";
 
 import { ActualPartners } from 'style/actualPartners';
-import { Button, Stack, TextField, Typography } from '@mui/material'
+import { Button, Grid, Stack, TextField, Typography } from '@mui/material'
 
 
 export function PartnersPage(){
@@ -19,7 +19,7 @@ export function PartnersPage(){
         <Typography variant="h2">Seja um parceiro da ONG Pais Afetivos</Typography>
       </div>
       <Stack direction="row" spacing={2}>
-        <div>
+        <div className="header-partners-text">
           <Typography variant="subtitle1">Por que apoiar?</Typography>
           <Typography variant="body1">
             Ao fazer parte do grupo de empresas parceiras, sua<br/>empresa se mostra comprometida
@@ -38,7 +38,7 @@ export function PartnersPage(){
           </Typography>
         </div>
         <div className="partners-form">
-          <p>Informações para contato</p>
+          <Typography variant="body1">Informações para contato</Typography>
           <form target="_blank" action="https://formsubmit.co/cristoshiwassaki@gmail.com" method="POST">
             <input type="hidden" name="_template" value="table" />
             <input type="hidden" name="_subject" value="Empresa Parceira" />
@@ -55,30 +55,48 @@ export function PartnersPage(){
             <div>
               <TextField multiline name="Mensagem" placeholder="Escreva uma mensagem (opcional)" rows="10"></TextField>
             </div>
-            <Button type="submit">Enviar</Button>
+            <Button variant="contained" type="submit">Enviar</Button>
           </form>
         </div>
       </Stack>
         <div className="partners-area">
           <div className="partners-area-title">
-            <h2>Nossos Parceiros</h2>
+            <Typography variant="h2">Nossos Parceiros</Typography>
           </div>
           <div className="partners-area-text">
-            <p>
+            <Typography variant="body1">
               Nossa atuação é facilitada com o apoio de nossos parceiros corporativos,<br/>
               que nos dão suporte em nossos programas e nos capacitam a 
               servir<br/> a população LGBTQ+.
-            </p>
+            </Typography>
           </div>
           <div className="partners-area-images">
-              <img src={logoGlobal} alt="logo global"/>
-              <img src={logoCPB} alt="logo-CPB" />
-              <img src={logoLGBT} alt="logo-LGBT"/>
-              <img src={paisamigoslogo} alt="logo pais amigos" />
-              <img src={forumempresas} alt="logo-forum-empresas"/>
-              <img src={probono} alt="logo-probono" />
-              <img src={atados} alt="logo-atados"/>
-              <img src={eternamente} alt="logo-eternamente"/>
+            <Grid container rowSpacing={2} columnSpacing={{ xs: 1, sm:2, md:3 }}>
+                <Grid item xs={3}>
+                  <img src={logoGlobal} alt="logo global"/>
+                </Grid>
+                <Grid item xs={3}>
+                  <img src={logoCPB} alt="logo-CPB" />
+                </Grid>
+                <Grid item xs={3}>
+                  <img src={logoLGBT} alt="logo-LGBT"/>
+                </Grid>
+                <Grid item xs={3}>
+                  <img src={paisamigoslogo} alt="logo pais amigos" />
+                </Grid>
+                <Grid item xs={3}>
+                  <img src={forumempresas} alt="logo-forum-empresas"/> 
+                </Grid>
+                <Grid item xs={3}>
+                  <img src={probono} alt="logo-probono" />  
+                </Grid>
+                <Grid item xs={3}>
+                  <img src={atados} alt="logo-atados"/> 
+                </Grid>
+                <Grid item xs={3}>
+                  <img src={eternamente} alt="logo-eternamente"/> 
+                </Grid>
+            </Grid>
           </div>
         </div>
       </ActualPartners>

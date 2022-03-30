@@ -7,11 +7,12 @@ import fundo from 'assets/rectangle.png';
 export const ActualPartners = styled.section`
   margin-top: 51px;
   background-color: #FBFBFB;
+
   h2{
     font-weight: 600;
     font-size: 47px;
   }
-  span{
+  p{
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
@@ -25,13 +26,20 @@ export const ActualPartners = styled.section`
     text-align: center;
     color: #ffffff;
     line-height: 64.2px;
-  }   
+  }
+  
+  .partners-form{
+    p{
+      font-size: 28.5px;
+    }
+  }
   
   .partners-area {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10rem 0;
 
     &-title {
       h2 {
@@ -52,14 +60,11 @@ export const ActualPartners = styled.section`
       }
     }
 
-    &-images {  
-      img {
-        height: 80px;
-        margin-right: 54px;
-        margin-top: 41px;
-        margin-bottom: 41px;
-      }
+    &-images{
+      text-align: center;
+      margin-top: 4em;
     }
+
   }
 
   @media only screen and (${medias.tablet}) {
