@@ -8,7 +8,7 @@ import atados from "assets/atados-logo.png";
 import eternamente from "assets/eternamente-logo.png";
 
 import { ActualPartners } from 'style/actualPartners';
-import { Button, Grid, Stack, TextField, Typography } from '@mui/material'
+import { Button, Grid, TextField, Typography } from '@mui/material'
 
 
 export function PartnersPage(){
@@ -18,13 +18,14 @@ export function PartnersPage(){
       <div className="header-partners">
         <Typography variant="h2">Seja um parceiro da ONG Pais Afetivos</Typography>
       </div>
-      <Stack direction="row" spacing={2}>
+      <div className="header-partners-info">
         <div className="header-partners-text">
           <Typography variant="subtitle1">Por que apoiar?</Typography>
           <Typography variant="body1">
             Ao fazer parte do grupo de empresas parceiras, sua<br/>empresa se mostra comprometida
             em respeitar e<br/> promover os direitos LGBTQI+.
           </Typography>
+          <br/>
           <Typography variant="body1">
             A atitude de mostrar apoio às ONGs que apoiam<br/> minorias
             é boa para a causa, negócios e sociedade em <br/>geral: além de mostrar 
@@ -32,6 +33,7 @@ export function PartnersPage(){
             descobrir novos parceiros e fortalecer práticas internas<br/> de engajamento
             com os demais colaboradores.
           </Typography>
+          <br/>
           <Typography variant="body1">
             Caso queira se tornar um parceiro, basta informar seus<br/> dados para
             contato no formulário ao lado e entraremos em contato.
@@ -39,26 +41,32 @@ export function PartnersPage(){
         </div>
         <div className="partners-form">
           <Typography variant="body1">Informações para contato</Typography>
-          <form target="_blank" action="https://formsubmit.co/cristoshiwassaki@gmail.com" method="POST">
+          <form target="_blank" action="https://formsubmit.co/projetopaisafetivos@gmail.com" method="POST">
+            <input type="hidden" name="_autoresponse" value="Agradecemos pelo seu interesse! Em breve entraremos em contato!" />
             <input type="hidden" name="_template" value="table" />
             <input type="hidden" name="_subject" value="Empresa Parceira" />
-            <input type="hidden" name="_autoresponse" value="Agradecemos pelo seu interesse! Em breve entraremos em contato!" />
             <div>
-              <TextField variant="filled" type="text" name="Nome" placeholder="Nome" />
+              <TextField 
+                variant="filled" 
+                margin="dense"
+                fullWidth 
+                type="text" 
+                name="Nome" 
+                placeholder="Nome" />
             </div>
             <div>
-              <TextField variant="filled" type="text" name="Telefone" placeholder="Fone" />
+              <TextField variant="filled" margin="dense" fullWidth type="text" name="Telefone" placeholder="Fone" />
             </div>
             <div>
-              <TextField variant="filled" type="email" name="Email" placeholder="E-mail" />
+              <TextField variant="filled" margin="dense" fullWidth type="email" name="Email" placeholder="E-mail" />
             </div>
             <div>
-              <TextField multiline name="Mensagem" placeholder="Escreva uma mensagem (opcional)" rows="10"></TextField>
+              <TextField multiline margin="dense" fullWidth name="Mensagem" placeholder="Escreva uma mensagem (opcional)" rows="10"></TextField>
             </div>
-            <Button variant="contained" type="submit">Enviar</Button>
+            <Button sx={{ mt: 1, fontSize: 18, fontWeight: 900}} variant="contained" size="large" fullWidth type="submit">Enviar</Button>
           </form>
         </div>
-      </Stack>
+      </div>
         <div className="partners-area">
           <div className="partners-area-title">
             <Typography variant="h2">Nossos Parceiros</Typography>
