@@ -65,7 +65,7 @@ export function Footer() {
             <a href="/">Voluntário</a>
             <a href="/">Doações</a>
             <a href="/">Aniversário Solidário</a>
-            <a href="/">Parcerias</a>
+            <a href="/parceiros">Parcerias</a>
           </nav>
         </div>
         <div class="info-right-contact">
