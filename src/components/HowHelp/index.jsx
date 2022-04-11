@@ -1,11 +1,11 @@
 import helpImg from "assets/ajuda-imagem.png";
 import flag from "assets/flag-icon.png";
-// import arrow from 'assets/flecha-direita.png'
 
 import { Stack, Typography } from "@mui/material";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import { Box } from "@mui/system";
 
+import { HowHelpStyle } from "style/howHelp";
 
 const FlagFixed = () => {
   return (
@@ -17,20 +17,22 @@ const FlagFixed = () => {
 
 export function HowHelpComponent() {
   return (
-    <>
+    <HowHelpStyle>
       <div className="help-initial-text">
-        <Typography variant="h4">Como eu posso ajudar</Typography>
-        <Typography variant="body1">
-          A Pais Afetivos é construída por várias mãos o que a<br /> torna mais
-          do que uma instituição de acolhimento para
-          <br /> pessoas LGBTQI+ em situação de abandono, ela é uma
-          <br /> organização de progresso do empoderamento, cultura,
-          <br /> mobilização social e sensibilização das questões <br />
-          de direitos humanos.
-        </Typography>
-        <Typography variant="body1">
-          Você pode nos ajudar das seguintes formas:
-        </Typography>
+        <div>
+          <Typography variant="h2">Como eu posso ajudar</Typography>
+          <Typography variant="body1">
+            A Pais Afetivos é construída por várias mãos o que a<br /> torna mais
+            do que uma instituição de acolhimento para
+            <br /> pessoas LGBTQI+ em situação de abandono, ela é uma
+            <br /> organização de progresso do empoderamento, cultura,
+            <br /> mobilização social e sensibilização das questões <br />
+            de direitos humanos.
+          </Typography>
+          <Typography variant="body1">
+            Você pode nos ajudar das seguintes formas:
+          </Typography>
+        </div>
         <img src={helpImg} alt="" />
       </div>
 
@@ -42,7 +44,6 @@ export function HowHelpComponent() {
             flexDirection: { xs: "column", md: "row" },
             alignItems: "center",
             justifyContent: "space-between",
-            backgroundColor: '#F7EFF3',
             padding: '30px'
           }}
         >
@@ -65,13 +66,80 @@ export function HowHelpComponent() {
               A Pais Afetivos é uma instituição sem fins lucrativos, por isso<br />
               precisamos de pessoas como você para continuarmos nossa<br />
               missão. Você pode doar qualquer valor, isolado ou mensal, para<br />
-              manutenção e contribuição dos projetos da PaisAfetivos, além
-              <br />
+              manutenção e contribuição dos projetos da PaisAfetivos, além<br />
               de roupas e demais elementos que achar prudente.
             </Typography>
           </div>
         </Box>
+        <Box
+          component="div"
+          sx={{
+            display: "flex",
+            flexDirection: { xs: "column", md: "row" },
+            alignItems: "center",
+            justifyContent: "space-between",
+            backgroundColor: '#FBFBFB',
+            padding: '30px'
+          }}
+        >
+          <Stack direction="row" spacing={1}>
+            <FlagFixed />
+            <Stack>
+              <Typography variant="h4">Voluntariado</Typography>
+              <Box
+                sx={{
+                  display: "flex",
+                }}
+              >
+                <a href="/como-ajudar">Seja um voluntario</a>
+                <ArrowRightAltIcon color="secondary" />
+              </Box>
+            </Stack>
+          </Stack>
+          <div className="help-right">
+            <Typography variant="body1">
+              Você pode nos ajudar em nosso trablho como voluntário. Como<br/>
+              atuamos de forma multidisciplinar todo conhecimento é bem vindo.<br/>
+              Entre em contato conosco e te apresentaremos nossa demanda.
+            </Typography>
+          </div>
+        </Box>
+
+        <Box
+          component="div"
+          sx={{
+            display: "flex",
+            flexDirection: { xs: "column", md: "row" },
+            alignItems: "center",
+            justifyContent: "space-between",
+            padding: '30px'
+          }}
+        >
+          <Stack direction="row" spacing={1}>
+            <FlagFixed />
+            <Stack>
+              <Typography variant="h4">Aniversário Solidário</Typography>
+              <Box
+                sx={{
+                  display: "flex",
+                }}
+              >
+                <a href="/como-ajudar">Colabore conosco</a>
+                <ArrowRightAltIcon color="secondary" />
+              </Box>
+            </Stack>
+          </Stack>
+          <div className="help-right">
+            <Typography variant="body1">
+              Faça seu Aniversário Solidário e ajude a #PaisAfetivos
+              <br/><br/>
+              Você pode sugerir que cada um de seus convidados destine um valor<br/>
+              para as ações da ong e esta doação seria uma forma de seus amigos te<br/>
+              presentearem em seu aniversário.
+            </Typography>
+          </div>
+        </Box>
       </div>
-    </>
+    </HowHelpStyle>
   );
 }
