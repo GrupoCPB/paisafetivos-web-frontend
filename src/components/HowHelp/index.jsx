@@ -1,11 +1,15 @@
+//imagens
 import helpImg from "assets/ajuda-imagem.png";
 import flag from "assets/flag-icon.png";
 
-import { Stack, Typography } from "@mui/material";
+//material-ui
+import { Button, Stack, Typography } from "@mui/material";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import { Box } from "@mui/system";
 
+//styled-components
 import { HowHelpStyle } from "style/howHelp";
+
 
 const FlagFixed = () => {
   return (
@@ -29,13 +33,13 @@ export function HowHelpComponent() {
             <br /> mobilização social e sensibilização das questões <br />
             de direitos humanos.
           </Typography>
+          <br/>
           <Typography variant="body1">
             Você pode nos ajudar das seguintes formas:
           </Typography>
         </div>
         <img src={helpImg} alt="" />
       </div>
-
       <div className="help-options">
         <Box
           component="div"
@@ -43,23 +47,31 @@ export function HowHelpComponent() {
             display: "flex",
             flexDirection: { xs: "column", md: "row" },
             alignItems: "center",
-            justifyContent: "space-between",
+            justifyContent: "space-around",
+            backgroundColor: "#F7EFF3",
             padding: '30px'
           }}
         >
           <Stack direction="row" spacing={1}>
-            <FlagFixed />
-            <Stack>
-              <Typography variant="h4">Doações</Typography>
-              <Box
-                sx={{
-                  display: "flex",
-                }}
-              >
-                <a href="/como-ajudar">Para doar</a>
-                <ArrowRightAltIcon color="secondary" />
-              </Box>
-            </Stack>
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center"
+              }}>
+                <FlagFixed />
+                <Stack>
+                  <Typography variant="h4">Doações</Typography>
+                  <Box
+                    sx={{
+                      display: "flex",
+                    }}
+                  >
+                    <a href="/como-ajudar">Para doar</a>
+                    <ArrowRightAltIcon color="secondary" />
+                  </Box>
+                </Stack>
+            </Box>
           </Stack>
           <div className="help-right">
             <Typography variant="body1">
@@ -77,28 +89,44 @@ export function HowHelpComponent() {
             display: "flex",
             flexDirection: { xs: "column", md: "row" },
             alignItems: "center",
-            justifyContent: "space-between",
-            backgroundColor: '#FBFBFB',
+            justifyContent: "space-around",
+            backgroundColor: '#FfFfFf',
             padding: '30px'
           }}
         >
           <Stack direction="row" spacing={1}>
-            <FlagFixed />
-            <Stack>
-              <Typography variant="h4">Voluntariado</Typography>
-              <Box
-                sx={{
-                  display: "flex",
-                }}
-              >
-                <a href="/como-ajudar">Seja um voluntario</a>
-                <ArrowRightAltIcon color="secondary" />
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center"
+              }}>
+              <FlagFixed />
+              <Stack>
+                <Typography variant="h4">Voluntariado</Typography>
+                <Box
+                  sx={{
+                    display: "flex",
+                    alignItems: "center"
+                  }}
+                >
+                  <Button 
+                    color="secondary" 
+                    endIcon={<ArrowRightAltIcon color="secondary"/>}
+                    sx={{
+                      fontWeight: "700",
+                      fontSize: "16px"
+                    }}
+                  >
+                      Seja um voluntário
+                  </Button>
+                </Box>
+              </Stack>
               </Box>
-            </Stack>
           </Stack>
           <div className="help-right">
             <Typography variant="body1">
-              Você pode nos ajudar em nosso trablho como voluntário. Como<br/>
+              Você pode nos ajudar em nosso trabalho como voluntário. Como<br/>
               atuamos de forma multidisciplinar todo conhecimento é bem vindo.<br/>
               Entre em contato conosco e te apresentaremos nossa demanda.
             </Typography>
@@ -111,23 +139,40 @@ export function HowHelpComponent() {
             display: "flex",
             flexDirection: { xs: "column", md: "row" },
             alignItems: "center",
-            justifyContent: "space-between",
+            justifyContent: "space-around",
+            backgroundColor: '#F7EFF3',
             padding: '30px'
           }}
         >
-          <Stack direction="row" spacing={1}>
-            <FlagFixed />
-            <Stack>
-              <Typography variant="h4">Aniversário Solidário</Typography>
-              <Box
-                sx={{
-                  display: "flex",
-                }}
-              >
-                <a href="/como-ajudar">Colabore conosco</a>
-                <ArrowRightAltIcon color="secondary" />
-              </Box>
-            </Stack>
+          <Stack direction="row" spacing={2}>
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center"
+              }}
+            >
+              <FlagFixed />
+              <Stack>
+                <Typography variant="h4">Aniversário Solidário</Typography>
+                <Box
+                  sx={{
+                    display: "flex",
+                  }}
+                >
+                  <Button 
+                    color="secondary" 
+                    endIcon={<ArrowRightAltIcon color="secondary"/>}
+                    sx={{
+                      fontWeight: "700",
+                      fontSize: "16px",
+                    }}
+                  >
+                    Colabore conosco
+                  </Button>
+                </Box>
+              </Stack>
+            </Box>
           </Stack>
           <div className="help-right">
             <Typography variant="body1">

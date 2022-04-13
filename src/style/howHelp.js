@@ -2,8 +2,6 @@ import styled from 'styled-components'
 // import { theme } from './theme.jsx'
 
 export const HowHelpStyle = styled.main`
-  /* margin: 0 50px; */
-
   a{
     text-decoration: none;
     color: #38ACFF;
@@ -11,9 +9,18 @@ export const HowHelpStyle = styled.main`
     font-size: 16px;
     line-height: 24px;
   }
+  a:hover{
+    text-decoration-line: underline;
+    color:#0F6FFF;
+  }
+
+  button:hover{
+    text-decoration-line: underline;
+    color:#0F6FFF;
+  }
 
   .help-initial-text{
-    background-color: #E5E5E5;
+    background-color: #FBFBFB;
     padding: 100px;
     display: flex;
     justify-content: space-between;
