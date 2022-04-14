@@ -10,6 +10,8 @@ import { Box } from "@mui/system";
 //styled-components
 import { HowHelpStyle } from "style/howHelp";
 
+import FormDialog from "./volunteerForm";
+
 
 const FlagFixed = () => {
   return (
@@ -110,7 +112,8 @@ export function HowHelpComponent() {
                     alignItems: "center"
                   }}
                 >
-                  <Button 
+                  <FormDialog name="Seja um voluntário" />
+                  {/* <Button 
                     color="secondary" 
                     endIcon={<ArrowRightAltIcon color="secondary"/>}
                     sx={{
@@ -119,7 +122,7 @@ export function HowHelpComponent() {
                     }}
                   >
                       Seja um voluntário
-                  </Button>
+                  </Button> */}
                 </Box>
               </Stack>
               </Box>
