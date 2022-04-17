@@ -6,7 +6,7 @@ export function Form() {
     <Typography variant="body1">Informações para contato</Typography>
     <form
       target="_blank"
-      action="https://formsubmit.co/dev.igson@gmail.com"
+      action="https://formsubmit.co/projetopaisafetivos@gmail.com"
       method="POST"
     >
 
