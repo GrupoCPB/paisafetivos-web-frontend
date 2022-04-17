@@ -1,8 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { Container } from "../style/reset";
+import { Container } from "style/reset";
 
-import { PartnersPage } from '../components/Partners'
+import { PartnersPage } from 'components'
 
 
 export function Partners() {
