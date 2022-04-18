@@ -2,35 +2,107 @@ import styled from "styled-components";
 import medias from "./medias/mediaQueries";
 import colors from './colors/styleColors';
 
-export const ActualPartners = styled.section`
-  margin: 68px 113px;
+import fundo from 'assets/rectangle.png';
 
+export const ActualPartners = styled.main`
+  margin-top: 51px;
+  background-color: #ffffff;
+
+
+  h2{
+    font-weight: 600;
+    font-size: 47px;
+  }
+  p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  
+
+  .header-partners{
+    background-image: url(${fundo});
+    margin-top: -13px;
+    padding: 72px 455px 71px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .header-partners-info{
+    background-color: #FBFBFB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+
+  .header-partners-text{
+    h6{
+      color: #262626;
+      font-size: 25px;
+      font-weight: 400;
+    }
+    p{
+      color: #878787;
+    }
+  }
+  
+  .partners-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+    width: 527px;
+    height: 564px;
+    left: 691px;
+    top: 463px;
+    padding: 3em 0;
+
+    p{
+      font-size: 28.5px;
+      font-weight: 600;
+      color: #4b4b4b;
+      margin-bottom: 30px;
+    }
+
+    form{
+      margin: -18px;
+    }
+  }
+  
   .partners-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+
     &-title {
       h2 {
         margin-bottom: 10px;
         color: ${colors.font_h2};
-        font-size: 47px;
-        font-weight: 600;
+        font-size: 35px;
+        font-weight: 700;
       }
     }
 
     &-text {
       p {
         color: #262626;
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 400;
+        text-align: center;
+        line-height: 32px;
       }
     }
 
-    &-images {
-      img {
-        height: 80px;
-        margin-right: 54px;
-        margin-top: 41px;
-        margin-bottom: 41px;
-      }
+    &-images{
+      text-align: center;
+      margin-top: 4em;
     }
+
   }
 
   @media only screen and (${medias.tablet}) {

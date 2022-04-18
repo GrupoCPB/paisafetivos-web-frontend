@@ -3,3 +3,4 @@ export * from './home';
 export * from './needHelp';
 export * from './partners';
 export * from './Team';
+export * from './HowToHelp';

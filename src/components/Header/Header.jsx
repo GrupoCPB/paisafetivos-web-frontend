@@ -135,7 +135,7 @@ export function Header() {
                 id="basic-button"
                 sx={{ my: 2, color: "black" }}
                 endIcon={<ArrowDropDownIcon />}
-              >
+              > 
                 <Typography
                   textAlign="right"
                   style={{
@@ -144,7 +144,7 @@ export function Header() {
                 >
                   Sobre nós
                 </Typography>
-              </Button>
+              </Button> 
               <Menu
                 id="basic-menu"
                 anchorEl={anchorEl}

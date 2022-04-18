@@ -4,5 +4,6 @@ export * from './Header';
 export * from './Home';
 export * from './WhoWeAre';
 export * from './Teams';
+export * from './Partners';
 
 
