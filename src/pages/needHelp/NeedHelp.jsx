@@ -108,6 +108,7 @@ export function NeedHelp() {
         flexDirection="row"
         justifyContent="space-around"
         alignItems="center"
+        bgcolor="#F7EFF3"
       >
         <Box
           component="div"
