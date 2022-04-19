@@ -1,9 +1,7 @@
-import { Button, TextField, Typography } from '@mui/material'
+import { Button, TextField } from '@mui/material';
 
 export function Form() {
   return (
-    <div className="partners-form">
-    <Typography variant="body1">Informações para contato</Typography>
     <form
       target="_blank"
       action="https://formsubmit.co/projetopaisafetivos@gmail.com"
@@ -66,7 +64,7 @@ export function Form() {
           fullWidth
           name="Mensagem"
           placeholder="Escreva uma mensagem (opcional)"
-          rows="10"
+          rows="2"
         />
       </div>
 
@@ -79,8 +77,6 @@ export function Form() {
       >
         Enviar
       </Button>
-
     </form>
-  </div>
   );
 }
