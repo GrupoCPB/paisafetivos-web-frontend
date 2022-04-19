@@ -5,12 +5,11 @@ import { Container } from "style/reset";
 import { Form } from 'components'
 import styled from 'styled-components';
 
+
+
 export const Main = styled.main`
   display: flex;
   box-sizing: border-box;
-  form {
-    box-sizing: border-box;
-  }
 `;
 
 export function NeedHelp() {
@@ -20,7 +19,7 @@ export function NeedHelp() {
         <Box
           boxSizing="border-box"
           width="50%"
-          component="div"
+          component="section"
           display="flex"
           flexDirection="column"
           justifyContent="center"
@@ -56,10 +55,15 @@ export function NeedHelp() {
         </Box>
         <Box
           width="50%"
-          component="div"
+          component="section"
           bgcolor="blue"
         >
-          <h1>teste</h1>
+          <Box
+            component="div"
+            boxSizing="border-box"
+          >
+
+          </Box>
         </Box>
       </Main>
       <Box
