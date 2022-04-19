@@ -6,7 +6,7 @@ import { Form } from 'components'
 import styled from 'styled-components';
 
 import imagePageNeedHelp from  'assets/image-need-help-page.png'
-import socoParaCima from  'assets/image-need-help-page.png'
+import maoFechada from  'assets/mao-fechada.png'
 
 
 export const Main = styled.main`
@@ -104,8 +104,40 @@ export function NeedHelp() {
         component="div"
         boxSizing="border-box"
         display="flex"
+        mt="100px"
+        flexDirection="row"
+        justifyContent="space-around"
+        alignItems="center"
       >
-        teste
+        <Box
+          component="div"
+          boxSizing="border-box"
+          display="flex"
+          flexDirection="column"
+          width="600px"
+        >
+          <Typography
+                variant="h1"
+                align="start"
+                fontSize="32px"
+                color="#545454"
+                fontWeight="Bold"
+                mb="60px"
+                >
+                Em caso de emergência ligue para: 
+              </Typography>
+              <Typography
+                variant="body2"
+                align="start"
+                fontSize="16px"
+                color="#5D5D66"
+                >
+              Denúncias: Disque 100 para denunciar violação dos direitos humanos. <br /><br /><br />
+              CVV: Disque 188 para atendimento emocional gratuito de qualquer
+              aparelho para o centro de  valorização da vida. 
+              </Typography>
+          </Box>
+        <img src={ maoFechada } alt="mao fechada" />
       </Box>
     </Container>
   );
