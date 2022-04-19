@@ -1,7 +1,7 @@
 import { Route, Switch } from 'react-router';
 
 import { About, Home, Partners, NeedHelp, Team, HowHelp } from './pages';
-import { Donate } from './components';
+
 
 const routers = () => {
   return (
@@ -11,7 +11,6 @@ const routers = () => {
       </Route>
       <Route exact path="/parceiros">
         <Partners />
-        <Donate />
       </Route>
       <Route exact path="/preciso-de-ajuda">
         <NeedHelp />

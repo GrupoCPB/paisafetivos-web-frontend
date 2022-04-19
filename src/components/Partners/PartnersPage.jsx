@@ -10,6 +10,7 @@ import eternamente from "assets/eternamente-logo.png";
 import { ActualPartners } from 'style/actualPartners';
 import { Grid, Typography } from '@mui/material'
 import { Form } from 'components';
+import { Donate } from './components';
 
 
 export function PartnersPage(){
@@ -88,6 +89,7 @@ export function PartnersPage(){
             </Grid>
           </div>
         </div>
+        <Donate />
       </ActualPartners>
       </>
   )
