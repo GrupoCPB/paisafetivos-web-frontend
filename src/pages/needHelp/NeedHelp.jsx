@@ -5,6 +5,8 @@ import { Container } from "style/reset";
 import { Form } from 'components'
 import styled from 'styled-components';
 
+import imagePageNeedHelp from  'assets/image-need-help-page.png'
+import socoParaCima from  'assets/image-need-help-page.png'
 
 
 export const Main = styled.main`
@@ -56,18 +58,52 @@ export function NeedHelp() {
         <Box
           width="50%"
           component="section"
-          bgcolor="blue"
+          display="flex"
+          flexDirection="column"
+          justifyContent="center"
+          alignItems="center"
         >
           <Box
             component="div"
             boxSizing="border-box"
+            display="flex"
+            flexDirection="column"
+            justifyContent="center"
+            alignItems="center"
+            mt="10%"
+            width="550px"
           >
-
+            <img
+              src={imagePageNeedHelp} 
+              alt="Grupo de pessoas segurando uma bandeira"
+            />
+            <Typography
+              variant="h4"
+              align="center"
+              fontSize="32px"
+              color="#FF40A7"
+              fontWeight="Bold"
+              mt="30px"
+            >
+              Você não está sozinho!
+            </Typography>
+            <Typography
+              variant="body2"
+              align="center"
+              fontSize="16px"
+              color="#5D5D66"
+              mt="20px"
+            >
+            Se você está passando por algum tipo de violência, estamos aqui para te apoiar.  A PaisAfetivos compreende a emergência das questões violadoras de dignidade humana, principalmente da população LGBTQ+ e por isso aponta serviços públicos e solidários certificados. Contamos com uma equipe multidisciplinar, composta por voluntários, incluindo agentes de atendimento, psicólogos, assistentes sociais, advogados, entre outros.<br/><br/><br/>
+            Nossa equipe entrará em contato o mais breve possível!
+            </Typography>
           </Box>
         </Box>
       </Main>
       <Box
-        bgcolor="blue"
+        component="div"
+        boxSizing="border-box"
+        display="flex"
       >
         teste
       </Box>
