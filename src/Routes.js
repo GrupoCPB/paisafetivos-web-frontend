@@ -18,7 +18,7 @@ const routers = () => {
       </Route>
       <Route path="/sobre-nós" component={About} />
       <Route path='/equipe' component={Team} />
-      <Route path='como-ajudar' component={HowToHelp} />
+      <Route path='/como-ajudar' component={HowToHelp} />
     </Switch>
   );
 };
