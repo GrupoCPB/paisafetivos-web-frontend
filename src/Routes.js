@@ -1,7 +1,7 @@
 import { Route, Switch } from 'react-router';
 
 import { About, Home, Partners, NeedHelp, Team, HowToHelp } from './pages';
-import { Donate } from './components';
+import { Donate } from 'components';
 
 const routers = () => {
   return (
