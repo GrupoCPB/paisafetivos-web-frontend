@@ -1,24 +1,27 @@
 import styled from 'styled-components';
 
 export const Container = styled.footer`
-    height:300px;
+    height:250px;
     display:flex;
-    padding:50px 150px;
+    padding: 0 150px;
     color:#f4f4f4;
     background-color:#0B0D17;
     
     .info-left{
+        box-sizing: border-box;
         max-width:320px;
 
-        img{
-            padding-top: 50px;
+        img {
+            margin-top: 15px;
         }
+
+
         p{
             font-size:14px;
-            
+            margin-top: 25px;
         }
         nav{
-            margin-top:32px;
+            margin-top:25px;
             transform: translatex(-18px);
 
             a{
@@ -33,16 +36,14 @@ export const Container = styled.footer`
 
     .info-right{
         width:100%;
-
         display:flex;
         justify-content:space-evenly;
-        padding-left:100px;
 
         .info-right-pages{
             h6{
                 font-weight:400;
                 font-size:20px;
-                padding-bottom: 24px;
+                margin-top: 35px;
             }
 
             nav{
@@ -66,7 +67,7 @@ export const Container = styled.footer`
             h6{
                 font-weight:400;
                 font-size:20px;
-                padding-bottom: 24px;
+                margin-top: 35px;
             }
 
             nav{
@@ -90,6 +91,7 @@ export const Container = styled.footer`
             h6{
                 font-weight:400;
                 font-size:20px;
+                margin-top: 35px;
             }
 
             nav{
@@ -126,18 +128,18 @@ export const Container = styled.footer`
 
     .info-left{
     text-align:center;
-  }
+}
 }
 
 @media (max-width:768px){
     padding:50px 0px;
     
     .info-left{
-      max-width:320px;
+        max-width:320px;
     }
 
     .info-right{
-      padding-left:0px;
+        padding-left:0px;
     }
 }
 

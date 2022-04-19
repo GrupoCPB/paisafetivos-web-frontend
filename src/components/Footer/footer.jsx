@@ -71,7 +71,7 @@ export function Footer() {
         <div class="info-right-contact">
           <h6>Contato</h6>
           <nav>
-            <a href="mailto:contato@paisafetivos.org">
+            <a href="mailto:contato@paisafetivos.org" style={{ display: "flex" }}>
               <MailIcon /> contato@paisafetivos.org  
             </a>
           </nav>
