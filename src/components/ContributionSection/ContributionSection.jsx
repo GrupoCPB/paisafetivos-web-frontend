@@ -4,11 +4,26 @@ import Typography from '@mui/material/Typography';
 import styled from 'styled-components';
 
 import flag from 'assets/icon-flag.png';
-import { ArrowSignal } from 'components/Home/SectionAbout/styles'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+import theme from 'style/theme'
+
+export const ArrowSignal = styled.div`
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: ${theme.palette.secondary.main};
+
+  a {
+      color: ${theme.palette.secondary.main};
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+    }
+`;
 
 export const DivSectionRight = styled.div`
   width: 539px;
+  margin-right: 7%;
 `;
 
 export const DivSectionleft = styled.div`
@@ -16,6 +31,11 @@ export const DivSectionleft = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-left: 3%;
+  
+  img {
+    margin-right: 26px;
+  }
 `;
 
 export function ContributionSection() {
@@ -27,23 +47,35 @@ export function ContributionSection() {
           flexDirection="row"
           justifyContent="space-between"
           alignItems="center"
+          height="145px"
         >
           <DivSectionleft>
             <img src={flag} alt="bandeira" />
+
             <div>
-              <Typography>
+              <Typography
+                variant="h4"
+                fontSize="32px"
+                fontWeight="bold"
+                color="#4B4B4B"
+                mb="5px"
+              >
                 Doações
               </Typography>
               <ArrowSignal>
-              <a href="/">
-                Para Doar 
-              </a>
-              <ArrowRightAltIcon />
-            </ArrowSignal>
+              <a href="/"> Para Doar </a>
+                <ArrowRightAltIcon />
+              </ArrowSignal>
             </div>
+
           </DivSectionleft>
           <DivSectionRight>
-            <Typography>
+            <Typography
+              variant="body1"
+              fontSize="16px"
+              fontWeight="medium"
+              color="#5D5D66"
+            >
               Você pode doar qualquer valor para manutenção e contribuição dos projetos da PaisAfetivos, além de roupas,alimentos e demais elementos.
             </Typography>
           </DivSectionRight>
@@ -54,11 +86,18 @@ export function ContributionSection() {
           flexDirection="row"
           justifyContent="space-between"
           alignItems="center"
+          height="145px"
         >
           <DivSectionleft>
             <img src={flag} alt="bandeira" />
             <div>
-              <Typography>
+              <Typography
+                variant="h4"
+                fontSize="32px"
+                fontWeight="bold"
+                color="#4B4B4B"
+                mb="5px"
+              >
                 Voluntário
               </Typography>
               <ArrowSignal>
@@ -70,7 +109,12 @@ export function ContributionSection() {
             </div>
           </DivSectionleft>
           <DivSectionRight>
-            <Typography>
+            <Typography
+              variant="body1"
+              fontSize="16px"
+              fontWeight="medium"
+              color="#5D5D66"
+            >
               Você pode nos ajudar com nosso trabalho como voluntário. Como atuamos de forma multidisciplinar todo conhecimento é bem vindo. Entre em     contato conosco e te apresentaremos nossa demanda.
             </Typography>
           </DivSectionRight>
@@ -81,11 +125,18 @@ export function ContributionSection() {
           flexDirection="row"
           justifyContent="space-between"
           alignItems="center"
+          height="145px"
         >
           <DivSectionleft>
             <img src={flag} alt="bandeira" />
             <div>
-              <Typography>
+              <Typography
+                variant="h4"
+                fontSize="32px"
+                fontWeight="bold"
+                color="#4B4B4B"
+                mb="5px"
+              >
                 Aniversário Solidário
               </Typography>
               <ArrowSignal>
@@ -97,7 +148,12 @@ export function ContributionSection() {
             </div>
           </DivSectionleft>
           <DivSectionRight>
-            <Typography>
+            <Typography
+              variant="body1"
+              fontSize="16px"
+              fontWeight="medium"
+              color="#5D5D66"
+            >
               Faça seu Aniversário Solidário e ajude a #PaisAfetivos Você pode sugerir que cada um de seus convidados destine um valor para as ações da ong e esta doação seria uma forma de seus amigos te presentearem em seu aniversário.
             </Typography>
           </DivSectionRight>
