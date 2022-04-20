@@ -42,15 +42,15 @@ export function NeedHelp() {
               fontWeight="Bold"
               mb="16px"
             >
-              Para Podermos te ajudar, nós precisamosde alguns dados.
+              Para Podermos te ajudar, nós precisamos de alguns dados.
             </Typography>
             <Typography
               variant="subtitle2"
               fontSize="16px"
               color="#545454"
-              fontWeight="Meduium"
+              fontWeight="Medium"
             >
-              Preencha os camposabaixo com seus dados pessoais para podermos entrar em contato
+              Preencha os campos abaixo com seus dados pessoais para podermos entrar em contato
             </Typography>
             <Form />
           </Box>
@@ -93,8 +93,11 @@ export function NeedHelp() {
               fontSize="16px"
               color="#5D5D66"
               mt="20px"
+              textAlign="justify"
             >
-            Se você está passando por algum tipo de violência, estamos aqui para te apoiar.  A PaisAfetivos compreende a emergência das questões violadoras de dignidade humana, principalmente da população LGBTQ+ e por isso aponta serviços públicos e solidários certificados. Contamos com uma equipe multidisciplinar, composta por voluntários, incluindo agentes de atendimento, psicólogos, assistentes sociais, advogados, entre outros.<br/><br/><br/>
+            Se você está passando por algum tipo de violência, estamos aqui para te apoiar.  
+            A PaisAfetivos compreende a emergência das questões violadoras de dignidade humana, principalmente da população LGBTQ+ e por isso aponta serviços públicos e solidários certificados. 
+            Contamos com uma equipe multidisciplinar, composta por voluntários, incluindo agentes de atendimento, psicólogos, assistentes sociais, advogados, entre outros.<br/><br/><br/>
             Nossa equipe entrará em contato o mais breve possível!
             </Typography>
           </Box>
