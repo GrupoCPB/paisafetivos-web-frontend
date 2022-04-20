@@ -76,12 +76,12 @@ export function HowHelpComponent() {
             </Box>
           </Stack>
           <div className="help-right">
-            <Typography variant="body1">
-              A Pais Afetivos é uma instituição sem fins lucrativos, por isso<br />
-              precisamos de pessoas como você para continuarmos nossa<br />
-              missão. Você pode doar qualquer valor, isolado ou mensal, para<br />
-              manutenção e contribuição dos projetos da PaisAfetivos, além<br />
-              de roupas e demais elementos que achar prudente.
+            <Typography 
+              variant="body1"
+              textAlign="center"
+            >
+             Você pode doar qualquer valor para manutenção e contribuição dos<br/>
+             projetos da PaisAfetivos, além de roupas, alimentos e demais elementos.
             </Typography>
           </div>
         </Box>
@@ -113,22 +113,15 @@ export function HowHelpComponent() {
                   }}
                 >
                   <FormDialog name="Seja um voluntário" />
-                  {/* <Button 
-                    color="secondary" 
-                    endIcon={<ArrowRightAltIcon color="secondary"/>}
-                    sx={{
-                      fontWeight: "700",
-                      fontSize: "16px"
-                    }}
-                  >
-                      Seja um voluntário
-                  </Button> */}
                 </Box>
               </Stack>
               </Box>
           </Stack>
           <div className="help-right">
-            <Typography variant="body1">
+            <Typography 
+              variant="body1"
+              textAlign="center"
+            >
               Você pode nos ajudar em nosso trabalho como voluntário. Como<br/>
               atuamos de forma multidisciplinar todo conhecimento é bem vindo.<br/>
               Entre em contato conosco e te apresentaremos nossa demanda.
@@ -178,7 +171,10 @@ export function HowHelpComponent() {
             </Box>
           </Stack>
           <div className="help-right">
-            <Typography variant="body1">
+            <Typography 
+              variant="body1"
+              textAlign="center"
+            >
               Faça seu Aniversário Solidário e ajude a #PaisAfetivos
               <br/><br/>
               Você pode sugerir que cada um de seus convidados destine um valor<br/>

@@ -13,13 +13,7 @@ from '@mui/material';
 import { HowHelpStyle } from 'style/howHelp'
 import { ArrowRightAlt } from '@mui/icons-material';
 
-// const FlagFixed = () => {
-//   return (
-//     <div>
-//       <img src={flag} alt="" />
-//     </div>
-//   )
-// }
+
 
 export default function FormDialog(props) {
   const [open, setOpen] = React.useState(false);
@@ -34,35 +28,14 @@ export default function FormDialog(props) {
 
   return (
     <HowHelpStyle>
-      {/* <Box
-        component="div"
-        sx={{
-          display: "flex",
-          flexDirection: { xs: "column", md: "row" },
-          alignItems: "center",
-          justifyContent: " space-around",
-          backgroundColor: "#ffffff",
-          padding: "30px"
-        }}
-      >
-        <Stack direction="row" spacing={1}>
-          <Box
-            sx={{
-              display: "flex",
-            }}>
-            <FlagFixed/>
-            <Stack>
-              <Typography variant="h4">Voluntariado</Typography>
-            </Stack>  
-
-          </Box>
-        </Stack>
-
-      </Box> */}
       <Button 
         onClick={handleClickOpen}
         color="secondary"
         endIcon={<ArrowRightAlt color="secondary"/>}
+        sx={{
+          fontWeight: "700",
+          fontsize: "16px"
+        }}
       >
         {props.name}
       </Button>
