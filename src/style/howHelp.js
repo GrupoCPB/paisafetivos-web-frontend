@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-// import { theme } from './theme.jsx'
 
 export const HowHelpStyle = styled.main`
   a{
