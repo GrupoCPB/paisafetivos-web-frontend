@@ -2,7 +2,7 @@ import React from "react";
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { Container } from "style/reset";
-import { Donate } from 'components';
+import { Donate, ContributionSection } from 'components';
 import styled from 'styled-components';
 
 import imagePagehowToHelp from  'assets/image-need-help-page.png'
@@ -11,6 +11,8 @@ export const Div = styled.div`
   width: 40%;
   height: 330px;
 `;
+
+
 
 export function HowToHelp() {
   return(
@@ -50,10 +52,10 @@ export function HowToHelp() {
         alt="Grupo de pessoas segurando uma bandeira"
       />
       </Box>
-      <Box></Box>
-      <Box></Box>
-      <Box></Box>
+
+      <ContributionSection />
       <Donate />
+
     </Container>
   )
 }
