@@ -45,7 +45,19 @@ export function PartnersPage(){
         <div className="partners-form">
 
         <Typography variant="body1">Informações para contato </Typography>
-          <Form />
+          <Form 
+            subject="Empresa Parceira"
+            variant="filled"
+            type="text"
+            name="Nome"
+            placeholder="Nome"
+            type2="text"
+            name2="fone"
+            placeholder2="Fone"
+            type3="email"
+            name3="E-mail"
+            placeholder3="E-mail" 
+          />
         </div>
 
       </div>

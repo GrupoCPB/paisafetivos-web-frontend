@@ -23,7 +23,7 @@ export function Form(props) {
       <input
         type="hidden"
         name="_subject"
-        value={props.value}
+        value={props.subject}
       />
 
       <div>
@@ -41,21 +41,21 @@ export function Form(props) {
           variant={props.variant}
           margin="dense"
           fullWidth
-          type={props.type}
-          name={props.name}
-          placeholder={props.placeholder}
+          type={props.type2}
+          name={props.name2}
+          placeholder={props.placeholder2}
         />
       </div>
 
-      {/* <div>
+      <div>
         <TextField
-          variant="filled"
+          variant={props.variant}
           margin="dense"
-          fullWidth type="email"
-          name="Email"
-          placeholder="E-mail"
+          fullWidth type={props.type3}
+          name={props.name3}
+          placeholder={props.placeholder3}
         />
-      </div> */}
+      </div>
 
       <div>
         <TextField
