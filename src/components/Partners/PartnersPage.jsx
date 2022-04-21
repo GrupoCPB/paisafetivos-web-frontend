@@ -51,7 +51,6 @@ export function PartnersPage(){
             type="text"
             name="Nome"
             placeholder="Nome"
-            type2="text"
             name2="fone"
             placeholder2="Fone"
             type3="email"

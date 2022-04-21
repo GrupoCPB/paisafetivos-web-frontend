@@ -4,7 +4,7 @@ export function Form(props) {
   return (
     <form
       target="_blank"
-      action="https://formsubmit.co/cristoshiwassaki@gmail.com"
+      action="https://formsubmit.co/paisafetivos@gmail.com"
       method="POST"
     >
 
