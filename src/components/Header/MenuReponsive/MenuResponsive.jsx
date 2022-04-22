@@ -1,34 +1,16 @@
 import React from "react";
 import { Link, Drawer, Divider, List, ListItem } from "@mui/material";
-import { ListItemText, ListItemButton, Collapse, Box } from "@mui/material";
-import ExpandLess from "@mui/icons-material/ExpandLess";
-import ExpandMore from "@mui/icons-material/ExpandMore";
-import { styled, /* useTheme */ } from "@mui/material/styles";
-// import MuiAppBar from "@mui/material/AppBar";
+import { ListItemText, Box } from "@mui/material";
+import { styled } from "@mui/material/styles";
+
 
 
 export function MenuResponsive({ opens }) {
-  // const theme = useTheme();
-
-  const [sobreMobile, setSobreMobile] = React.useState(false);
-
-  const handleClickSobreMobile = () => {
-    setSobreMobile(!sobreMobile);
-  };
 
   const pages = [
-    { id: 1, title: "Como ajudar", rounting: "/" },
-    { id: 2, title: "Parceiros", rounting: "/parceiros" },
-    // O blog será constrído em um momento posterior
-    // { id: 3, title: "Blog", rounting: "/" }
-    { id: 4, title: "Contato", rounting: "/" },
-  ];
-
-  const settings = [
-    { id: 1, title: "Como funciona", rounting: "/sobre-nós" },
-    { id: 2, title: "Parceiros", rounting: "/parceiros" },
-    // O blog será constrído em um momento posterior
-    // { id: 3, title: "Blog", rounting: "/" }
+    { id: 1, title: "Quem Somos", rounting: "/" },
+    { id: 2, title: "Como ajudar", rounting: "/" },
+    { id: 3, title: "Parceiros", rounting: "/parceiros" },
     { id: 4, title: "Contato", rounting: "/" },
   ];
 
@@ -97,37 +79,17 @@ export function MenuResponsive({ opens }) {
         open={opens}
       >
         <DrawerHeader sx={{ marginTop: 0 }}></DrawerHeader>
-
         <List>
-          <ListItemButton onClick={handleClickSobreMobile}>
-            <ListItemText primary="Sobre nós" />
-            {sobreMobile ? <ExpandLess /> : <ExpandMore />}
-          </ListItemButton>
-          <Collapse in={sobreMobile} timeout="auto" unmountOnExit>
-            {settings.map((setting) => (
-              <List component="div" disablePadding key={setting.id}>
-                <Link
-                  href={setting.rounting}
-                  style={{
-                    textDecoration: "none",
-                    color: "black",
-                  }}
-                >
-                  <ListItemButton sx={{ pl: 4 }}>
-                    <ListItemText primary={setting.title} />
-                  </ListItemButton>
-                </Link>
-              </List>
-            ))}
-          </Collapse>
           <Divider />
           {pages.map((text) => (
             <Box key={text.id}>
               <Link
                 href={text.rounting}
                 style={{
+                  color: "#5D5D66",
+                  fontSize: "16px",
+                  fontWeight: "bold",
                   textDecoration: "none",
-                  color: "black",
                 }}
               >
                 <ListItem button key={text.title}>
