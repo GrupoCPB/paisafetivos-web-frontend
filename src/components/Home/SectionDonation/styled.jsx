@@ -59,3 +59,12 @@ export const sectionDonateResponsive = {
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover"
 }
+
+export const buttonFull = {
+  display: { xs: "none", md: "block" }
+}
+
+export const buttonResponsive = {
+  display: { xs: "block", md: "none" }
+}
+

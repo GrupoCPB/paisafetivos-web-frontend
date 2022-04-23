@@ -25,13 +25,13 @@ export function SectionDonation() {
           </style.P>
           <style.ButtonDonation
             variant="contained"
-            sx={{ display: { xs: "none", md: "block" } }}
+            sx={ style.buttonFull }
           >
             Faça sua doação
           </style.ButtonDonation>
           <style.ButtonDonation
             variant="contained"
-            sx={{ display: { xs: "block", md: "none" } }}
+            sx={ style.buttonResponsive }
           >
             Doação
           </style.ButtonDonation>
