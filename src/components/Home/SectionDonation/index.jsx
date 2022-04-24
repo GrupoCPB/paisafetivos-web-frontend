@@ -2,6 +2,7 @@ import React from "react";
 import Box from '@mui/material/Box';
 import donateImg from "assets/connectando-pessoas.png";
 import * as style from "./styled";
+import { H1, P, ButtonDonation, Img } from "./styled";
 
 export function SectionDonation() {
   return (
@@ -14,32 +15,32 @@ export function SectionDonation() {
           variant="div"
           sx={ style.sectionLefth }
         >
-          <style.H1
+          <H1
             variant="h1"
           >
             Acolhemos pessoas <style.Strong>LGBTQ+</style.Strong> em situação de vulnerabilidade.
-          </style.H1>
-          <style.P>
+          </H1>
+          <P>
             Atuamos desde 2009 acolhendo pessoas LGBTQ+ que são vítimas de
             violência. Nos ajude a transformar a vida dessas pessoas.
-          </style.P>
-          <style.ButtonDonation
+          </P>
+          <ButtonDonation
             variant="contained"
             sx={ style.buttonFull }
           >
             Faça sua doação
-          </style.ButtonDonation>
-          <style.ButtonDonation
+          </ButtonDonation>
+          <ButtonDonation
             variant="contained"
             sx={ style.buttonResponsive }
           >
             Doação
-          </style.ButtonDonation>
+          </ButtonDonation>
         </Box>
         <Box
           sx={{ display: { xs: "none", md: "block" } }}
         >
-          <style.Img src={ donateImg } alt="pessoas ao por do sol"></style.Img>
+          <Img src={ donateImg } alt="pessoas ao por do sol"></Img>
         </Box>
       </Box>
   );
