@@ -55,6 +55,7 @@ export const sectionLefth = {
 
 export const sectionDonateResponsive = {
   mt: { md: "80px"},
+  background: { md: "#F8F8F8" },
   backgroundImage: { xs: `url(${donateImg})`, md: "none"},
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover"
