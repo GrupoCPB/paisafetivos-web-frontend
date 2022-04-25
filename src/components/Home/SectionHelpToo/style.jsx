@@ -10,7 +10,7 @@ export const H2 = styled(Typography)`
 `;
 
 export const PBody = styled(Typography)`
-  margin-top: 46px;
+  margin: 46px 15px 0 15px;
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
@@ -31,6 +31,7 @@ export const PCard = styled(Typography)`
 `;
 
 export const ButtonCard = styled.a`
+  box-sizing: border-box;
   background-color: #FFFFFF;
   font-weight: 800;
   font-size: 16px;
@@ -44,6 +45,17 @@ export const ButtonCard = styled.a`
   text-decoration: none;
 `;
 
+export const sectionHelpToo = {
+  boxSizing: "border-box",
+  backgroundColor: "#E5E5E5",
+  display: "flex",
+  flexDirection: "column",
+  padding: "15px",
+  alignItems: "center",
+  width: "100%",
+}
+
+
 export const sectionBotton = {
   display: "flex",
   flexDirection: { xs: "column", sm: "column", md: "row" } ,
@@ -53,12 +65,13 @@ export const sectionBotton = {
 }
 
 export const card = {
+  display: "flex",
+  boxSizing: "border-box",
   mt: "50px",
   color: "#FFFFFF",
   width: { sm: "80%", md: "303px"},
-  height: {xs:"200px" ,sm: "200px", md: "292px"},
+  height: {xs:"200px", sm: "200px", md: "292px"},
   borderRadius: "20px",
-  display: "flex",
   flexDirection: "column",
   alignItems: "center",
   justifyContent: "space-around",

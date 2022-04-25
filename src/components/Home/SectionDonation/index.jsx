@@ -7,12 +7,11 @@ import { H1, P, ButtonDonation, Img } from "./styled";
 export function SectionDonation() {
   return (
       <Box
-        display="flex"
-        justifyContent="space-around"
+        component="section"
         sx={ style.sectionDonateResponsive }
       >
         <Box
-          variant="div"
+          component="div"
           sx={ style.sectionLefth }
         >
           <H1
@@ -38,6 +37,7 @@ export function SectionDonation() {
           </ButtonDonation>
         </Box>
         <Box
+          component="div"
           sx={{ display: { xs: "none", md: "block" } }}
         >
           <Img src={ donateImg } alt="pessoas ao por do sol"></Img>

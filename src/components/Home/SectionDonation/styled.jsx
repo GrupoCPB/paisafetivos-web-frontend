@@ -47,6 +47,8 @@ export const P = styled.p`
 `;
 
 export const sectionLefth = {
+  boxSizing: "border-box",
+  padding:"15px",
   display: { xs: "flex" },
   flexDirection: { xs: "column" } ,
   justifyContent: { xs: "center" },
@@ -54,6 +56,9 @@ export const sectionLefth = {
 }
 
 export const sectionDonateResponsive = {
+  boxSizing: "border-box",
+  display: "flex",
+  justifyContent: "space-around",
   mt: { md: "80px"},
   background: { md: "#F8F8F8" },
   backgroundImage: { xs: `url(${donateImg})`, md: "none"},

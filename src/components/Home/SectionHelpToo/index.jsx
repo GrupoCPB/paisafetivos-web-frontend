@@ -8,17 +8,11 @@ import { H2, H4, PCard, PBody, ButtonCard } from './style';
 export function SectionHelpToo() {
   return(
     <Box
-      display="flex"
-      flexDirection="column"
-      alignItems="center"
-      bgcolor="#E5E5E5"
-      padding="15px"
+      sx={ style.sectionHelpToo }
     >
       <H2 variant="h2">Você também pode ajudar!</H2>
       <PBody>Aproposta da Pais Afetivos é conectar pessoas LGBTQ+ que estão sofrendo violência em seus lares com voluntários dispostos a recebê-los. Você também pode ajudar essas mudar vidas, das seguintes formas: </PBody>
       <Box
-        display="flex"
-        justifyContent="space-around"
         sx={ style.sectionBotton }
       >
         <Box

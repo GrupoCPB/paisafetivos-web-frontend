@@ -1,12 +1,12 @@
 import React from "react";
-import { About } from "style/about";
-import { ArrowSignal } from './styles'
+import { ArrowSignal } from './styles';
+import Box from '@mui/material/Box';
 
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 export function SectionAbout() {
   return (
-    <About id="quem-somos">
+    <Box>
       <div className="about-photo"></div>
       <div className="about-area">
         <h2>Quem somos</h2>
@@ -25,6 +25,6 @@ export function SectionAbout() {
           </ArrowSignal>
         </div>
       </div>
-    </About>
+    </Box>
   );
 }
