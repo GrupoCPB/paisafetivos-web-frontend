@@ -41,7 +41,7 @@ export function Form(props) {
           variant={props.variant}
           margin="dense"
           fullWidth
-          type={props.type2}
+          type={props.type}
           name={props.name2}
           placeholder={props.placeholder2}
         />
