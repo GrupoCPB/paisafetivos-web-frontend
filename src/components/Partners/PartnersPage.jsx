@@ -48,14 +48,18 @@ export function PartnersPage(){
           <Form 
             subject="Empresa Parceira"
             variant="filled"
+            label="Nome"
             type="text"
             name="Nome"
             placeholder="Nome"
             name2="fone"
+            label2="Fone"
             placeholder2="Fone"
             type3="email"
+            label3='Email'
             name3="E-mail"
-            placeholder3="E-mail" 
+            placeholder3="E-mail"
+            placeholderMultiline="Escreva uma mensagem (opcional)" 
           />
         </div>
 

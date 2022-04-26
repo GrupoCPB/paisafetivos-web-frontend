@@ -7,6 +7,8 @@ import flag from 'assets/icon-flag.png';
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import theme from 'style/theme'
 
+import FormDialog from "components/HowHelp/formDialog";
+
 export const ArrowSignal = styled.div`
   display: flex;
   justify-content: start;
@@ -82,6 +84,7 @@ export function ContributionSection() {
         </Box>
         <Box
           component="section"
+          backgroundColor="#FBFBFB"
           display="flex"
           flexDirection="row"
           justifyContent="space-between"
@@ -101,11 +104,13 @@ export function ContributionSection() {
                 Voluntário
               </Typography>
               <ArrowSignal>
-              <a href="/">
-                Seja um voluntário 
-              </a>
-              <ArrowRightAltIcon />
-            </ArrowSignal>
+              <a 
+                href="https://t.me/VoluntariadoGrupoCPB"
+                target="_blank"
+                rel="noreferrer"
+              > Seja um voluntário </a>
+                <ArrowRightAltIcon />
+              </ArrowSignal>
             </div>
           </DivSectionleft>
           <DivSectionRight>
@@ -139,12 +144,7 @@ export function ContributionSection() {
               >
                 Aniversário Solidário
               </Typography>
-              <ArrowSignal>
-              <a href="/">
-                Colabore conosco 
-              </a>
-              <ArrowRightAltIcon />
-            </ArrowSignal>
+              <FormDialog name="Colabore conosco" />
             </div>
           </DivSectionleft>
           <DivSectionRight>

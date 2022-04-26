@@ -28,7 +28,8 @@ export function Form(props) {
 
       <div>
         <TextField 
-          variant={props.variant} 
+          variant={props.variant}
+          label={props.label} 
           margin="dense"
           fullWidth 
           type={props.type} 
@@ -39,9 +40,10 @@ export function Form(props) {
       <div>
         <TextField
           variant={props.variant}
+          label={props.label2}
           margin="dense"
           fullWidth
-          type={props.type}
+          type={props.type2}
           name={props.name2}
           placeholder={props.placeholder2}
         />
@@ -50,6 +52,7 @@ export function Form(props) {
       <div>
         <TextField
           variant={props.variant}
+          label={props.label3}
           margin="dense"
           fullWidth type={props.type3}
           name={props.name3}
@@ -63,7 +66,7 @@ export function Form(props) {
           margin="dense"
           fullWidth
           name="Mensagem"
-          placeholder="Escreva uma mensagem (opcional)"
+          placeholder={props.placeholderMultiline}
           rows="2"
         />
       </div>
