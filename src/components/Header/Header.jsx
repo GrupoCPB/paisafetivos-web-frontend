@@ -10,7 +10,7 @@ import { MenuSocialMedia } from "./MenuSocialMedia";
 
 
 const pages = [
-  { id: 1, title: "Como ajudar", rounting: "/" },
+  { id: 1, title: "Como ajudar", rounting: "/como-ajudar" },
   { id: 2, title: "Parceiros", rounting: "/parceiros" },
     // O blog será constrído em um momento posterior
     // { id: 3, title: "Blog", rounting: "/" }

@@ -21,22 +21,27 @@ export const ActualPartners = styled.main`
   
 
   .header-partners{
+    height: 273px;
     background-image: url(${fundo});
+    background-size: cover;
     margin-top: -13px;
-    padding: 72px 455px 71px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #ffffff;
   }
 
   .header-partners-info{
     background-color: #FBFBFB;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 50px;
+    padding-top: 30px;
   }
 
   .header-partners-text{
+    width: 527px;
+    height: 564px;
     h6{
       color: #262626;
       font-size: 25px;
@@ -50,25 +55,24 @@ export const ActualPartners = styled.main`
   .partners-form{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: #ffffff;
+    align-items: flex-start;
+    background-color: #FBFBFB;
     border: 1px solid #e4e4e4;
     border-radius: 5px;
     width: 527px;
     height: 564px;
-    left: 691px;
-    top: 463px;
-    padding: 3em 0;
+    padding-left: 3%;
+    padding-top: 30px;
 
-    p{
+    h4{
       font-size: 28.5px;
       font-weight: 600;
       color: #4b4b4b;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
 
     form{
-      margin: -18px;
+      width: 80%;
     }
   }
   

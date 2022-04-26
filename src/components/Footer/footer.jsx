@@ -8,7 +8,6 @@ import twitter from "assets/twitter-branco-icon.png";
 
 import MailIcon from '@mui/icons-material/Mail';
 
-
 export function Footer() {
   return (
     <Container>
@@ -19,36 +18,6 @@ export function Footer() {
           televirtuais em todo o Brasil, apoiando e acolhendo vítimas de
           violência.
         </p>
-        <nav>
-          <a
-            href="https://www.facebook.com/paisafetivosdobrasil"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={facebook} alt="imagem logo facebook" />
-          </a>
-          <a
-            href="https://t.me/AtendimentoGrupoCPB"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={telegram} alt="imagem logo telegram" />
-          </a>
-          <a
-            href="https://www.instagram.com/paisafetivos/?hl=pt"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={instagram} alt="imagem logo instagram" />
-          </a>
-          <a
-            href="https://twitter.com/paisafetivos"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={twitter} alt="imagem logo twitter" />
-          </a>
-        </nav>
       </div>
       <div className="info-right">
         <div className="info-right-pages">
@@ -74,6 +43,36 @@ export function Footer() {
             <a href="mailto:contato@paisafetivos.org" style={{ display: "flex" }}>
               <MailIcon /> contato@paisafetivos.org  
             </a>
+            <div>
+              <a
+                href="https://www.facebook.com/paisafetivosdobrasil"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={facebook} alt="imagem logo facebook" />
+              </a>
+              <a
+                href="https://t.me/AtendimentoGrupoCPB"
+                target="_blank"
+                rel="noreferrer"
+                >
+                <img src={telegram} alt="imagem logo telegram" />
+              </a>
+              <a
+                href="https://www.instagram.com/paisafetivos/?hl=pt"
+                target="_blank"
+                rel="noreferrer"
+                >
+                <img src={instagram} alt="imagem logo instagram" />
+              </a>
+              <a
+                href="https://twitter.com/paisafetivos"
+                target="_blank"
+                rel="noreferrer"
+                >
+                <img src={twitter} alt="imagem logo twitter" />
+              </a>
+            </div>
           </nav>
         </div>
       </div>

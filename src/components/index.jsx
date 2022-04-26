@@ -6,5 +6,4 @@ export * from './WhoWeAre';
 export * from './Teams';
 export * from './Partners';
 export * from  './Form';
-
-
+export * from  './ContributionSection';
