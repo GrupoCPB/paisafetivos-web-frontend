@@ -42,7 +42,7 @@ export function NeedHelp() {
               fontWeight="Bold"
               mb="16px"
             >
-              Para Podermos te ajudar, nós precisamos de alguns dados.
+              Para podermos te ajudar, nós precisamos de alguns dados.
             </Typography>
             <Typography
               variant="subtitle2"
@@ -50,7 +50,7 @@ export function NeedHelp() {
               color="#545454"
               fontWeight="Medium"
             >
-              Preencha os campos abaixo com seus dados pessoais para podermos entrar em contato
+              Preencha os campos abaixo com seus dados pessoais para podermos entrar em contato com você.
             </Typography>
             <Form />
           </Box>

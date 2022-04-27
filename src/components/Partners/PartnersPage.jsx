@@ -10,6 +10,7 @@ import eternamente from "assets/eternamente-logo.png";
 import { ActualPartners } from 'style/actualPartners';
 import { Grid, Typography } from '@mui/material'
 import { Form } from 'components';
+import { Donate } from 'components/Donate';
 
 
 export function PartnersPage(){
@@ -42,8 +43,24 @@ export function PartnersPage(){
         </div>
 
         <div className="partners-form">
-        <Typography variant="h4">Informações para contato </Typography>
-          <Form />
+
+        <Typography variant="body1">Informações para contato </Typography>
+          <Form 
+            subject="Empresa Parceira"
+            variant="filled"
+            label="Nome"
+            type="text"
+            name="Nome"
+            placeholder="Nome"
+            name2="fone"
+            label2="Fone"
+            placeholder2="Fone"
+            type3="email"
+            label3='Email'
+            name3="E-mail"
+            placeholder3="E-mail"
+            placeholderMultiline="Escreva uma mensagem (opcional)" 
+          />
         </div>
 
       </div>
@@ -87,6 +104,7 @@ export function PartnersPage(){
           </div>
         </div>
       </ActualPartners>
+      <Donate />
       </>
   )
 }

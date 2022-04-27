@@ -1,10 +1,10 @@
 import { Button, TextField } from '@mui/material';
 
-export function Form() {
+export function Form(props) {
   return (
     <form
       target="_blank"
-      action="https://formsubmit.co/projetopaisafetivos@gmail.com"
+      action="https://formsubmit.co/paisafetivos@gmail.com"
       method="POST"
     >
 
@@ -23,37 +23,40 @@ export function Form() {
       <input
         type="hidden"
         name="_subject"
-        value="Empresa Parceira"
+        value={props.subject}
       />
 
       <div>
         <TextField 
-          variant="filled" 
+          variant={props.variant}
+          label={props.label} 
           margin="dense"
           fullWidth 
-          type="text" 
-          name="Nome" 
-          placeholder="Nome" />
+          type={props.type} 
+          name={props.name} 
+          placeholder={props.placeholder} />
       </div>
 
       <div>
         <TextField
-          variant="filled"
+          variant={props.variant}
+          label={props.label2}
           margin="dense"
           fullWidth
-          type="text"
-          name="Telefone"
-          placeholder="Fone"
+          type={props.type2}
+          name={props.name2}
+          placeholder={props.placeholder2}
         />
       </div>
 
       <div>
         <TextField
-          variant="filled"
+          variant={props.variant}
+          label={props.label3}
           margin="dense"
-          fullWidth type="email"
-          name="Email"
-          placeholder="E-mail"
+          fullWidth type={props.type3}
+          name={props.name3}
+          placeholder={props.placeholder3}
         />
       </div>
 
@@ -63,7 +66,7 @@ export function Form() {
           margin="dense"
           fullWidth
           name="Mensagem"
-          placeholder="Escreva uma mensagem (opcional)"
+          placeholder={props.placeholderMultiline}
           rows="2"
         />
       </div>
