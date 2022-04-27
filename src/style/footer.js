@@ -3,35 +3,28 @@ import styled from 'styled-components';
 export const Container = styled.footer`
     height:250px;
     display:flex;
-    padding: 0 150px;
+    padding: 0 120px;
     color:#f4f4f4;
     background-color:#0B0D17;
     
     .info-left{
         box-sizing: border-box;
-        max-width:320px;
+        width:300px;
 
         img {
-            margin-top: 15px;
+            margin-top: 25px;
+            margin-left: -40px;
+            width: 170px;
+            height: 60px;
         }
-
-
+        
+        
         p{
             font-size:14px;
-            margin-top: 25px;
+            margin-top: 10px;
+            line-height: 25px;
         }
-        nav{
-            margin-top:25px;
-            transform: translatex(-18px);
-
-            a{
-                padding:0 18px;
-                
-                &:hover{
-                        opacity:70%;
-                    }
-            }
-        }
+        
     }
 
     .info-right{
@@ -73,7 +66,6 @@ export const Container = styled.footer`
             nav{
                 display:flex;
                 flex-direction:column;
-
                 a{
                     padding-bottom:12px;
                     text-decoration:none;
@@ -97,6 +89,16 @@ export const Container = styled.footer`
             nav{
                 display:flex;
                 flex-direction:column;
+                div {
+                    margin-top:25px;
+                    transform: translatex(-18px);
+                        a{
+                            margin-left: 19px;
+                                &:hover{
+                                    opacity:70%;
+                                }
+                        }
+                }
 
                 a{
                     padding-bottom:12px;
