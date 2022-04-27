@@ -52,7 +52,21 @@ export function NeedHelp() {
             >
               Preencha os campos abaixo com seus dados pessoais para podermos entrar em contato com você.
             </Typography>
-            <Form />
+            <Form 
+              subject="Preciso de ajuda"
+              variant="filled"
+              label="Nome"
+              type="text"
+              name="Nome"
+              placeholder="Nome"
+              name2="fone"
+              label2="Fone"
+              placeholder2="Fone"
+              type3="email"
+              label3="E-mail"
+              placeholder3="E-mail"
+              placeholderMultiline="Escreva uma mensagem(opcional)"
+            />
           </Box>
         </Box>
         <Box
