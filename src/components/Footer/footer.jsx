@@ -31,9 +31,9 @@ export function Footer() {
         <div className="info-right-helping">
           <h6>Como Ajudar</h6>
           <nav>
-            <a href="/">Voluntário</a>
-            <a href="/">Doações</a>
-            <a href="/">Aniversário Solidário</a>
+            <a href="/como-ajudar">Voluntário</a>
+            <a href="/como-ajudar">Doações</a>
+            <a href="/como-ajudar">Aniversário Solidário</a>
             <a href="/parceiros">Parcerias</a>
           </nav>
         </div>
