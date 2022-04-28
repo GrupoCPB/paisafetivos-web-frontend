@@ -12,7 +12,9 @@ const pages = [
   { id: 1, title: "Quem Somos", rounting: "/sobre-nós" },
   { id: 2, title: "Como ajudar", rounting: "/como-ajudar" },
   { id: 3, title: "Parceiros", rounting: "/parceiros" },
-  { id: 4, title: "Contato", rounting: "/" },
+  { id: 4, title: "Dúvidas", rounting: "/duvida" },
+  // A página de dúvida ainda não se encontra construída 28/04/2022
+  { id: 5, title: "Contato", rounting: "/" },
 ];
 
 export function Header() {

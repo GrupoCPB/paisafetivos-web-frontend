@@ -8,10 +8,11 @@ import { styled } from "@mui/material/styles";
 export function MenuResponsive({ opens }) {
 
   const pages = [
-    { id: 1, title: "Quem Somos", rounting: "/" },
-    { id: 2, title: "Como ajudar", rounting: "/" },
+    { id: 1, title: "Quem Somos", rounting: "/sobre-nós" },
+    { id: 2, title: "Como ajudar", rounting: "/como-ajudar" },
     { id: 3, title: "Parceiros", rounting: "/parceiros" },
-    { id: 4, title: "Contato", rounting: "/" },
+    { id: 4, title: "Dúvidas", rounting: "/duvida" },
+    { id: 4, title: "Contato", rounting: "/contato" },
   ];
 
   const drawerWidth = 240;
