@@ -5,3 +5,4 @@ export * from './SectionNeedHelp';
 export * from './SectionPartners';
 export * from './SectionWorks';
 export * from './SectionHelpToo';
+export * from './SectionJourneysAndGoals';
