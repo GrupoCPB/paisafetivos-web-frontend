@@ -14,7 +14,7 @@ const pages = [
   { id: 3, title: "Parceiros", rounting: "/parceiros" },
   { id: 4, title: "Dúvidas", rounting: "/duvida" },
   // A página de dúvida ainda não se encontra construída 28/04/2022
-  { id: 5, title: "Contato", rounting: "/" },
+  { id: 5, title: "Contato", rounting: "/contato" },
 ];
 
 export function Header() {

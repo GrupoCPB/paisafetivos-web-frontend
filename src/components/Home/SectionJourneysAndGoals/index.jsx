@@ -1,6 +1,6 @@
 import React from 'react';
 import Box from '@mui/material/Box';
-import { Title, Paragraph } from './style';
+import { Title, TitleM, TitleCard, Paragraph, ParagraphCard, Div } from './style';
 import * as style from './style';
 
 
@@ -20,7 +20,18 @@ export function SectionJourneysAndGoals() {
       <Paragraph>
         Nosso próximo passo é construir uma sede física para acolhimento emergencial de pessoas LGBTQ+ desabrigadas, ou que não se sentem seguras em seus lares.  Com sua ajuda, poderemos criar esse ponto de apoio!
       </Paragraph>
-      <Paragraph>Nossos pontosde apoio</Paragraph>
+      <Box
+        component="div"
+        sx={ style.medium }
+      >
+        <Div
+          component="div"
+        ></Div>
+        <TitleM>Nossos pontos de apoio</TitleM>
+        <Div
+          component="div"
+        ></Div>
+      </Box>
       <Box
         component="div"
         sx={ style.botton }
@@ -29,28 +40,28 @@ export function SectionJourneysAndGoals() {
           component="div"
           sx={ style.card }
         >
-          <Title>SEDE PAIS AFETIVOS</Title>
-          <Paragraph>
+          <TitleCard>SEDE PAIS AFETIVOS</TitleCard>
+          <ParagraphCard>
             Será um espaço físico para abrigar vítimas LGBTQI+ em situação de vulnerabilidade.
-          </Paragraph>
+          </ParagraphCard>
         </Box>
         <Box
           component="div"
           sx={ style.card }
         >
-          <Title>LARES AFETIVOS</Title>
-          <Paragraph>
+          <TitleCard>LARES AFETIVOS</TitleCard>
+          <ParagraphCard>
             Formado por voluntários que transformam sua casa em um ponto de acolhimento.
-          </Paragraph>
+          </ParagraphCard>
         </Box>
         <Box
           component="div"
           sx={ style.card }
         >
-          <Title>ACOLHEDORES SOLIDÁRIOS</Title>
-          <Paragraph>
+          <TitleCard>ACOLHEDORES SOLIDÁRIOS</TitleCard>
+          <ParagraphCard>
             Formado por voluntários que colaboram com suporte presencial.
-          </Paragraph>
+          </ParagraphCard>
         </Box>
       </Box>
     </Box>
