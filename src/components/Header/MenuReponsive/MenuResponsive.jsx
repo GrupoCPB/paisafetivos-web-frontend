@@ -13,7 +13,7 @@ export function MenuResponsive({ opens }) {
     { id: 3, title: "Parceiros", rounting: "/parceiros" },
     { id: 4, title: "Dúvidas", rounting: "/duvida" },
     // A página de dúvida ainda não se encontra construída 28/04/2022
-    { id: 4, title: "Contato", rounting: "/contato" },
+    { id: 5, title: "Contato", rounting: "/contato" },
   ];
 
   const drawerWidth = 240;

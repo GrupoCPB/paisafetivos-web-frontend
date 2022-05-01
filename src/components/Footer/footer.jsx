@@ -37,7 +37,7 @@ export function Footer() {
             <a href="/parceiros">Parcerias</a>
           </nav>
         </div>
-        <div class="info-right-contact">
+        <div className="info-right-contact">
           <h6>Contato</h6>
           <nav>
             <a href="mailto:contato@paisafetivos.org" style={{ display: "flex" }}>
