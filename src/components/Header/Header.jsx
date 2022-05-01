@@ -11,10 +11,11 @@ import { MenuSocialMedia } from "./MenuSocialMedia";
 const pages = [
   { id: 1, title: "Quem Somos", rounting: "/sobre-nós" },
   { id: 2, title: "Como ajudar", rounting: "/como-ajudar" },
-  { id: 3, title: "Parceiros", rounting: "/parceiros" },
-  { id: 4, title: "Dúvidas", rounting: "/duvida" },
+  { id: 3, title: "Preciso de ajuda", rounting: "/preciso-de-ajuda" },
+  { id: 4, title: "Parceiros", rounting: "/parceiros" },
+  { id: 5, title: "Dúvidas", rounting: "/duvida" },
   // A página de dúvida ainda não se encontra construída 28/04/2022
-  { id: 5, title: "Contato", rounting: "/contato" },
+  { id: 6, title: "Contato", rounting: "/contato" },
 ];
 
 export function Header() {
@@ -84,7 +85,7 @@ export function Header() {
                       my: 2,
                       display: "block",
                       color: "#5D5D66",
-                      fontSize: 20,
+                      fontSize: 18,
                       fontWeight: "bold",
                     }
                   }
