@@ -55,15 +55,15 @@ export function NeedHelp() {
             <Form 
               subject="Preciso de ajuda"
               variant="filled"
-              label="Nome"
+              label=""
               type="text"
               name="Nome"
               placeholder="Nome"
               name2="fone"
-              label2="Fone"
+              label2=""
               placeholder2="Fone"
               type3="email"
-              label3="E-mail"
+              label3=""
               placeholder3="E-mail"
               placeholderMultiline="Escreva uma mensagem(opcional)"
             />

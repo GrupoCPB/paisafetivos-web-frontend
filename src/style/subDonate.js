@@ -17,7 +17,7 @@ export const Container = styled.section`
   }
 
   button {
-    margin-right: 160px;
+    margin-right: 100px;
     padding-left: 75px;
     padding-right: 75px;
     border: none;
