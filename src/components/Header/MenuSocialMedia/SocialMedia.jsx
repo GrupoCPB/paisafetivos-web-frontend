@@ -10,27 +10,27 @@ export function MenuSocialMedia() {
   const redesSociais = [
     {
       id: 2,
-      name: "Facebook",
-      img: Facebook,
-      url: "https://www.facebook.com/paisafetivosdobrasil",
-    },
-    {
-      id: 3,
-      name: "Telegram",
-      img: Telegram,
-      url: "https://t.me/ongpaisafetivosdobrasil",
-    },
-    {
-      id: 4,
       name: "Instagram",
       img: Instagram,
       url: "https://www.instagram.com/paisafetivos/?hl=pt",
     },
     {
-      id: 5,
+      id: 3,
       name: "Twitter",
       img: Twitter,
       url: "https://twitter.com/paisafetivos",
+    },
+    {
+      id: 4,
+      name: "Facebook",
+      img: Facebook,
+      url: "https://www.facebook.com/paisafetivosdobrasil",
+    },
+    {
+      id: 5,
+      name: "Telegram",
+      img: Telegram,
+      url: "https://t.me/ongpaisafetivosdobrasil",
     },
   ];
 

@@ -6,6 +6,10 @@ import number_1 from 'assets/number_1.png'
 import number_2 from 'assets/number_2.png'
 import number_3 from 'assets/number_3.png'
 import number_4 from 'assets/number_4.png'
+import designer from 'assets/designer.png'
+import hangout from 'assets/group_hangout.png'
+import travelers from 'assets/travelers.png'
+import world from 'assets/world_.png'
 
 export function SectionHowWorks() {
   return(
@@ -32,11 +36,13 @@ export function SectionHowWorks() {
               Ao recebermos um novo pedido de ajuda, definimos qual a abordagem mais adequada. Nossos serviços são: auxílio psicológico, atendimento social e acolhimento solidário.
             </PCard>
           </Box>
+          <img src={designer} alt="figura de uma pessoa em frente a um computador" />
         </Box>
         <Box
           component="div"
           sx={ style.modes }
         >
+        <img src={hangout} alt="grupo de pessoas conversando usando video call" />
           <img src={ number_2} alt="numero 02" />
           <Box
             component="div"
@@ -62,11 +68,13 @@ export function SectionHowWorks() {
               Havendo a necessidade, a vítima é encaminhada a um Lar Afetivo Parceiro ou a uma Casa de Acolhimento (ONG).
             </PCard>
           </Box>
+          <img src={travelers} alt="" />
         </Box>
         <Box
           component="div"
           sx={ style.modes }
         >
+          <img src={world} alt="figura de uma pessoa em frente a um globo pesquisando aonde ir" />
           <img src={ number_4} alt="numero 04" />
           <Box
             component="div"
