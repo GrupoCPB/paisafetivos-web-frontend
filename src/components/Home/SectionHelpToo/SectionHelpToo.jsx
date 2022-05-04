@@ -11,7 +11,7 @@ export function SectionHelpToo() {
       sx={ style.sectionHelpToo }
     >
       <H2 variant="h2">Você também pode ajudar!</H2>
-      <PBody>Aproposta da Pais Afetivos é conectar pessoas LGBTQ+ que estão sofrendo violência em seus lares com voluntários dispostos a recebê-los. Você também pode ajudar essas mudar vidas, das seguintes formas: </PBody>
+      <PBody>A proposta da Pais Afetivos é conectar pessoas LGBTQ+ que estão sofrendo violência em seus lares com voluntários dispostos a recebê-los. Você também pode ajudar essas mudar vidas, das seguintes formas: </PBody>
       <Box
         sx={ style.sectionBotton }
       >
