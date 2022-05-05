@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet, HelmetProvider } from 'react-helmet-async'
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { Container } from "style/reset";
@@ -17,6 +18,9 @@ export const Main = styled.main`
 export function NeedHelp() {
   return (
     <Container>
+      <HelmetProvider>
+        <Helmet title="Pais Afeitvos | Preciso de Ajuda" />
+      </HelmetProvider>
       <Main>
         <Box
           boxSizing="border-box"
@@ -136,7 +140,7 @@ export function NeedHelp() {
         >
           <Typography
                 variant="h1"
-                align="start"
+                align="left"
                 fontSize="32px"
                 color="#545454"
                 fontWeight="Bold"
@@ -146,7 +150,7 @@ export function NeedHelp() {
               </Typography>
               <Typography
                 variant="body2"
-                align="start"
+                align="left"
                 fontSize="16px"
                 color="#5D5D66"
                 >

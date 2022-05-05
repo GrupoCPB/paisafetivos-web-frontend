@@ -1,5 +1,5 @@
 import React from "react";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import { SectionHowWorks, SectionDonation, SectionHelpToo } from "components";
 import { SectionParners, SectionAbout, SectionJourneysAndGoals } from "components";
@@ -9,7 +9,9 @@ export function Home() {
   return (
     <>
       <Container>
-        <Helmet title="Pais Afetivos | Home" />
+        <HelmetProvider>
+          <Helmet title="Pais Afetivos | Home" />
+        </HelmetProvider>
         <SectionDonation />
         <SectionHelpToo />
         <SectionAbout />
