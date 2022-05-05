@@ -19,7 +19,7 @@ export function NeedHelp() {
   return (
     <Container>
       <HelmetProvider>
-        <Helmet title="Pais Afeitvos | Preciso de Ajuda" />
+        <Helmet title="Pais Afetivos | Preciso de Ajuda" />
       </HelmetProvider>
       <Main>
         <Box
