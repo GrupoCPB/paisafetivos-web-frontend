@@ -1,14 +1,9 @@
-import logoGlobal from 'assets/global_logo.png';
-import paisamigoslogo from 'assets/paisamigos_logo1.png'
-import logoCPB from "assets/cpb-logo.png";
-import logoLGBT from "assets/lgbt-logo.png";
-import forumempresas from "assets/forum-logo.png";
-import probono from "assets/probono-logo.png";
-import atados from "assets/atados-logo.png";
-import eternamente from "assets/eternamente-logo.png";
+import { Typography } from '@mui/material'
+
+import { PartnersLogo } from './PartnersLogo/partnersLogo'
 
 import { ActualPartners } from 'style/actualPartners';
-import { Grid, Typography } from '@mui/material'
+
 import { Form } from 'components';
 import { Donate } from 'components/Donate';
 
@@ -74,32 +69,7 @@ export function PartnersPage(){
             </Typography>
           </div>
           <div className="partners-area-images">
-            <Grid container rowSpacing={2} columnSpacing={{ xs: 1, sm:2, md:3 }}>
-                <Grid item xs={3}>
-                  <img src={logoGlobal} alt="logo global"/>
-                </Grid>
-                <Grid item xs={3}>
-                  <img src={logoCPB} alt="logo-CPB" />
-                </Grid>
-                <Grid item xs={3}>
-                  <img src={logoLGBT} alt="logo-LGBT"/>
-                </Grid>
-                <Grid item xs={3}>
-                  <img src={paisamigoslogo} alt="logo pais amigos" />
-                </Grid>
-                <Grid item xs={3}>
-                  <img src={forumempresas} alt="logo-forum-empresas"/> 
-                </Grid>
-                <Grid item xs={3}>
-                  <img src={probono} alt="logo-probono" />  
-                </Grid>
-                <Grid item xs={3}>
-                  <img src={atados} alt="logo-atados"/> 
-                </Grid>
-                <Grid item xs={3}>
-                  <img src={eternamente} alt="logo-eternamente"/> 
-                </Grid>
-            </Grid>
+            <PartnersLogo />
           </div>
         </div>
       </ActualPartners>
