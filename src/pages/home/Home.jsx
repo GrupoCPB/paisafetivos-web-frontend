@@ -1,19 +1,22 @@
 import React from "react";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
-import { SectionWorks, SectionDonation, SectionNeedHelp } from "components";
-import { SectionParners, SectionAbout } from "components";
+import { SectionHowWorks, SectionDonation, SectionHelpToo } from "components";
+import { SectionParners, SectionAbout, SectionJourneysAndGoals } from "components";
 import { Container } from "style/reset";
 
 export function Home() {
   return (
     <>
       <Container>
-        <Helmet title="Pais Afetivos | Home" />
+        <HelmetProvider>
+          <Helmet title="Pais Afetivos | Home" />
+        </HelmetProvider>
         <SectionDonation />
+        <SectionHelpToo />
         <SectionAbout />
-        <SectionNeedHelp />
-        <SectionWorks />
+        <SectionJourneysAndGoals />
+        <SectionHowWorks />
         <SectionParners />
       </Container>
     </>
