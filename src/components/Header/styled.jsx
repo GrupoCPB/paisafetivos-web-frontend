@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { AppBar, Link, MenuItem } from "@mui/material";
+import { AppBar, Link} from "@mui/material";
 
 export const HeaderMenu = styled(AppBar)`
   color: black;
@@ -13,13 +13,5 @@ export const HeaderMenu = styled(AppBar)`
 
 export const LinkRounting = styled(Link)`
   text-decoration: none;
-  color: black;
   font-size: 20px;
-`;
-
-export const MenuItemAbout = styled(MenuItem)`
-  &:hover {
-    background-color: #ececec;
-    border-left: 6px solid black;
-  }
 `;

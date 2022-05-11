@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 //styled components
 import { Container } from 'style/reset';
@@ -11,7 +11,9 @@ export function HowHelp() {
   return (
     <>
       <Container>
-        <Helmet title="Pais Afetivos | Como Ajudar" />
+        <HelmetProvider>
+          <Helmet title="Pais Afetivos | Como Ajudar" />
+        </HelmetProvider>
         <HowHelpComponent />
         <Donate />
       </Container>

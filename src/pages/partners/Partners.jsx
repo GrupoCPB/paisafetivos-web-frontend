@@ -1,5 +1,5 @@
 import React from "react";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container } from "style/reset";
 
 import { PartnersPage } from 'components'
@@ -8,7 +8,9 @@ import { PartnersPage } from 'components'
 export function Partners() {
   return (
     <Container>
-      <Helmet title="Pais Afetivos | Parceiros" />
+      <HelmetProvider>
+        <Helmet title="Pais Afetivos | Parceiros" />
+      </HelmetProvider>
       <PartnersPage />
     </Container>
   );

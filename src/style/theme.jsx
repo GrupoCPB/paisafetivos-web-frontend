@@ -41,9 +41,9 @@ const theme = createTheme({
   typography: {
     fontFamily: "Manrope",
   },
-  shape: {
-    borderRadius: "3px",
-  },
+  // shape: {
+  //   borderRadius: "3px",
+  // },
   components: {
     MuiButton: {
       styleOverrides: {
