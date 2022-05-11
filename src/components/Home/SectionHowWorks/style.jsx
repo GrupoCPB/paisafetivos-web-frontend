@@ -20,6 +20,10 @@ export const PCard = styled(Typography)`
   max-width: 397px;
 `;
 
+export const Img = styled.img`
+  margin: 20px 0;
+`;
+
 export const sectionHowWorks = {
   padding: "40px 0",
   backgroundImage: `url(${backgound})`,
@@ -43,7 +47,7 @@ export const iternalSetcion = {
 export const modes = {
   marginTop: "60px",
   display: "flex",
-  flexDirection: "row",
+  flexDirection: { xs: "column", sm: "column", md: "row" },
   justifyContent: "center",
   alignItems: "center",
 };
