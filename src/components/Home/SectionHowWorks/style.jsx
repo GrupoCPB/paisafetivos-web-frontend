@@ -1,12 +1,13 @@
 import styled from "styled-components";
-import Typography from '@mui/material/Typography';
-import backgound from 'assets/home-section-how-works.png'
+import Typography from "@mui/material/Typography";
+import backgound from "assets/home-section-how-works.png";
 
 export const Title = styled(Typography)`
   max-width: 310px;
   font-size: 32px;
+  margin-bottom: 50px;
   font-weight: 800;
-  color: #4B4B4B;
+  color: #4b4b4b;
 `;
 
 export const TitleCard = styled(Typography)`
@@ -27,18 +28,17 @@ export const sectionHowWorks = {
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-}
+};
 
 export const iternalSetcion = {
-  width: "90%",
+  width: "75%",
   backgroundColor: "#FFFFFF",
   borderRadius: "10px",
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
-  paddingBottom: "150px",
-  paddingTop: "75px",
-}
+  padding: "60px 15px 75px 15px",
+};
 
 export const modes = {
   marginTop: "60px",
@@ -46,8 +46,8 @@ export const modes = {
   flexDirection: "row",
   justifyContent: "center",
   alignItems: "center",
-}
+};
 
 export const cardText = {
-  marginLeft: "10px"
-}
+  marginLeft: "10px",
+};

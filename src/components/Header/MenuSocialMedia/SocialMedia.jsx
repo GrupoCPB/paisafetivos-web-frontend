@@ -1,4 +1,5 @@
 import React from "react";
+import { Img } from "./style";
 import { Box, Button } from "@mui/material";
 
 import Facebook from "assets/facebook-icon.png";
@@ -49,9 +50,8 @@ export function MenuSocialMedia() {
           key={redesSocial.id}
         >
           <Button sx={{ my: 2, color: "black", display: "block" }}>
-            <img
+            <Img
               src={redesSocial.img}
-              width={23}
               alt={`logo com direcionamento para o ${redesSocial.name}`}
             />
           </Button>
