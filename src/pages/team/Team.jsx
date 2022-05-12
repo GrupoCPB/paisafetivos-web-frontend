@@ -1,5 +1,5 @@
 import React from "react";
-import { Helmet } from 'react-helmet';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { Donate } from "components/Donate/donate";
 import { OurTeam } from 'components/Teams'
 
@@ -11,7 +11,9 @@ export function Team() {
   return (
     <>
       <Container>
-        <Helmet title="Pais Afetivos | Nossa Equipe" />
+        <HelmetProvider>
+          <Helmet title="Pais Afetivos | Nossa Equipe" />
+        </HelmetProvider>
         <OurTeam />
       </Container>
       <Donate />
