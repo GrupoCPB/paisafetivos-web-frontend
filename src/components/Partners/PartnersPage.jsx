@@ -13,27 +13,21 @@ export function PartnersPage(){
     <>
     <ActualPartners>
       <div className="header-partners">
-        <Typography variant="h2">Seja um parceiro da <br /> ONG Pais Afetivos</Typography>
       </div>
       <div className="header-partners-info">
         <div className="header-partners-text">
-          <Typography variant="subtitle1">Por que apoiar?</Typography>
+          <Typography variant="h2">Seja nosso parceiro!</Typography>
+          {/* <Typography variant="subtitle1">Por que apoiar?</Typography> */}
           <Typography variant="body1">
-            Ao fazer parte do grupo de empresas parceiras, sua<br/>empresa se mostra comprometida
-            em respeitar e<br/> promover os direitos LGBTQI+.
+           É importante para a causa: Seu suporte fará com que minorias sejam mais incluídas na sociedade.
           </Typography>
           <br/>
           <Typography variant="body1">
-            A atitude de mostrar apoio às ONGs que apoiam<br/> minorias
-            é boa para a causa, negócios e sociedade em <br/>geral: além de mostrar 
-            uma empresa inclusiva e<br/> democrática, você pode atrair talentos, bons negócios,<br />
-            descobrir novos parceiros e fortalecer práticas internas<br/> de engajamento
-            com os demais colaboradores.
+            É bom para os negócios: você pode atrair talentos, descobrir novos parceiros e fortalecer a relação com os demais colaboradores.
           </Typography>
           <br/>
           <Typography variant="body1">
-            Caso queira se tornar um parceiro, basta informar seus<br/> dados para
-            contato no formulário ao lado e entraremos em contato.
+            Caso queira se tornar um parceiro, basta informar seus dados para contato no formulário ao lado e entraremos em contato.
           </Typography>
         </div>
 

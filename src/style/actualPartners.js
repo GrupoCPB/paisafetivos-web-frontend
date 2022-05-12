@@ -20,7 +20,7 @@ export const ActualPartners = styled.main`
   }
   
 
-  .header-partners{
+  /* .header-partners{
     height: 273px;
     background-image: url(${fundo});
     background-size: cover;
@@ -29,7 +29,7 @@ export const ActualPartners = styled.main`
     justify-content: center;
     align-items: center;
     color: #ffffff;
-  }
+  } */
 
   .header-partners-info{
     background-color: #FBFBFB;

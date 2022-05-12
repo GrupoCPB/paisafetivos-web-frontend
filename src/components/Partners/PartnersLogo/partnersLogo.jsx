@@ -58,8 +58,13 @@ export function PartnersLogo(){
     <>
       <Grid container rowSpacing={2} columnSpacing={{ xs: 1, sm:2, md: 3 }}>
         {partnerLogos.map((partnerLogo) => (
-          <Grid item xs={3}>
-            <img src={partnerLogo.source} alt={partnerLogo.alt} />
+          <Grid 
+            item xs={3}
+            key={partnerLogo.id}
+          >
+            <img 
+              src={partnerLogo.source} 
+              alt={partnerLogo.alt} />
           </Grid>
         ))}
       </Grid>
