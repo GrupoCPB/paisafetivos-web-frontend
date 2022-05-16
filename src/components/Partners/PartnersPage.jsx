@@ -7,6 +7,7 @@ import { ActualPartners } from 'style/actualPartners';
 import { Form } from 'components';
 import { Donate } from 'components/Donate';
 
+// import fundo from 'assets/frame_29.png';
 
 export function PartnersPage(){
   return(
@@ -17,13 +18,12 @@ export function PartnersPage(){
       <div className="header-partners-info">
         <div className="header-partners-text">
           <Typography variant="h2">Seja nosso parceiro!</Typography>
-          {/* <Typography variant="subtitle1">Por que apoiar?</Typography> */}
           <Typography variant="body1">
-           É importante para a causa: Seu suporte fará com que minorias sejam mais incluídas na sociedade.
+           <strong>É importante para a causa:</strong> Seu suporte fará com que minorias sejam mais incluídas na sociedade.
           </Typography>
           <br/>
           <Typography variant="body1">
-            É bom para os negócios: você pode atrair talentos, descobrir novos parceiros e fortalecer a relação com os demais colaboradores.
+            <strong>É bom para os negócios:</strong> você pode atrair talentos, descobrir novos parceiros e fortalecer a relação com os demais colaboradores.
           </Typography>
           <br/>
           <Typography variant="body1">
@@ -49,6 +49,7 @@ export function PartnersPage(){
               placeholder3="E-mail"
               placeholderMultiline="Escreva uma mensagem (opcional)" 
             />
+          {/* <img src={fundo} alt="" /> */}
         </div>
 
       </div>

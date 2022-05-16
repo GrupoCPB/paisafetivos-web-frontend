@@ -2,7 +2,7 @@ import styled from "styled-components";
 import medias from "./medias/mediaQueries";
 import colors from './colors/styleColors';
 
-import fundo from 'assets/rectangle.png';
+import fundo from 'assets/frame_29.png';
 
 export const ActualPartners = styled.main`
   margin-top: 51px;
@@ -53,6 +53,7 @@ export const ActualPartners = styled.main`
   }
   
   .partners-form{
+    /* background-image: url(${fundo}); */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -63,6 +64,8 @@ export const ActualPartners = styled.main`
     height: 490px;
     padding-left: 3%;
     padding-top: 30px;
+    margin: 50px;
+
 
     p{
       font-size: 28.5px;
