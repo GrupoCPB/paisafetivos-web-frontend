@@ -17,6 +17,7 @@ export function SectionAbout() {
     <Box
       component="section"
       sx={ style.sectionAbout }
+      id="quem-somos"
     >
       <H2
         variant="h2"
