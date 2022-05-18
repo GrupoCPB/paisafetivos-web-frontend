@@ -23,7 +23,7 @@ export function Footer() {
         <div className="info-right-pages">
           <h6>Pais Afetivos</h6>
           <nav>
-            <a href="/sobre-nós">Quem Somos</a>
+            <a href="/#quem-somos">Quem Somos</a>
             <a href="/equipe">Equipe</a>
             <a href="/preciso-de-ajuda">Preciso de Ajuda</a>
           </nav>
