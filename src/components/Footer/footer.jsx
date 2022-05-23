@@ -14,9 +14,8 @@ export function Footer() {
       <div className="info-left">
         <img src={logo} alt="logo Pais Afetivos" />
         <p>
-          Organização sem fins lucrativos que atua por redes de contatos
-          televirtuais em todo o Brasil, apoiando e acolhendo vítimas de
-          violência.
+          Estr. do Gopiúva, 1630 - Sala 2<br/>
+          Vila da Oportunidade<br/> Carapicuíba - SP
         </p>
       </div>
       <div className="info-right">
@@ -45,20 +44,6 @@ export function Footer() {
             </a>
             <div>
               <a
-                href="https://www.facebook.com/paisafetivosdobrasil"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={facebook} alt="imagem logo facebook" />
-              </a>
-              <a
-                href="https://t.me/AtendimentoGrupoCPB"
-                target="_blank"
-                rel="noreferrer"
-                >
-                <img src={telegram} alt="imagem logo telegram" />
-              </a>
-              <a
                 href="https://www.instagram.com/paisafetivos/?hl=pt"
                 target="_blank"
                 rel="noreferrer"
@@ -71,6 +56,20 @@ export function Footer() {
                 rel="noreferrer"
                 >
                 <img src={twitter} alt="imagem logo twitter" />
+              </a>
+              <a
+                href="https://www.facebook.com/paisafetivosdobrasil"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={facebook} alt="imagem logo facebook" />
+              </a>
+              <a
+                href="https://t.me/AtendimentoGrupoCPB"
+                target="_blank"
+                rel="noreferrer"
+                >
+                <img src={telegram} alt="imagem logo telegram" />
               </a>
             </div>
           </nav>

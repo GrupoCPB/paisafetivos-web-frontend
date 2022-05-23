@@ -12,7 +12,7 @@ export const Container = styled.footer`
         width:300px;
 
         img {
-            margin-top: 25px;
+            margin-top: 35px;
             margin-left: -40px;
             width: 170px;
             height: 60px;
@@ -21,7 +21,8 @@ export const Container = styled.footer`
         
         p{
             font-size:14px;
-            margin-top: 10px;
+            margin-top: -8px;
+            margin-left: 12px;
             line-height: 25px;
         }
         
