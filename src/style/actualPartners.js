@@ -20,17 +20,6 @@ export const ActualPartners = styled.main`
   }
   
 
-  /* .header-partners{
-    height: 273px;
-    background-image: url(${fundo});
-    background-size: cover;
-    margin-top: -13px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-  } */
-
   .header-partners-info{
     background-color: #FBFBFB;
     display: flex;
@@ -53,7 +42,6 @@ export const ActualPartners = styled.main`
   }
   
   .partners-form{
-    /* background-image: url(${fundo}); */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -66,7 +54,7 @@ export const ActualPartners = styled.main`
     padding-top: 30px;
     margin: 50px;
 
-
+    
     p{
       font-size: 28.5px;
       font-weight: 600;
@@ -76,6 +64,11 @@ export const ActualPartners = styled.main`
 
     form{
       width: 90%;
+    }
+
+    .image-shadow{
+      background-image: url(${fundo});
+      background-size: cover;
     }
   }
   

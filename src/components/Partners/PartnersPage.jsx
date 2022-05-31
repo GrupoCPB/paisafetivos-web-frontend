@@ -1,4 +1,4 @@
-import { Typography } from '@mui/material'
+import { TextField, Typography } from '@mui/material'
 
 import { PartnersLogo } from './PartnersLogo/partnersLogo'
 
@@ -33,23 +33,31 @@ export function PartnersPage(){
 
         <div className="partners-form">
           <Typography variant="body1">Informações para contato </Typography>
-            <Form 
+            <Form
               subject="Empresa Parceira"
-              variant="filled"
-              label=""
-              type="text"
-              name="Nome"
-              placeholder="Nome"
-              name2="fone"
-              label2=""
-              placeholder2="Fone"
-              type3="email"
-              label3=''
-              name3="E-mail"
-              placeholder3="E-mail"
-              placeholderMultiline="Escreva uma mensagem (opcional)" 
-            />
-          {/* <img src={fundo} alt="" /> */}
+            >
+              <TextField 
+                variant="filled"
+                type="text"
+                name="Nome"
+                placeholder="Nome"
+              />
+              <TextField 
+                variant="filled"
+                type="text"
+                name="Fone"
+                placeholder="Fone"
+              />
+              <TextField
+                variant="filled"
+                type="email"
+                name="E-mail"
+                placeholder="E-mail" />
+              <TextField
+                multiline
+                row={4}
+                placeholder="Escreva uma mensagem (opcional)" />
+            </Form>
         </div>
 
       </div>
