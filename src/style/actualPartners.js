@@ -44,7 +44,7 @@ export const ActualPartners = styled.main`
   .partners-form{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     background-color: #FfFfFf;
     border: 1px solid #e4e4e4;
     border-radius: 5px;
@@ -68,7 +68,6 @@ export const ActualPartners = styled.main`
 
     .image-shadow{
       background-image: url(${fundo});
-      background-size: cover;
     }
   }
   

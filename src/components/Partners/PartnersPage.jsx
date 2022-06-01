@@ -1,10 +1,11 @@
-import { TextField, Typography } from '@mui/material'
+import { Typography } from '@mui/material'
 
-import { PartnersLogo } from './PartnersLogo/partnersLogo'
+import { PartnersLogo } from './PartnersLogo'
+import { PartnersForm } from './PartnersForm'
 
 import { ActualPartners } from 'style/actualPartners';
 
-import { Form } from 'components';
+// import { Form } from 'components';
 import { Donate } from 'components/Donate';
 
 // import fundo from 'assets/frame_29.png';
@@ -13,8 +14,6 @@ export function PartnersPage(){
   return(
     <>
     <ActualPartners>
-      <div className="header-partners">
-      </div>
       <div className="header-partners-info">
         <div className="header-partners-text">
           <Typography variant="h2">Seja nosso parceiro!</Typography>
@@ -31,34 +30,7 @@ export function PartnersPage(){
           </Typography>
         </div>
 
-        <div className="partners-form">
-          <Typography variant="body1">Informações para contato </Typography>
-            <Form
-              subject="Empresa Parceira"
-            >
-              <TextField 
-                variant="filled"
-                type="text"
-                name="Nome"
-                placeholder="Nome"
-              />
-              <TextField 
-                variant="filled"
-                type="text"
-                name="Fone"
-                placeholder="Fone"
-              />
-              <TextField
-                variant="filled"
-                type="email"
-                name="E-mail"
-                placeholder="E-mail" />
-              <TextField
-                multiline
-                row={4}
-                placeholder="Escreva uma mensagem (opcional)" />
-            </Form>
-        </div>
+        <PartnersForm />
 
       </div>
         <div className="partners-area">
