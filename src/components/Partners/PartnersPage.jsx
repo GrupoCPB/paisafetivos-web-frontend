@@ -2,6 +2,7 @@ import { Typography } from '@mui/material'
 
 import { PartnersLogo } from './PartnersLogo'
 import { PartnersForm } from './PartnersForm'
+import { PartnerSuport } from './PartnersSuport';
 
 import { ActualPartners } from 'style/actualPartners';
 
@@ -33,20 +34,12 @@ export function PartnersPage(){
         <PartnersForm />
 
       </div>
-        <div className="partners-area">
-          <div className="partners-area-title">
-            <Typography variant="h2">Nossos Parceiros</Typography>
-          </div>
-          <div className="partners-area-text">
-            <Typography variant="body1">
-              Nossa atuação é facilitada com o apoio de nossos parceiros corporativos, que nos dão <br/>
-              suporte em nossos programas e nos capacitam a servir a população LGBTQ+.
-            </Typography>
-          </div>
+        
+          <PartnerSuport />
           <div className="partners-area-images">
             <PartnersLogo />
           </div>
-        </div>
+
       </ActualPartners>
       <Donate />
       </>

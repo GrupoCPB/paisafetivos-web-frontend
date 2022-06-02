@@ -1,4 +1,5 @@
 export * from './PartnersPage'
 export * from './PartnersForm'
-export * from './PartnersInfo'
+export * from './PartnersWhyHelp'
 export * from './PartnersLogo'
+export * from './PartnersSuport'
