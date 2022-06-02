@@ -36,9 +36,8 @@ export function PartnersPage(){
       </div>
         
           <PartnerSuport />
-          <div className="partners-area-images">
-            <PartnersLogo />
-          </div>
+          <PartnersLogo />
+          
 
       </ActualPartners>
       <Donate />

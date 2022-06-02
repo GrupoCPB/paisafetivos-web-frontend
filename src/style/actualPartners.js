@@ -71,38 +71,8 @@ export const ActualPartners = styled.main`
     }
   }
   
-  .partners-area {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 50px 0;
 
-    &-title {
-      h2 {
-        margin-bottom: 10px;
-        color: ${colors.font_h2};
-        font-size: 35px;
-        font-weight: 700;
-      }
-    }
-
-    &-text {
-      p {
-        color: #262626;
-        font-size: 18px;
-        font-weight: 400;
-        text-align: center;
-        line-height: 32px;
-      }
-    }
-
-    &-images{
-      text-align: center;
-      margin-top: 4em;
-    }
-
-  }
+  
 
   @media only screen and (${medias.tablet}) {
     .partners-area {
