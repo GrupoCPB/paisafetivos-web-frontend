@@ -1,5 +1,5 @@
 import { Grid } from '@mui/material'
-import { styled } from '@mui/system'
+import { GridLogos } from './style'
 
 import logoGlobal from 'assets/global_logo.png';
 import paisamigoslogo from 'assets/paisamigos_logo1.png'
@@ -55,10 +55,6 @@ export function PartnersLogo(){
     }
   ]
 
-  const GridLogos = styled(Grid)`
-    text-align: center;
-    margin-top: 4em;
-  `
 
   return(
     <>

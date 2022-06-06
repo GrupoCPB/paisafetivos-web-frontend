@@ -1,20 +1,24 @@
-import { TextField, Typography } from '@mui/material'
+import { Box, TextField } from '@mui/material'
 import { Form } from 'components'
-// import * as styles from './style'
-// import { P } from './style'
+import { Title } from './style'
+import * as style from './style'
+
 
 export function PartnersForm() {
   return(
-    <>
-      <Typography variant="body1">Informações para contato</Typography>
+    <Box
+      component="div"
+      sx= { style.sectionForm }
+    >
+      <Title>Informações para contato</Title>
       <Form
         subject="Empresa Parceira"
       >
         <TextField
-         variant="filled"
-         type="text"
-         name="Nome"
-         placeholder="Nome" />
+          variant="filled"
+          type="text"
+          name="Nome"
+          placeholder="Nome" />
         
         <TextField
           variant="filled"
@@ -34,6 +38,6 @@ export function PartnersForm() {
           name="Mensagem"
           placeholder="Escreva uma mensagem (opcional)" />
       </Form>
-    </>
+    </Box>
   )
 }

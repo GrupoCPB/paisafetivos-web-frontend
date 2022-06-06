@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import medias from "./medias/mediaQueries";
-import colors from './colors/styleColors';
+// import colors from './colors/styleColors';
 
 import fundo from 'assets/frame_29.png';
 

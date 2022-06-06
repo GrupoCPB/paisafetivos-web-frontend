@@ -1,10 +1,20 @@
 import styled from 'styled-components'
+import { Typography } from '@mui/material'
 
-// import { Typography } from '@mui/material'
 
-export const P = styled.p `
-  font-size: 28.5px;
-  font-weight: 600;
+export const Title = styled(Typography) `
+  font-size: 20px;
+  font-weight: 700;
   color: #4b4b4b;
-  margin-bottom: 20px;
+  line-height: 40px
 `
+
+export const sectionForm = {
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "center",
+  alignItems: "center",
+  backgroundColor: "#ffffff",
+  borderRadius: "5px"
+
+}
