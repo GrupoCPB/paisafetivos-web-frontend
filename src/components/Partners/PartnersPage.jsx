@@ -1,6 +1,6 @@
 
 import { PartnersLogo } from './PartnersLogo'
-import { PartnersForm } from './PartnersForm'
+
 import { PartnerSuport } from './PartnersSuport';
 import { WhyHelp } from './PartnersWhyHelp'
 
@@ -15,7 +15,6 @@ export function PartnersPage(){
       
         <WhyHelp />
 
-        <PartnersForm />
 
      
         
