@@ -1,17 +1,17 @@
-import * as React from 'react';
+import * as React from "react";
 
-import {  
-        Button, 
-        Dialog, DialogActions, DialogContent, DialogTitle,  
-      } 
-from '@mui/material';
+import {
+  Button,
+  Dialog,
+  DialogActions,
+  DialogContent,
+  DialogTitle,
+} from "@mui/material";
 
-import { HowHelpStyle } from 'style/howHelp'
-import { ArrowRightAlt } from '@mui/icons-material';
+import { HowHelpStyle } from "style/howHelp";
+import { ArrowRightAlt } from "@mui/icons-material";
 
-
-import { Form } from 'components/Form'
-
+import { Form, FormInput, InputMultiline } from "components";
 
 export default function FormDialog(props) {
   const [open, setOpen] = React.useState(false);
@@ -26,10 +26,10 @@ export default function FormDialog(props) {
 
   return (
     <HowHelpStyle>
-      <Button 
+      <Button
         onClick={handleClickOpen}
         color="secondary"
-        endIcon={<ArrowRightAlt color="secondary"/>}
+        endIcon={<ArrowRightAlt color="secondary" />}
         sx={{
           fontWeight: "700",
           fontSize: "16px",
@@ -38,7 +38,7 @@ export default function FormDialog(props) {
         {props.name}
       </Button>
       <Dialog open={open} onClose={handleClose}>
-        <DialogTitle 
+        <DialogTitle
           color="primary"
           fontWeight="700"
           fontSize="30px"
@@ -47,24 +47,41 @@ export default function FormDialog(props) {
           Vamos juntos transformar vidas!
         </DialogTitle>
         <DialogContent>
-          <Form 
-            subject="Aniversário Solidário"
-            variant="outlined"
-            label="Qual o seu nome?"
-            placeholder="Digite seu nome completo"
-            type="text"
-            name="Nome completo"
-            label2="E-mail para contato"
-            name2="Email"
-            type2="email"
-            placeholder2="nome@mail.com"
-            label3="Número de celular"
-            placeholder3='(00)9999-9999'
-            labelMultiline='Gostaria de nos deixar uma mensagem?'
-            placeholderMultiline="Digite sua mensagem aqui"
+          <Form subject="Aniversário Solidário">
+            <FormInput
+              autoFocus="true"
+              variant="outlined"
+              label="Qual o seu nome?"
+              placeholder="Digite seu nome completo"
+              type="text"
+              name="Nome completo"
+            />
 
-          />
+            <FormInput
+              variant="outlined"
+              label="E-mail para contato"
+              placeholder="nome@mail.com"
+              type="email"
+              name="E-mail"
+            />
+
+            <FormInput
+              variant="outlined"
+              label="Número de celular"
+              placeholder="(00)9999-9999"
+              type="text"
+              name="Fone"
+            />
+
+            <InputMultiline
+              rows={4}
+              label="Gostaria de nos deixar uma mensagem?"
+              placeholder="Digite sua mensagem aqui"
+              name="Mensagem"
+            />
+          </Form>
         </DialogContent>
+
         <DialogActions>
           <Button onClick={handleClose}>Cancel</Button>
         </DialogActions>

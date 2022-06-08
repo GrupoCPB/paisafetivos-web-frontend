@@ -1,4 +1,3 @@
-export * from './PartnersPage'
 export * from './PartnersForm'
 export * from './PartnersWhyHelp'
 export * from './PartnersLogo'

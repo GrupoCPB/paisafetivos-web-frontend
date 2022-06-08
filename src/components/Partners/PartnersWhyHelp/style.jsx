@@ -23,7 +23,7 @@ export const Bold = styled.strong`
 `
 
 export const sectionWhyHelp = {
-  mt: "2.5em",
+  padding: "4em",
   display: "flex",
   justifyContent: "space-around",
   alignItems: "center",

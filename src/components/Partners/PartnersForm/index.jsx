@@ -1,43 +1,39 @@
-import { Box, TextField } from '@mui/material'
-import { Form } from 'components'
-import { Title } from './style'
-import * as style from './style'
-
+import { Box } from "@mui/material";
+import { Form, FormInput, InputMultiline } from "components";
+import { Title } from "./style";
+import * as style from "./style";
 
 export function PartnersForm() {
-  return(
-    <Box
-      component="div"
-      sx= { style.sectionForm }
-    >
+  return (
+    <Box component="div" sx={style.sectionForm}>
       <Title>Informações para contato</Title>
-      <Form
-        subject="Empresa Parceira"
-      >
-        <TextField
+      <Form subject="Empresa Parceira">
+        <FormInput
           variant="filled"
           type="text"
           name="Nome"
-          placeholder="Nome" />
-        
-        <TextField
+          placeholder="Nome"
+        />
+
+        <FormInput
           variant="filled"
           type="text"
           name="Fone"
-          placeholder="Fone" />
-        
-        <TextField
+          placeholder="Fone"
+        />
+
+        <FormInput
           variant="filled"
           type="email"
-          name="E-mail"
-          placeholder="E-mail" />
+          name="e-mail"
+          placeholder="E-mail"
+        />
 
-        <TextField
-          multiline
-          rows={4}
-          name="Mensagem"
-          placeholder="Escreva uma mensagem (opcional)" />
+        <InputMultiline
+          rows={2}
+          placeholder="Escreva uma mensagem (opcional)"
+        />
       </Form>
     </Box>
-  )
+  );
 }
