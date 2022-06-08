@@ -101,7 +101,7 @@ export function ContributionSection() {
                 color="#4B4B4B"
                 mb="5px"
               >
-                Voluntário
+                Voluntariado
               </Typography>
               <ArrowSignal>
               <a 

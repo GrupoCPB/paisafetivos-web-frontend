@@ -23,6 +23,8 @@ export const Img = styled.img`
 `;
 
 export const sectionAbout = {
+  mt: "60px",
+  py: "45px",
   backgroundColor: "#404040",
   display: "flex",
   flexDirection: "column",

@@ -59,15 +59,15 @@ export function NeedHelp() {
             <Form 
               subject="Preciso de ajuda"
               variant="filled"
-              label="Nome"
+              label=""
               type="text"
               name="Nome"
               placeholder="Nome"
               name2="fone"
-              label2="Fone"
+              label2=""
               placeholder2="Fone"
               type3="email"
-              label3="E-mail"
+              label3=""
               placeholder3="E-mail"
               placeholderMultiline="Escreva uma mensagem(opcional)"
             />
@@ -154,8 +154,8 @@ export function NeedHelp() {
                 fontSize="16px"
                 color="#5D5D66"
                 >
-              Denúncias: Disque 100 para denunciar violação dos direitos humanos. <br /><br /><br />
-              CVV: Disque 188 para atendimento emocional gratuito de qualquer
+              <strong>Denúncias:</strong> Disque 100 para denunciar violação dos direitos humanos. <br /><br /><br />
+              <strong>CVV:</strong> Disque 188 para atendimento emocional gratuito de qualquer
               aparelho para o centro de  valorização da vida. 
               </Typography>
           </Box>

@@ -15,6 +15,7 @@ import img6 from 'assets/section-about-img-6.png'
 export function SectionAbout() {
   return (
     <Box
+      id="quem-somos"
       component="section"
       sx={ style.sectionAbout }
     >

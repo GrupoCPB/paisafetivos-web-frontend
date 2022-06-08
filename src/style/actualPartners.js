@@ -56,15 +56,15 @@ export const ActualPartners = styled.main`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-color: #FBFBFB;
+    background-color: #FfFfFf;
     border: 1px solid #e4e4e4;
     border-radius: 5px;
     width: 527px;
-    height: 564px;
+    height: 490px;
     padding-left: 3%;
     padding-top: 30px;
 
-    h4{
+    p{
       font-size: 28.5px;
       font-weight: 600;
       color: #4b4b4b;
@@ -72,7 +72,7 @@ export const ActualPartners = styled.main`
     }
 
     form{
-      width: 80%;
+      width: 90%;
     }
   }
   

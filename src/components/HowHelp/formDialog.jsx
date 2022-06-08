@@ -60,6 +60,7 @@ export default function FormDialog(props) {
             placeholder2="nome@mail.com"
             label3="Número de celular"
             placeholder3='(00)9999-9999'
+            labelMultiline='Gostaria de nos deixar uma mensagem?'
             placeholderMultiline="Digite sua mensagem aqui"
 
           />

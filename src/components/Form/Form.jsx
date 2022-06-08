@@ -66,8 +66,9 @@ export function Form(props) {
           margin="dense"
           fullWidth
           name="Mensagem"
+          label={props.labelMultiline}
           placeholder={props.placeholderMultiline}
-          rows="2"
+          rows="4"
         />
       </div>
 

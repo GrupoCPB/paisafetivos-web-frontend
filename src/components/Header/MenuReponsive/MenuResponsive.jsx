@@ -8,7 +8,7 @@ import { styled } from "@mui/material/styles";
 export function MenuResponsive({ opens }) {
 
   const pages = [
-    { id: 1, title: "Quem Somos", rounting: "/sobre-nós" },
+    { id: 1, title: "Quem Somos", rounting: "/#quem-somos" },
     { id: 2, title: "Como ajudar", rounting: "/como-ajudar" },
     { id: 3, title: "Preciso de ajuda", rounting: "/preciso-de-ajuda" },
     { id: 4, title: "Parceiros", rounting: "/parceiros" },
