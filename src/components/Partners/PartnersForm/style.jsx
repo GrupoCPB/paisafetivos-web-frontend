@@ -10,12 +10,13 @@ export const Title = styled(Typography) `
 `
 
 export const sectionForm = {
-  padding: "1.5em 3em",
-  mt: "2em", 
   display: "flex",
   flexDirection: "column",
   justifyContent: "center",
   alignItems: "start",
   backgroundColor: "#ffffff",
-  borderRadius: "5px"
+  borderRadius: "5px",
+  mt: "2em", 
+  padding: "1.5em 3em",
+  filter: "drop-shadow(30px 30px #FBEC9D)"
 }

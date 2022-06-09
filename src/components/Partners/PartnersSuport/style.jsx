@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 export const Title = styled(Typography) `
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 1.5em;
   text-align: center;
   font-size: 35px;
   font-weight: 700;

@@ -35,23 +35,23 @@ export function PartnersLogo(){
     },
     {
       id: 5,
-      source: forumempresas,
-      alt: "Logo do Fórum de empresas e direitos LGBTI+"
-    },
-    {
-      id: 6,
       source: probono,
       alt: "Logo do Instituto Probono"
     },
     {
+      id: 6,
+      source: forumempresas,
+      alt: "Logo do Fórum de empresas e direitos LGBTI+"
+    },
+    {
       id: 7,
-      source: atados,
-      alt: "Logo da Ong Atados"
+      source: eternamente,
+      alt: "Logo da Ong EternamenteSou"
     },
     {
       id: 8,
-      source: eternamente,
-      alt: "Logo da Ong EternamenteSou"
+      source: atados,
+      alt: "Logo da Ong Atados"
     }
   ]
 
@@ -65,7 +65,8 @@ export function PartnersLogo(){
       >
         {partnerLogos.map((partnerLogo) => (
           <Grid 
-            item xs={3}
+            item 
+            xs={6} sm={4} lg={3}
             key={partnerLogo.id}
           >
             <img 

@@ -7,7 +7,7 @@ export function PartnersForm() {
   return (
     <Box component="div" sx={style.sectionForm}>
       <Title>Informações para contato</Title>
-      <Form subject="Empresa Parceira">
+      <Form subject="Empresa Parceira" >
         <FormInput
           variant="filled"
           type="text"
