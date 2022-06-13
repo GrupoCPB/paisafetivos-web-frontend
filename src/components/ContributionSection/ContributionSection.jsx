@@ -154,7 +154,7 @@ export function ContributionSection() {
               fontWeight="medium"
               color="#5D5D66"
             >
-              Faça seu Aniversário Solidário e ajude a #PaisAfetivos.<br/> Você pode sugerir que cada um de seus convidados destine um valor para as ações da ong e esta doação seria uma forma de seus amigos te presentearem em seu aniversário.
+              Faça seu Aniversário Solidário e ajude a #PaisAfetivos<br/> Você pode sugerir que cada um de seus convidados destine um valor para as ações da ong e esta doação seria uma forma de seus amigos te presentearem em seu aniversário.
             </Typography>
           </DivSectionRight>
         </Box>
