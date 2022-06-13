@@ -1,6 +1,9 @@
 {
   "name": "frontsiteongpaisafetivos",
   "version": "0.1.0",
+  "engines": {
+    "node": ">=12.x"
+  },
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
