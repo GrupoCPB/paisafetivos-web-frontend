@@ -78,7 +78,7 @@ export function ContributionSection() {
               fontWeight="medium"
               color="#5D5D66"
             >
-              Você pode doar qualquer valor para manutenção e contribuição dos projetos da PaisAfetivos, além de roupas,alimentos e demais elementos.
+              Você pode doar qualquer valor para manutenção e contribuição dos projetos da PaisAfetivos, além de roupas, alimentos e demais elementos.
             </Typography>
           </DivSectionRight>
         </Box>
@@ -154,7 +154,7 @@ export function ContributionSection() {
               fontWeight="medium"
               color="#5D5D66"
             >
-              Faça seu Aniversário Solidário e ajude a #PaisAfetivos Você pode sugerir que cada um de seus convidados destine um valor para as ações da ong e esta doação seria uma forma de seus amigos te presentearem em seu aniversário.
+              Faça seu Aniversário Solidário e ajude a #PaisAfetivos.<br/> Você pode sugerir que cada um de seus convidados destine um valor para as ações da ong e esta doação seria uma forma de seus amigos te presentearem em seu aniversário.
             </Typography>
           </DivSectionRight>
         </Box>
