@@ -1,6 +1,6 @@
 import { Route, Switch } from 'react-router';
 
-import {  Home, Partners, NeedHelp, Team, HowHelp } from './pages';
+import {  Home, Partners, NeedHelp, Team, HowHelp, Contact } from './pages';
 
 
 
@@ -13,6 +13,7 @@ const routers = () => {
       {/* <Route path="/sobre-nós" component={About} /> */}
       <Route path='/equipe' component={Team} />
       <Route path='/como-ajudar' component={HowHelp} />
+      <Route path='/contato' component={Contact} />
     </Switch>
   );
 };
