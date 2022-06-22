@@ -120,7 +120,7 @@ export function ContributionSection() {
               fontWeight="medium"
               color="#5D5D66"
             >
-              Você pode nos ajudar com nosso trabalho como voluntário. Como atuamos de forma multidisciplinar todo conhecimento é bem vindo. Entre em     contato conosco e te apresentaremos nossa demanda.
+              Você pode nos ajudar com nosso trabalho como voluntário. Como atuamos de forma multidisciplinar todo conhecimento é bem vindo. Entre em contato conosco e te apresentaremos nossa demanda.
             </Typography>
           </DivSectionRight>
         </Box>
