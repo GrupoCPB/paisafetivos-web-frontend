@@ -2,7 +2,7 @@
   "name": "frontsiteongpaisafetivos",
   "version": "0.1.0",
   "private": true,
-  "engines":{
+  "engines": {
     "node": "12.x.x"
   },
   "dependencies": {
