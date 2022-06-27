@@ -1,8 +1,9 @@
-
 import MailBox from "assets/objects.png"
 
-// import { Form } from "components"
 import { Display, Couple, H2, Intro } from './styles'
+import * as style from './styles'
+import { Form, FormInput, InputMultiline } from "components"
+import { Box } from "@mui/material"
 
 
 
@@ -18,7 +19,37 @@ export function ContactPage(){
         </Couple>
         <img src={MailBox} alt="figura de uma caixa de correio com uma carta voando" /> 
       </div>
-      <div></div>
+      <Box
+        component="div"
+        sx={style.contactForm}
+      >
+        <Form subject="Entre em Contato!">
+          <FormInput
+            variant="filled"
+            type="text"
+            name="Nome"
+            placeholder="Nome"
+            required={true}
+          />
+          <FormInput
+            variant="filled"
+            type='email'
+            name="E-mail"
+            placeholder="E-mail"
+            required={true}
+          />
+          <FormInput
+            variant="filled"
+            type="text"
+            name="Telefone"
+            placeholder="Telefone(opcional)"
+          />
+          <InputMultiline 
+            rows={4}
+            placeholder="Escreva uma mensagem"
+          />
+        </Form>
+      </Box>
       
        
     </Display>
