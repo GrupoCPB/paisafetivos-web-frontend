@@ -3,17 +3,19 @@ import { Box, Typography } from '@mui/material'
 
 
 export const Display = styled(Box)`
-  margin: 2.5em 0 0 0;
-  padding: 2em 0 0 0;
+  margin-top: 2em;
+  padding-top: 2em;
   display: flex;
-  justify-content: space-around;
-  align-items: left;
+  justify-content: space-between;
   background-color: #FBFBFB;
 `
 
 export const Couple = styled.div`
-  padding: 0 3.5em;
-  margin-bottom: 5em;
+  padding: 0 5em;
+`
+
+export const IMAGE = styled.img`
+  margin-top: 7em;
 `
 
 
@@ -35,13 +37,9 @@ export const Intro = styled(Typography)`
 `
 
 export const contactForm = {
-  display: "flex",
-  flexDirection: "column",
-  justifyContent: "center",
-  alignItems: "start",
   backgroundColor: "#fff",
   borderRadius: "10px",
-  padding: "1.5em 3em",
-  mb: "4em",
-  filter: "drop-shadow(25px 25px #FBEC9D)"
+  padding: "3em",
+  margin: "2em 5em",
+  filter: "drop-shadow(30px 25px #FBEC9D)"
 }
