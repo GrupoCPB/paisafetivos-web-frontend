@@ -1,22 +1,20 @@
 import styled from 'styled-components'
-import { Box, Typography } from '@mui/material'
+import { Typography } from '@mui/material'
 
 
-export const Display = styled(Box)`
-  margin-top: 2em;
-  padding-top: 2em;
-  display: flex;
-  justify-content: space-between;
-  background-color: #FBFBFB;
-`
+export const Display = {
+  mt: "2em",
+  pt: "2em",
+  // display: "flex",
+  // justifyContent: "space-around",
+  backgroundColor: "#FBFBFB"
+}
 
-export const Couple = styled.div`
-  padding: 0 5em;
-`
 
-export const IMAGE = styled.img`
-  margin-top: 7em;
-`
+// export const IMAGE = styled.div`
+//   margin-top: 5em;
+
+// `
 
 
 export const H2 = styled(Typography)`
