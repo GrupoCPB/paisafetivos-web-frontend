@@ -3,18 +3,8 @@ import { Typography } from '@mui/material'
 
 
 export const Display = {
-  mt: "2em",
-  pt: "2em",
-  // display: "flex",
-  // justifyContent: "space-around",
   backgroundColor: "#FBFBFB"
 }
-
-
-// export const IMAGE = styled.div`
-//   margin-top: 5em;
-
-// `
 
 
 export const H2 = styled(Typography)`
