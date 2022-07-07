@@ -7,6 +7,7 @@ export function FormInput(props) {
       fullWidth
       margin="dense"
       autoFocus={props.autoFocus}
+      required={props.required}
       label={props.label}
       type={props.type}
       name={props.name}
