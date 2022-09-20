@@ -65,7 +65,11 @@ export function ContributionSection() {
                 Doações
               </Typography>
               <ArrowSignal>
-              <a href="/"> Para Doar </a>
+              <a 
+                href="https://conselhodobrasil.org/doar/"
+                target="_blank"
+                rel="noreferrer"
+                > Para Doar </a>
                 <ArrowRightAltIcon />
               </ArrowSignal>
             </div>

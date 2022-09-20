@@ -19,7 +19,7 @@ export const Container = styled.section`
   button {
     margin-right: 100px;
     padding-left: 75px;
-    padding-right: 75px;
+    padding-right: 25px;
     border: none;
     background: ${colors.background_button};
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
@@ -31,7 +31,7 @@ export const Container = styled.section`
       font-weight: bold;
       color: ${colors.font_text_white};
       white-space: nowrap;
-      padding-right: 70px;
+      /* padding-right: 80px; */
     }
 
     transition: all ease 0.2s;
