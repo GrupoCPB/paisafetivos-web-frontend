@@ -5,3 +5,4 @@ export * from './partners';
 export * from './team';
 export * from './howHelp';
 export * from './team';
+export * from './contact'

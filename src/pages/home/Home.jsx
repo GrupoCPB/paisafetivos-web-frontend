@@ -7,7 +7,6 @@ import { Container } from "style/reset";
 
 export function Home() {
   return (
-    <>
       <Container>
         <HelmetProvider>
           <Helmet title="Pais Afetivos | Home" />
@@ -19,6 +18,5 @@ export function Home() {
         <SectionHowWorks />
         <SectionParners />
       </Container>
-    </>
   );
 }

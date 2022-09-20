@@ -9,11 +9,11 @@ import { MenuSocialMedia } from "./MenuSocialMedia";
 
 
 const pages = [
-  { id: 1, title: "Quem Somos", rounting: "/sobre-nós" },
+  { id: 1, title: "Quem Somos", rounting: "/#quem-somos" },
   { id: 2, title: "Como ajudar", rounting: "/como-ajudar" },
   { id: 3, title: "Preciso de ajuda", rounting: "/preciso-de-ajuda" },
   { id: 4, title: "Parceiros", rounting: "/parceiros" },
-  { id: 5, title: "Dúvidas", rounting: "/duvida" },
+  /*{ id: 5, title: "Dúvidas", rounting: "/duvida" }*/,
   // A página de dúvida ainda não se encontra construída 28/04/2022
   { id: 6, title: "Contato", rounting: "/contato" },
 ];

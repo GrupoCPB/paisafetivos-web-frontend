@@ -65,7 +65,11 @@ export function ContributionSection() {
                 Doações
               </Typography>
               <ArrowSignal>
-              <a href="/"> Para Doar </a>
+              <a 
+                href="https://conselhodobrasil.org/doar/"
+                target="_blank"
+                rel="noreferrer"
+                > Para Doar </a>
                 <ArrowRightAltIcon />
               </ArrowSignal>
             </div>
@@ -78,7 +82,7 @@ export function ContributionSection() {
               fontWeight="medium"
               color="#5D5D66"
             >
-              Você pode doar qualquer valor para manutenção e contribuição dos projetos da PaisAfetivos, além de roupas,alimentos e demais elementos.
+              Você pode doar qualquer valor para manutenção e contribuição dos projetos da PaisAfetivos, além de roupas, alimentos e demais elementos.
             </Typography>
           </DivSectionRight>
         </Box>
@@ -101,7 +105,7 @@ export function ContributionSection() {
                 color="#4B4B4B"
                 mb="5px"
               >
-                Voluntário
+                Voluntariado
               </Typography>
               <ArrowSignal>
               <a 
@@ -120,7 +124,7 @@ export function ContributionSection() {
               fontWeight="medium"
               color="#5D5D66"
             >
-              Você pode nos ajudar com nosso trabalho como voluntário. Como atuamos de forma multidisciplinar todo conhecimento é bem vindo. Entre em     contato conosco e te apresentaremos nossa demanda.
+              Você pode nos ajudar com nosso trabalho como voluntário. Como atuamos de forma multidisciplinar todo conhecimento é bem vindo. Entre em contato conosco e te apresentaremos nossa demanda.
             </Typography>
           </DivSectionRight>
         </Box>
@@ -154,7 +158,7 @@ export function ContributionSection() {
               fontWeight="medium"
               color="#5D5D66"
             >
-              Faça seu Aniversário Solidário e ajude a #PaisAfetivos Você pode sugerir que cada um de seus convidados destine um valor para as ações da ong e esta doação seria uma forma de seus amigos te presentearem em seu aniversário.
+              Faça seu Aniversário Solidário e ajude a #PaisAfetivos<br/> Você pode sugerir que cada um de seus convidados destine um valor para as ações da ong e esta doação seria uma forma de seus amigos te presentearem em seu aniversário.
             </Typography>
           </DivSectionRight>
         </Box>

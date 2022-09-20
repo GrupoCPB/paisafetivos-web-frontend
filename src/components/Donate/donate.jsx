@@ -1,4 +1,5 @@
 import { Container } from "style/subDonate";
+import { Button } from "@mui/material";
 
 export function Donate() {
   return (
@@ -6,7 +7,7 @@ export function Donate() {
       <h4>Nos ajude a transformar a vida dessas pessoas!</h4>
       <button>
         <a 
-          href="https://doe.polen.com.br/ongpaisafetivos" 
+          href="https://conselhodobrasil.org/transparencia/" 
           target="_blank" 
           style={{textDecoration: 'none'}} 
           rel='noreferrer'>

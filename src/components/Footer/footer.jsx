@@ -14,16 +14,15 @@ export function Footer() {
       <div className="info-left">
         <img src={logo} alt="logo Pais Afetivos" />
         <p>
-          Organização sem fins lucrativos que atua por redes de contatos
-          televirtuais em todo o Brasil, apoiando e acolhendo vítimas de
-          violência.
+          Estr. do Gopiúva, 1630 - Sala 2<br/>
+          Vila da Oportunidade<br/> Carapicuíba - SP
         </p>
       </div>
       <div className="info-right">
         <div className="info-right-pages">
           <h6>Pais Afetivos</h6>
           <nav>
-            <a href="/sobre-nós">Sobre nós</a>
+            <a href="/#quem-somos">Quem Somos</a>
             <a href="/equipe">Equipe</a>
             <a href="/preciso-de-ajuda">Preciso de Ajuda</a>
           </nav>
@@ -31,9 +30,9 @@ export function Footer() {
         <div className="info-right-helping">
           <h6>Como Ajudar</h6>
           <nav>
-            <a href="/">Voluntário</a>
-            <a href="/">Doações</a>
-            <a href="/">Aniversário Solidário</a>
+            <a href="/como-ajudar">Voluntário</a>
+            <a href="/como-ajudar">Doações</a>
+            <a href="/como-ajudar">Aniversário Solidário</a>
             <a href="/parceiros">Parcerias</a>
           </nav>
         </div>
@@ -44,20 +43,6 @@ export function Footer() {
               <MailIcon /> contato@paisafetivos.org  
             </a>
             <div>
-              <a
-                href="https://www.facebook.com/paisafetivosdobrasil"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={facebook} alt="imagem logo facebook" />
-              </a>
-              <a
-                href="https://t.me/AtendimentoGrupoCPB"
-                target="_blank"
-                rel="noreferrer"
-                >
-                <img src={telegram} alt="imagem logo telegram" />
-              </a>
               <a
                 href="https://www.instagram.com/paisafetivos/?hl=pt"
                 target="_blank"
@@ -71,6 +56,20 @@ export function Footer() {
                 rel="noreferrer"
                 >
                 <img src={twitter} alt="imagem logo twitter" />
+              </a>
+              <a
+                href="https://www.facebook.com/paisafetivosdobrasil"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={facebook} alt="imagem logo facebook" />
+              </a>
+              <a
+                href="https://t.me/AtendimentoGrupoCPB"
+                target="_blank"
+                rel="noreferrer"
+                >
+                <img src={telegram} alt="imagem logo telegram" />
               </a>
             </div>
           </nav>
